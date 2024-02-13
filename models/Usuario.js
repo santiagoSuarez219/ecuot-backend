@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 
-const UsuarioSchema = mongoose.Schema(
+const usuarioSchema = mongoose.Schema(
   {
     nombre: {
       type: String,
@@ -33,7 +33,7 @@ const UsuarioSchema = mongoose.Schema(
 );
 
 // Antes de guardar el usuario
-UsuarioSchema.pre("save", async function (next) {
+usuarioSchema.pre("save", async function (next) {
   if (!this.isModified("password")) {
     return next();
   }
@@ -41,6 +41,10 @@ UsuarioSchema.pre("save", async function (next) {
   this.password = await bcrypt.hash(this.password, salt);
 });
 
-const Usuario = mongoose.model("Usuario", UsuarioSchema);
+usuarioSchema.methods.comprobarPassword = async function (passwordFormulario) {
+  return await bcrypt.compare(passwordFormulario, this.password);
+};
+
+const Usuario = mongoose.model("Usuario", usuarioSchema);
 
 export default Usuario;
