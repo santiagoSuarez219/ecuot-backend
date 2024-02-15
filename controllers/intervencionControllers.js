@@ -1,6 +1,14 @@
 import Intervencion from "../models/Intervencion.js";
 
-const obtenerIntervenciones = async (req, res) => {};
+const obtenerIntervenciones = async (req, res) => {
+  try {
+    const intervenciones = await Intervencion.find();
+    res.status(200).json(intervenciones);
+  } catch (error) {
+    console.log(error);
+    res.status(400).json({ msg: "Hubo un error" });
+  }
+};
 
 const obtenerIntervencion = async (req, res) => {};
 
