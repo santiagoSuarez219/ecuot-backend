@@ -13,19 +13,20 @@ const intervencionSchema = mongoose.Schema(
       default: Date.now, // Borrar en frontend
     },
     jerarquia: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "Jerarquia",
+      type: String,
+      required: true,
+      trim: true,
     },
     descripcion: {
       type: String,
     },
     proyecto_estrategico: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "ProyectoEstrategico",
+      type: String,
+      trim: true,
     },
     sistema_interno: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "SistemaInterno",
+      type: String,
+      trim: true,
     },
     creado_por: {
       type: mongoose.Schema.Types.ObjectId,
