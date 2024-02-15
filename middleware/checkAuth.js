@@ -1,5 +1,6 @@
 import jwt from "jsonwebtoken";
 import Usuario from "../models/Usuario.js";
+import Role from "../models/Role.js";
 
 const checkAuth = async (req, res, next) => {
   let token;
@@ -26,4 +27,19 @@ const checkAuth = async (req, res, next) => {
   next();
 };
 
-export default checkAuth;
+const esInvestigador = async (req, res, next) => {
+  try {
+    const roles = await Role.find({ _id: { $in: req.usuario.roles } });
+    for (let i = 0; i < roles.length; i++) {
+      if (roles[i].nombre === "investigador") {
+        return next();
+      }
+    }
+    const error = new Error("No tienes permisos para realizar esta accion");
+    return res.status(403).json({ msg: error.message });
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export { checkAuth, esInvestigador };

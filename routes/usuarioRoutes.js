@@ -8,12 +8,12 @@ import {
   nuevoPassword,
   perfil,
 } from "../controllers/usuarioController.js";
-import checkAuth from "../middleware/checkAuth.js";
+import { checkAuth } from "../middleware/checkAuth.js";
 
 const router = express.Router();
 
 // Autenticacion, registro y confirmacion de usuarios
-router.post("/", registrar); // Crear usuario
+router.post("/", checkAuth, registrar); // Crear usuario.
 router.post("/login", autenticar);
 router.get("/confirmar/:token", confirmar);
 router.post("/olvide-password", olvidePassword);

@@ -6,11 +6,14 @@ import {
   editarIntervencion,
   eliminarIntervencion,
 } from "../controllers/intervencionControllers.js";
-import checkAuth from "../middleware/checkAuth.js";
+import { checkAuth, esInvestigador } from "../middleware/checkAuth.js";
 
 const router = express.Router();
 
-router.route("/").get(obtenerIntervenciones).post(checkAuth, nuevaIntervencion);
+router
+  .route("/")
+  .get(obtenerIntervenciones)
+  .post(checkAuth, esInvestigador, nuevaIntervencion);
 
 router
   .route("/:id")
