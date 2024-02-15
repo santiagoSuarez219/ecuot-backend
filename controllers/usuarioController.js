@@ -1,4 +1,5 @@
 import Usuario from "../models/Usuario.js";
+import Role from "../models/Role.js";
 import generarId from "../helpers/generarId.js";
 import generarJWT from "../helpers/generarJWT.js";
 
@@ -13,6 +14,13 @@ const registrar = async (req, res) => {
   try {
     const usuario = new Usuario(req.body);
     usuario.token = generarId();
+    if (req.body.roles) {
+      const roles = await Role.find({ nombre: { $in: req.body.roles } });
+      usuario.roles = roles.map((role) => role._id);
+    } else {
+      const role = await Role.findOne({ nombre: "usuario" });
+      usuario.roles = [role._id];
+    }
     const usuarioAlmacenado = await usuario.save();
     res.json(usuarioAlmacenado);
   } catch (error) {

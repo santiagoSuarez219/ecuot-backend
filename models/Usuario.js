@@ -19,6 +19,12 @@ const usuarioSchema = mongoose.Schema(
       trim: true,
       unique: true,
     },
+    roles: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Role",
+      },
+    ],
     token: {
       type: String,
     },
