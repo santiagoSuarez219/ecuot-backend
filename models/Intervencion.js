@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const intervencionesSchema = mongoose.Schema(
+const intervencionSchema = mongoose.Schema(
   {
     nombre: {
       type: String,
@@ -10,7 +10,7 @@ const intervencionesSchema = mongoose.Schema(
     },
     fecha_inicio: {
       type: Date,
-      required: true,
+      default: Date.now, // Borrar en frontend
     },
     jerarquia: {
       type: mongoose.Schema.Types.ObjectId,
@@ -27,15 +27,19 @@ const intervencionesSchema = mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "SistemaInterno",
     },
-    comentario: {
-      type: String,
+    creado_por: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Usuario",
     },
+    // comentario: {
+    //   type: String,
+    // },
   },
   {
     timestamps: true,
   }
 );
 
-const Intervencion = mongoose.model("Intervencion", intervencionesSchema);
+const Intervencion = mongoose.model("Intervencion", intervencionSchema);
 
 export default Intervencion;
