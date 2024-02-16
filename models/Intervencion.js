@@ -32,6 +32,10 @@ const intervencionSchema = mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Usuario",
     },
+    actualizado_por: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Usuario",
+    },
     // comentario: {
     //   type: String,
     // },

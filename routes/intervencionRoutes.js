@@ -6,7 +6,11 @@ import {
   editarIntervencion,
   eliminarIntervencion,
 } from "../controllers/intervencionControllers.js";
-import { checkAuth, esInvestigador } from "../middleware/checkAuth.js";
+import {
+  checkAuth,
+  esInvestigador,
+  esEstudianteOrInvestigador,
+} from "../middleware/checkAuth.js";
 
 const router = express.Router();
 
@@ -18,7 +22,7 @@ router
 router
   .route("/:id")
   .get(obtenerIntervencion)
-  .put(checkAuth, editarIntervencion)
+  .put(checkAuth, esEstudianteOrInvestigador, editarIntervencion)
   .delete(checkAuth, eliminarIntervencion);
 
 export default router;
