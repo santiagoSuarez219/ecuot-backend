@@ -7,13 +7,17 @@ import {
   comprobarToken,
   nuevoPassword,
   perfil,
+  obtenerUsuarios,
 } from "../controllers/usuarioController.js";
-import { checkAuth } from "../middleware/checkAuth.js";
+import { checkAuth, esInvestigador } from "../middleware/checkAuth.js";
 
 const router = express.Router();
 
 // Autenticacion, registro y confirmacion de usuarios
-router.post("/", checkAuth, registrar); // Crear usuario.
+router
+  .route("/")
+  .get(obtenerUsuarios)
+  .post(checkAuth, esInvestigador, registrar);
 router.post("/login", autenticar);
 router.get("/confirmar/:token", confirmar);
 router.post("/olvide-password", olvidePassword);

@@ -3,6 +3,10 @@ import Role from "../models/Role.js";
 import generarId from "../helpers/generarId.js";
 import generarJWT from "../helpers/generarJWT.js";
 
+const obtenerUsuarios = async (req, res) => {
+  const usuarios = await Usuario.find().populate("roles");
+  res.json(usuarios);
+};
 const registrar = async (req, res) => {
   // Evitar registros duplicados
   const { email } = req.body;
@@ -130,4 +134,5 @@ export {
   comprobarToken,
   nuevoPassword,
   perfil,
+  obtenerUsuarios,
 };
