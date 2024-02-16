@@ -51,7 +51,19 @@ const editarIntervencion = async (req, res) => {
   }
 };
 
-const eliminarIntervencion = async (req, res) => {};
+const eliminarIntervencion = async (req, res) => {
+  const { id } = req.params;
+  try {
+    const intervencion = await Intervencion.findById(id);
+    if (!intervencion) {
+      return res.status(404).json({ msg: "Intervencion no encontrada" });
+    }
+    await intervencion.deleteOne();
+    res.status(200).json({ msg: "Intervencion eliminada" });
+  } catch (error) {
+    res.status(400).json({ msg: "Hubo un error" });
+  }
+};
 
 export {
   obtenerIntervenciones,
