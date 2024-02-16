@@ -23,6 +23,6 @@ router
   .route("/:id")
   .get(obtenerIntervencion)
   .put(checkAuth, esEstudianteOrInvestigador, editarIntervencion)
-  .delete(checkAuth, eliminarIntervencion);
+  .delete(checkAuth, esInvestigador, eliminarIntervencion);
 
 export default router;
