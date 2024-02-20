@@ -18,15 +18,17 @@ const registrar = async (req, res) => {
   try {
     const usuario = new Usuario(req.body);
     usuario.token = generarId();
-    if (req.body.roles) {
-      const roles = await Role.find({ nombre: { $in: req.body.roles } });
-      usuario.roles = roles.map((role) => role._id);
+    let rol;
+    if (req.body.rol) {
+      rol = await Role.find({ nombre: { $in: req.body.rol } });
     } else {
-      const role = await Role.findOne({ nombre: "usuario" });
-      usuario.roles = [role._id];
+      rol = await Role.findOne({ nombre: "usuario" });
     }
-    const usuarioAlmacenado = await usuario.save();
-    res.json(usuarioAlmacenado);
+    usuario.rol = rol._id;
+    await usuario.save();
+    res.json({
+      msg: "Usuario registrado correctamente, Revisa el email para confirmar tu cuenta",
+    });
   } catch (error) {
     console.log(error);
   }

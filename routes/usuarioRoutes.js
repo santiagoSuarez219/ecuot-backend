@@ -14,10 +14,7 @@ import { checkAuth, esInvestigador } from "../middleware/checkAuth.js";
 const router = express.Router();
 
 // Autenticacion, registro y confirmacion de usuarios
-router
-  .route("/")
-  .get(obtenerUsuarios)
-  .post(checkAuth, esInvestigador, registrar);
+router.route("/").get(obtenerUsuarios).post(registrar);
 router.post("/login", autenticar);
 router.get("/confirmar/:token", confirmar);
 router.post("/olvide-password", olvidePassword);

@@ -29,8 +29,8 @@ const checkAuth = async (req, res, next) => {
 
 const esInvestigador = async (req, res, next) => {
   try {
-    const roles = await Role.find({ _id: { $in: req.usuario.roles } });
-    if (roles.filter((role) => role.nombre === "investigador").length === 0) {
+    const rol = await Role.find({ _id: { $in: req.usuario.rol } });
+    if (rol !== "investigador") {
       const error = new Error("No tienes permisos para realizar esta accion");
       return res.status(403).json({ msg: error.message });
     }
@@ -42,7 +42,7 @@ const esInvestigador = async (req, res, next) => {
 
 const esEstudianteOrInvestigador = async (req, res, next) => {
   try {
-    const roles = await Role.find({ _id: { $in: req.usuario.roles } });
+    const rol = await Role.find({ _id: { $in: req.usuario.rol } });
     if (
       roles.filter(
         (role) => role.nombre === "estudiante" || role.nombre === "investigador"
