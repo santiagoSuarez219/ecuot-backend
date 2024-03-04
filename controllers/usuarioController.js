@@ -2,9 +2,10 @@ import Usuario from "../models/Usuario.js";
 import Role from "../models/Role.js";
 import generarId from "../helpers/generarId.js";
 import generarJWT from "../helpers/generarJWT.js";
+import { emailRegistro } from "../helpers/email.js";
 
 const obtenerUsuarios = async (req, res) => {
-  const usuarios = await Usuario.find().populate("roles");
+  const usuarios = await Usuario.find().populate("rol");
   res.json(usuarios);
 };
 const registrar = async (req, res) => {
@@ -24,10 +25,16 @@ const registrar = async (req, res) => {
     } else {
       rol = await Role.findOne({ nombre: "usuario" });
     }
-    usuario.rol = rol._id;
+    usuario.rol = rol[0]._id;
     await usuario.save();
+    // Enviar email de confirmacion
+    // emailRegistro({
+    //   email: usuario.email,
+    //   nombre: usuario.nombre,
+    //   token: usuario.token,
+    // });
     res.json({
-      msg: "Usuario registrado correctamente, Revisa el email para confirmar tu cuenta",
+      msg: "Usuario registrado correctamente. Revisa el email para confirmar tu cuenta",
     });
   } catch (error) {
     console.log(error);
