@@ -2,7 +2,7 @@ import Usuario from "../models/Usuario.js";
 import Role from "../models/Role.js";
 import generarId from "../helpers/generarId.js";
 import generarJWT from "../helpers/generarJWT.js";
-import { emailRegistro } from "../helpers/email.js";
+import { emailRegistro, emailOlvidePassword } from "../helpers/email.js";
 
 const obtenerUsuarios = async (req, res) => {
   const usuarios = await Usuario.find().populate("rol");
@@ -28,11 +28,11 @@ const registrar = async (req, res) => {
     usuario.rol = rol[0]._id;
     await usuario.save();
     // Enviar email de confirmacion
-    // emailRegistro({
-    //   email: usuario.email,
-    //   nombre: usuario.nombre,
-    //   token: usuario.token,
-    // });
+    emailRegistro({
+      email: usuario.email,
+      nombre: usuario.nombre,
+      token: usuario.token,
+    });
     res.json({
       msg: "Usuario registrado correctamente. Revisa el email para confirmar tu cuenta",
     });
@@ -88,15 +88,20 @@ const confirmar = async (req, res) => {
 
 const olvidePassword = async (req, res) => {
   const { email } = req.body;
-  const existeUsuario = await Usuario.findOne({ email });
-  if (!existeUsuario) {
+  const usuario = await Usuario.findOne({ email });
+  if (!usuario) {
     const error = new Error("El usuario no existe");
     return res.status(400).json({ msg: error.message });
   }
   try {
-    existeUsuario.token = generarId();
-    await existeUsuario.save();
-    res.json({ msg: "Se ha enviado un correo para restablecer tu contraseña" });
+    usuario.token = generarId();
+    await usuario.save();
+    emailOlvidePassword({
+      email: usuario.email,
+      nombre: usuario.nombre,
+      token: usuario.token,
+    });
+    res.json({ msg: "Hemos enviado un email con las instrucciones" });
   } catch (error) {
     console.log(error);
   }
