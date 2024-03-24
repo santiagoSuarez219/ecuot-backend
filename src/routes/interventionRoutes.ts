@@ -51,10 +51,17 @@ router.delete(
 );
 
 // Routes for conflicts
+// TODO: Implementar el resto de validacion de datos al igual que en las rutas de intervenciones. VIDEO 462
 router.post(
   "/:interventionId/conflicts",
   validateInterventionExists,
   ConflictController.createConflict
+);
+
+router.get(
+  "/:interventionId/conflicts",
+  validateInterventionExists,
+  ConflictController.getInterventionConflicts
 );
 
 export default router;
