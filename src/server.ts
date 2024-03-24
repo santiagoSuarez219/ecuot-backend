@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import { connectDB } from "./config/db";
 import interventionRoutes from "./routes/interventionRoutes";
-import conflictRoutes from "./routes/ConflicRoutes";
+import conflictRoutes from "./routes/ConflictRoutes";
 
 dotenv.config();
 connectDB();

@@ -6,6 +6,7 @@ import { handleInputErrors } from "../middleware/validation";
 import { validateInterventionExists } from "../middleware/intervention";
 
 const router = Router();
+router.param("interventionId", validateInterventionExists);
 
 //TODO: Implementar el resto de validacion de datos
 router.post(
@@ -52,16 +53,24 @@ router.delete(
 
 // Routes for conflicts
 // TODO: Implementar el resto de validacion de datos al igual que en las rutas de intervenciones. VIDEO 462
-router.post(
-  "/:interventionId/conflicts",
-  validateInterventionExists,
-  ConflictController.createConflict
-);
+router.post("/:interventionId/conflicts", ConflictController.createConflict);
 
 router.get(
   "/:interventionId/conflicts",
-  validateInterventionExists,
   ConflictController.getInterventionConflicts
+);
+
+router.put(
+  "/:interventionId/conflicts/:conflictId",
+  param("conflictId")
+    .isMongoId()
+    .withMessage("El id de la intervención no es válido"),
+  ConflictController.updateConflict
+);
+
+router.delete(
+  "/:interventionId/conflicts/:conflictId",
+  ConflictController.deleteConflict
 );
 
 export default router;

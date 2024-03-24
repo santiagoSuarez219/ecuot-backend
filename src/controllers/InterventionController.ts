@@ -15,7 +15,9 @@ export class InterventionController {
   static getInterventionById = async (req: Request, res: Response) => {
     const { id } = req.params;
     try {
-      const intervention = await Intervention.findById(id);
+      const intervention = await Intervention.findById(id).populate(
+        "conflicts"
+      );
       if (!intervention) {
         return res.status(404).json({ message: "Intervencion no encontrada" });
       }
@@ -37,10 +39,13 @@ export class InterventionController {
   static updateIntervention = async (req: Request, res: Response) => {
     const { id } = req.params;
     try {
-      const intervention = await Intervention.findByIdAndUpdate(id, req.body);
+      const intervention = await Intervention.findById(id);
       if (!intervention) {
         return res.status(404).json({ message: "Intervencion no encontrada" });
       }
+      intervention.interventionName = req.body.interventionName;
+      intervention.description = req.body.description;
+      intervention.strategicProject = req.body.strategicProject;
       await intervention.save();
       res.json("Intervencion actualizada correctamente");
     } catch (error) {
