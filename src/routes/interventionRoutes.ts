@@ -4,6 +4,7 @@ import { InterventionController } from "../controllers/InterventionController";
 import { ConflictController } from "../controllers/ConflictController";
 import { handleInputErrors } from "../middleware/validation";
 import { validateInterventionExists } from "../middleware/intervention";
+import { validateConflictExists } from "../middleware/conflict";
 
 const router = Router();
 router.param("interventionId", validateInterventionExists);
@@ -60,6 +61,7 @@ router.get(
   ConflictController.getInterventionConflicts
 );
 
+router.param("conflictId", validateConflictExists);
 router.put(
   "/:interventionId/conflicts/:conflictId",
   param("conflictId")
