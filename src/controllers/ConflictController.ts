@@ -21,7 +21,7 @@ export class ConflictController {
 
   static getAllConflicts = async (req: Request, res: Response) => {
     try {
-      const conflicts = await Conflict.find({});
+      const conflicts = await Conflict.find({}).populate("intervention");
       res.json(conflicts);
     } catch (error) {
       console.log(error);
