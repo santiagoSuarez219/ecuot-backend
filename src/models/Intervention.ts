@@ -1,23 +1,17 @@
-import mongoose, { Schema, Document, PopulatedDoc } from "mongoose";
+import mongoose, { Schema, Document, PopulatedDoc, Types } from "mongoose";
 import { IConflict } from "./Conflict";
-
-const hierarchy = {
-  CIUDAD: "Ciudad",
-  BARRIAL_SUBURBANO: "BarrialSuburbano",
-  ZONA_CORREGIMENTAL: "ZonaCorregimental",
-  METROPOLITANO_REGIONAL: "metropolitanoRegional",
-} as const;
-
-export type Hierarchy = (typeof hierarchy)[keyof typeof hierarchy];
+import { INews } from "./News";
 
 export interface IIntervention extends Document {
   interventionName: string;
-  hierarchy: Hierarchy; // Jerarquia
   description: string;
-  strategicProject: string; // Proyecto estratégico
-  //internalSystem: string;
-  //startDate: Date;
+  hierarchy: string;
+  strategicProject: string;
+  internalSystem: string;
+  image: string;
+  datasheet: Types.ObjectId;
   conflicts: PopulatedDoc<IConflict & Document>[];
+  news: PopulatedDoc<INews & Document>[];
   // createdBy: Id de usuario
 }
 
@@ -31,13 +25,11 @@ const InterventionSchema = new Schema(
       unique: true,
       trim: true,
     },
-    hierarchy: {
-      type: String,
-      enum: Object.values(hierarchy),
-      // required: true,
-      default: hierarchy.CIUDAD, //TODO: Eliminar parametro por defecto cuando se implemente en el frontend
-    },
     description: {
+      type: String,
+      required: true,
+    },
+    hierarchy: {
       type: String,
       required: true,
     },
@@ -45,16 +37,22 @@ const InterventionSchema = new Schema(
       type: String,
       required: true,
     },
-    // internalSystem: {
-    //   type: String,
-    //   required: true,
-    // },
-    // startDate: {
-    //   type: Date,
-    //   required: true,
-    // },
-    // createdBy: {type: Schema.Types.ObjectId, ref: 'User'}
+    internalSystem: {
+      type: String,
+      required: true,
+    },
+    image: {
+      type: String,
+      required: true,
+    },
+    datasheet: {
+      type: Types.ObjectId,
+      ref: "InterventionDataSheet",
+      default: null,
+    },
     conflicts: [{ type: Schema.Types.ObjectId, ref: "Conflict" }],
+    news: [{ type: Schema.Types.ObjectId, ref: "News" }],
+    // createdBy: {type: Schema.Types.ObjectId, ref: 'User'}
   },
   { timestamps: true }
 );

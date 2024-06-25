@@ -1,17 +1,15 @@
 import mongoose, { Schema, Document, Types } from "mongoose";
 
-//TODO: Agregar todos los demas campos
-export interface IConflict extends Document {
-  conflictName: string;
+export interface INews extends Document {
+  newsName: string;
   description: string;
-  timeStressOccurrence: string;
-  actorsInvolved: string;
+  newsDate: Date;
   intervention: Types.ObjectId;
 }
 
-export const ConflictSchema = new Schema(
+export const NewsSchema = new Schema(
   {
-    conflictName: {
+    newsName: {
       type: String,
       required: true,
       unique: true,
@@ -22,12 +20,8 @@ export const ConflictSchema = new Schema(
       required: true,
       trim: true,
     },
-    timeStressOccurrence: {
-      type: String,
-      required: true,
-    },
-    actorsInvolved: {
-      type: String,
+    newsDate: {
+      type: Date,
       required: true,
     },
     intervention: {
@@ -39,5 +33,5 @@ export const ConflictSchema = new Schema(
   { timestamps: true }
 );
 
-const Conflict = mongoose.model<IConflict>("Conflict", ConflictSchema);
-export default Conflict;
+const News = mongoose.model<INews>("News", NewsSchema);
+export default News;
