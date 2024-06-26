@@ -71,12 +71,25 @@ router.post(
   body("description")
     .notEmpty()
     .withMessage("La descripción de la ficha de intervención es requerida"),
+  body("image_description")
+    .notEmpty()
+    .withMessage(
+      "La imagen de descripcion de la ficha de intervención es requerida"
+    ),
   body("features")
     .notEmpty()
     .withMessage("Las características de la intervención son requeridas"),
+  body("image_features")
+    .notEmpty()
+    .withMessage(
+      "La imagen de características de la intervención es requerida"
+    ),
   body("conflictivity")
     .notEmpty()
     .withMessage("La conflictividad de la intervención es requerida"),
+  body("image_conflictivity")
+    .notEmpty()
+    .withMessage("La imagen de conflictividad de la intervención es requerida"),
   body("spatialization")
     .notEmpty()
     .withMessage("La espacialización de la intervención es requerida"),

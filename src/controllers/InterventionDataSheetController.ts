@@ -18,4 +18,53 @@ export class InterventionDataSheetController {
       console.log(error);
     }
   };
+
+  static getAllInterventionDataSheets = async (req: Request, res: Response) => {
+    try {
+      const interventionsDataSheets = await InterventionDataSheet.find(
+        {}
+      ).populate("intervention");
+      res.json(interventionsDataSheets);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  static getInterventionDataSheetById = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    try {
+      const interventionDataSheet = await InterventionDataSheet.findById(
+        id
+      ).populate("intervention");
+      if (!interventionDataSheet) {
+        return res.status(404).json({ message: "Intervencion no encontrada" });
+      }
+      res.json(interventionDataSheet);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  static updateInterventionDataSheet = async (req: Request, res: Response) => {
+    const { interventionId, id } = req.params;
+    try {
+      const interventionDataSheet = await InterventionDataSheet.findById(id);
+      if (!interventionDataSheet) {
+        return res
+          .status(404)
+          .json({ message: "Ficha de intervención no encontrada" });
+      }
+      interventionDataSheet.description = req.body.description;
+      interventionDataSheet.image_description = req.body.image_description;
+      interventionDataSheet.features = req.body.features;
+      interventionDataSheet.image_features = req.body.image_features;
+      interventionDataSheet.conflictivity = req.body.conflictivity;
+      interventionDataSheet.image_conflictivity = req.body.image_conflictivity;
+      interventionDataSheet.spatialization = req.body.spatialization;
+      await interventionDataSheet.save();
+      res.json("Ficha de intervención actualizada correctamente");
+    } catch (error) {
+      console.log(error);
+    }
+  };
 }

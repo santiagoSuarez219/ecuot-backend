@@ -3,8 +3,11 @@ import { IIntervention } from "./Intervention";
 
 export interface IInterventionDataSheet extends Document {
   description: string;
+  image_description: string;
   features: string;
+  image_features: string;
   conflictivity: string;
+  image_conflictivity: string;
   spatialization: string;
   intervention: PopulatedDoc<IIntervention & Document>;
 }
@@ -15,11 +18,23 @@ const InterventionDataSheetSchema = new Schema(
       type: String,
       required: true,
     },
+    image_description: {
+      type: String,
+      required: true,
+    },
     features: {
       type: String,
       required: true,
     },
+    image_features: {
+      type: String,
+      required: true,
+    },
     conflictivity: {
+      type: String,
+      required: true,
+    },
+    image_conflictivity: {
       type: String,
       required: true,
     },
