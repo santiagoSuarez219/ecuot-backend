@@ -2,8 +2,11 @@ import { InterventionDataSheetController } from "../controllers/InterventionData
 import { handleInputErrors } from "../middleware/validation";
 import { body, param } from "express-validator";
 import { Router } from "express";
+import { validateInterventionDataSheetExists } from "../middleware/interventionDataSheet";
 
 const router = Router();
+
+router.param("interventionDataSheetId", validateInterventionDataSheetExists);
 
 router.get("/", InterventionDataSheetController.getAllInterventionDataSheets);
 
@@ -15,8 +18,10 @@ router.get(
 );
 
 router.put(
-  "/:id",
-  param("id").isMongoId().withMessage("El id de la intervención no es válido"),
+  "/:interventionDataSheetId",
+  param("interventionDataSheetId")
+    .isMongoId()
+    .withMessage("El id de la intervención no es válido"),
   body("description").notEmpty().withMessage("La descripción es requerida"),
   body("image_description")
     .notEmpty()

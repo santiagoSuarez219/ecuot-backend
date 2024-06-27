@@ -46,9 +46,11 @@ export class InterventionDataSheetController {
   };
 
   static updateInterventionDataSheet = async (req: Request, res: Response) => {
-    const { interventionId, id } = req.params;
+    const { interventionId, interventionDataSheetId } = req.params;
     try {
-      const interventionDataSheet = await InterventionDataSheet.findById(id);
+      const interventionDataSheet = await InterventionDataSheet.findById(
+        interventionDataSheetId
+      );
       if (!interventionDataSheet) {
         return res
           .status(404)
@@ -63,6 +65,26 @@ export class InterventionDataSheetController {
       interventionDataSheet.spatialization = req.body.spatialization;
       await interventionDataSheet.save();
       res.json("Ficha de intervención actualizada correctamente");
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  static deleteInterventionDataSheet = async (req: Request, res: Response) => {
+    const { interventionDataSheetId } = req.params;
+    try {
+      const interventionDataSheet = await InterventionDataSheet.findById(
+        interventionDataSheetId
+      );
+      if (!interventionDataSheet) {
+        return res.status(404).json({ message: "Intervencion no encontrada" });
+      }
+      req.intervention.datasheet = null;
+      await Promise.allSettled([
+        interventionDataSheet.deleteOne(),
+        req.intervention.save(),
+      ]);
+      res.json("Intervencion eliminada correctamente");
     } catch (error) {
       console.log(error);
     }
