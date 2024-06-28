@@ -1,5 +1,7 @@
 import type { Request, Response } from "express";
 import Intervention from "../models/Intervention";
+import InterventionDataSheet from "../models/InterventionDataSheet";
+import Conflict from "../models/Conflict";
 
 export class InterventionController {
   static createIntervention = async (req: Request, res: Response) => {
@@ -15,9 +17,10 @@ export class InterventionController {
   static getInterventionById = async (req: Request, res: Response) => {
     const { id } = req.params;
     try {
-      const intervention = await Intervention.findById(id).populate(
-        "conflicts"
-      );
+      // const intervention = await Intervention.findById(id).populate(
+      //   "conflicts"
+      // );
+      const intervention = await Intervention.findById(id);
       if (!intervention) {
         return res.status(404).json({ message: "Intervencion no encontrada" });
       }
@@ -45,7 +48,10 @@ export class InterventionController {
       }
       intervention.interventionName = req.body.interventionName;
       intervention.description = req.body.description;
+      intervention.hierarchy = req.body.hierarchy;
       intervention.strategicProject = req.body.strategicProject;
+      intervention.internalSystem = req.body.internalSystem;
+      intervention.image = req.body.image;
       await intervention.save();
       res.json("Intervencion actualizada correctamente");
     } catch (error) {
@@ -60,8 +66,20 @@ export class InterventionController {
       if (!intervention) {
         return res.status(404).json({ message: "Intervencion no encontrada" });
       }
-      // TODO: Realizar validaciones de seguridad
-      await intervention.deleteOne();
+      await Conflict.deleteMany({ intervention: intervention._id });
+      if (intervention.datasheet !== null) {
+        const datasheet = await InterventionDataSheet.findById(
+          intervention.datasheet
+        );
+        if (datasheet) {
+          await Promise.allSettled([
+            datasheet.deleteOne(),
+            intervention.deleteOne(),
+          ]);
+        }
+      } else {
+        await intervention.deleteOne();
+      }
       res.json("Intervencion eliminada correctamente");
     } catch (error) {
       console.log(error);

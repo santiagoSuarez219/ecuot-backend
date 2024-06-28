@@ -3,10 +3,12 @@ import dotenv from "dotenv";
 import cors from "cors";
 import { corsConfig } from "./config/cors";
 import { connectDB } from "./config/db";
-import interventionRoutes from "./routes/interventionRoutes";
+
 import InterventionDataSheetRoutes from "./routes/InterventionDataSheetRoutes";
+import interventionRoutes from "./routes/interventionRoutes";
 import conflictRoutes from "./routes/ConflictRoutes";
 import UserRoutes from "./routes/UserRoutes";
+import NewsRoutes from "./routes/NewsRoutes";
 
 dotenv.config();
 connectDB();
@@ -20,5 +22,6 @@ app.use("/api/interventions", interventionRoutes);
 app.use("/api/conflicts", conflictRoutes);
 app.use("/api/users", UserRoutes);
 app.use("/api/intervention_datasheet", InterventionDataSheetRoutes);
+app.use("/api/news", NewsRoutes);
 
 export default app;

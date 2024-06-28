@@ -28,30 +28,46 @@ export class ConflictController {
     }
   };
 
-  static getInterventionConflicts = async (req: Request, res: Response) => {
+  static getConflictById = async (req: Request, res: Response) => {
+    const { id } = req.params;
     try {
-      const conflicts = await Conflict.find({
-        intervention: req.intervention._id,
-      }).populate("intervention");
-      res.json(conflicts);
+      const conflict = await Conflict.findById(id).populate("intervention");
+      if (!conflict) {
+        return res.status(404).json({ message: "Conflicto no encontrado" });
+      }
+      res.json(conflict);
     } catch (error) {
       console.log(error);
     }
   };
 
+  // static getInterventionConflicts = async (req: Request, res: Response) => {
+  //   try {
+  //     const conflicts = await Conflict.find({
+  //       intervention: req.intervention._id,
+  //     }).populate("intervention");
+  //     res.json(conflicts);
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // };
+
   static updateConflict = async (req: Request, res: Response) => {
+    const { conflictId } = req.params;
     try {
-      if (
-        req.conflict.intervention.toString() !== req.intervention._id.toString()
-      ) {
-        return res.status(403).json({
-          message: "No tienes permisos para actualizar este conflicto",
-        });
+      const conflict = await Conflict.findById(conflictId);
+      if (!conflict) {
+        return res.status(404).json({ message: "Conflicto no encontrado" });
       }
-      req.conflict.conflictName = req.body.conflictName;
-      req.conflict.description = req.body.description;
-      await req.conflict.save();
-      res.send("Conflicto actualizado correctamente");
+      conflict.conflictName = req.body.conflictName;
+      conflict.description = req.body.description;
+      conflict.timeStressOccurrence = req.body.timeStressOccurrence;
+      conflict.actorsInvolved = req.body.actorsInvolved;
+      conflict.intervention = req.intervention._id;
+      conflict.image = req.body.image;
+
+      await conflict.save();
+      res.json("Conflicto actualizado correctamente");
     } catch (error) {
       console.log(error);
     }

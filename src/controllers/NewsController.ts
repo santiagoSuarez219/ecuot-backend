@@ -10,7 +10,64 @@ export class NewsController {
       });
       req.intervention.news.push(news._id);
       await Promise.allSettled([news.save(), req.intervention.save()]);
-      res.send("Acontecimiento noticiooo creado correctamente");
+      res.send("Acontecimiento noticioso creado correctamente");
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  static getAllNews = async (req: Request, res: Response) => {
+    try {
+      const news = await News.find({}).populate("intervention");
+      res.json(news);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  static getNewsById = async (req: Request, res: Response) => {
+    const { id } = req.params;
+    try {
+      const news = await News.findById(id).populate("intervention");
+      if (!news) {
+        return res
+          .status(404)
+          .json({ message: "Acontecimiento noticioso no encontrado" });
+      }
+      res.json(news);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  static updateNews = async (req: Request, res: Response) => {
+    const { newsId } = req.params;
+    try {
+      const news = await News.findById(newsId);
+      if (!news) {
+        return res
+          .status(404)
+          .json({ message: "Acontecimiento noticioso no encontrado" });
+      }
+      news.newsName = req.body.newsName;
+      news.description = req.body.description;
+      news.newsDate = req.body.newsDate;
+      news.intervention = req.body.intervention;
+      news.image = req.body.image;
+      await news.save();
+      res.json("Acontecimiento noticioso actualizado correctamente");
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  static deleteNews = async (req: Request, res: Response) => {
+    try {
+      req.intervention.news = req.intervention.news.filter(
+        (news) => news.toString() !== req.news._id.toString()
+      );
+      await Promise.allSettled([req.news.deleteOne(), req.intervention.save()]);
+      res.send("Acontecimiento noticioso eliminado correctamente");
     } catch (error) {
       console.log(error);
     }

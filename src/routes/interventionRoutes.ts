@@ -8,9 +8,14 @@ import { ConflictController } from "../controllers/ConflictController";
 import { validateConflictExists } from "../middleware/conflict";
 import { handleInputErrors } from "../middleware/validation";
 import { NewsController } from "../controllers/NewsController";
+import { validateInterventionDataSheetExists } from "../middleware/interventionDataSheet";
+import { validateNewsExists } from "../middleware/news";
 
 const router = Router();
 router.param("interventionId", validateInterventionExists);
+router.param("interventionDataSheetId", validateInterventionDataSheetExists);
+router.param("conflictId", validateConflictExists);
+router.param("newsId", validateNewsExists);
 
 router.post(
   "/",
@@ -97,6 +102,18 @@ router.post(
   InterventionDataSheetController.createInterventionDataSheet
 );
 
+router.delete(
+  "/:interventionId/datasheet/:interventionDataSheetId",
+  param("interventionId")
+    .isMongoId()
+    .withMessage("El id de la intervención no es válido"),
+  param("interventionDataSheetId")
+    .isMongoId()
+    .withMessage("El id de la intervención no es válido"),
+  handleInputErrors,
+  InterventionDataSheetController.deleteInterventionDataSheet
+);
+
 // Routes for conflicts
 router.post(
   "/:interventionId/conflicts",
@@ -112,43 +129,42 @@ router.post(
   body("actorsInvolved")
     .notEmpty()
     .withMessage("Los actores involucrados son requeridos"),
+  body("image").notEmpty().withMessage("La imagen es requerida"),
   handleInputErrors,
   ConflictController.createConflict
 );
 
-// router.get(
-//   "/:interventionId/conflicts",
-//   ConflictController.getInterventionConflicts
-// );
-
-// router.param("conflictId", validateConflictExists);
-// router.put(
-//   "/:interventionId/conflicts/:conflictId",
-//   param("conflictId")
-//     .isMongoId()
-//     .withMessage("El id de la intervención no es válido"),
-//   ConflictController.updateConflict
-// );
-
-// router.delete(
-//   "/:interventionId/conflicts/:conflictId",
-//   ConflictController.deleteConflict
-// );
+router.delete(
+  "/:interventionId/conflict/:conflictId",
+  param("interventionId")
+    .isMongoId()
+    .withMessage("El id de la intervención no es válido"),
+  param("conflictId")
+    .isMongoId()
+    .withMessage("El id del conflicto no es válido"),
+  handleInputErrors,
+  ConflictController.deleteConflict
+);
 
 // Routes for news
 router.post(
   "/:interventionId/news",
-  body("newsName")
-    .notEmpty()
-    .withMessage("El nombre de la noticia es requerido"),
-  body("description")
-    .notEmpty()
-    .withMessage("La descripción de la noticia es requerida"),
-  body("newsDate")
-    .notEmpty()
-    .withMessage("La fecha de la noticia es requerida"),
+  body("newsName").notEmpty().withMessage("El nombre es requerido"),
+  body("description").notEmpty().withMessage("La descripción es requerida"),
+  body("newsDate").notEmpty().withMessage("La fecha es requerida"),
+  body("image").notEmpty().withMessage("La imagen es requerida"),
   handleInputErrors,
   NewsController.createNews
+);
+
+router.delete(
+  "/:interventionId/news/:newsId",
+  param("interventionId")
+    .isMongoId()
+    .withMessage("El id de la intervención no es válido"),
+  param("newsId").isMongoId().withMessage("El id del conflicto no es válido"),
+  handleInputErrors,
+  NewsController.deleteNews
 );
 
 export default router;

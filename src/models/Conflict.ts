@@ -7,6 +7,7 @@ export interface IConflict extends Document {
   timeStressOccurrence: string;
   actorsInvolved: string;
   intervention: Types.ObjectId;
+  image: string;
 }
 
 export const ConflictSchema = new Schema(
@@ -33,6 +34,10 @@ export const ConflictSchema = new Schema(
     intervention: {
       type: Types.ObjectId,
       ref: "Intervention",
+      required: true,
+    },
+    image: {
+      type: String,
       required: true,
     },
   },

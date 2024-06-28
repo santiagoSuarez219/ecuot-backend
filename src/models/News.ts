@@ -5,6 +5,7 @@ export interface INews extends Document {
   description: string;
   newsDate: Date;
   intervention: Types.ObjectId;
+  image: string;
 }
 
 export const NewsSchema = new Schema(
@@ -27,6 +28,10 @@ export const NewsSchema = new Schema(
     intervention: {
       type: Types.ObjectId,
       ref: "Intervention",
+      required: true,
+    },
+    image: {
+      type: String,
       required: true,
     },
   },
