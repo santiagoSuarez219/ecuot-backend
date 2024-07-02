@@ -4,9 +4,9 @@ import mongoose, { Schema, Document, Types } from "mongoose";
 export interface IUser extends Document {
   userName: string;
   userLastName: string;
-  userEmail: string;
-  // userPassword: string;
-  // confirmado: boolean;
+  user: string;
+  userPassword: string;
+  // confirmed: boolean;
   // token: string;
   // rol: string; //TODO: Cambiar a enum
 }
@@ -23,18 +23,19 @@ export const UserSchema = new Schema(
       required: true,
       trim: true,
     },
-    userEmail: {
+    user: {
       type: String,
       required: true,
+      lowercase: true,
       trim: true,
       unique: true,
     },
-    // userPassword: {
-    //   type: String,
-    //   required: true,
-    //   trim: true,
-    // },
-    // confirmado: {
+    userPassword: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    // confirmed: {
     //   type: Boolean,
     //   required: true,
     //   default: false,
