@@ -2,6 +2,7 @@ import type { Request, Response } from "express";
 import Intervention from "../models/Intervention";
 import InterventionDataSheet from "../models/InterventionDataSheet";
 import Conflict from "../models/Conflict";
+import News from "../models/News";
 
 export class InterventionController {
   static createIntervention = async (req: Request, res: Response) => {
@@ -17,9 +18,6 @@ export class InterventionController {
   static getInterventionById = async (req: Request, res: Response) => {
     const { id } = req.params;
     try {
-      // const intervention = await Intervention.findById(id).populate(
-      //   "conflicts"
-      // );
       const intervention = await Intervention.findById(id);
       if (!intervention) {
         return res.status(404).json({ message: "Intervencion no encontrada" });
@@ -67,6 +65,7 @@ export class InterventionController {
         return res.status(404).json({ message: "Intervencion no encontrada" });
       }
       await Conflict.deleteMany({ intervention: intervention._id });
+      await News.deleteMany({ intervention: intervention._id });
       if (intervention.datasheet !== null) {
         const datasheet = await InterventionDataSheet.findById(
           intervention.datasheet
