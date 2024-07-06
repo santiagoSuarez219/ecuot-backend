@@ -72,6 +72,7 @@ export class UserController {
       userExists.userName = req.body.userName;
       userExists.userLastName = req.body.userLastName;
       userExists.user = req.body.user;
+      userExists.rol = req.body.rol;
       await userExists.save();
       res.json("Usuario actualizado correctamente");
     } catch (error) {

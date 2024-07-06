@@ -1,9 +1,6 @@
 import type { Request, Response } from "express";
 import Conflict from "../models/Conflict";
 
-//TODO: Cambiar los console.log por res.status(500).json() en los catch en producción
-//TODO: Implementar metodo para obtener un conflicto por el id
-
 export class ConflictController {
   static createConflict = async (req: Request, res: Response) => {
     try {
@@ -15,7 +12,7 @@ export class ConflictController {
       await Promise.allSettled([conflict.save(), req.intervention.save()]);
       res.send("Conflicto creado correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -24,7 +21,7 @@ export class ConflictController {
       const conflicts = await Conflict.find({}).populate("intervention");
       res.json(conflicts);
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -37,20 +34,9 @@ export class ConflictController {
       }
       res.json(conflict);
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
-
-  // static getInterventionConflicts = async (req: Request, res: Response) => {
-  //   try {
-  //     const conflicts = await Conflict.find({
-  //       intervention: req.intervention._id,
-  //     }).populate("intervention");
-  //     res.json(conflicts);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
 
   static updateConflict = async (req: Request, res: Response) => {
     const { conflictId } = req.params;
@@ -69,12 +55,15 @@ export class ConflictController {
       await conflict.save();
       res.json("Conflicto actualizado correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
   static deleteConflict = async (req: Request, res: Response) => {
     try {
+      if (req.user.rol !== "researcher") {
+        return res.status(403).json({ message: "No autorizado" });
+      }
       req.intervention.conflicts = req.intervention.conflicts.filter(
         (conflict) => conflict.toString() !== req.conflict._id.toString()
       );
@@ -84,7 +73,7 @@ export class ConflictController {
       ]);
       res.send("Conflicto eliminado correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 }

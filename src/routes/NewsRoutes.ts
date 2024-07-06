@@ -5,6 +5,7 @@ import { handleInputErrors } from "../middleware/validation";
 import { validateInterventionExists } from "../middleware/intervention";
 import { validateNewsExists } from "../middleware/news";
 import { NewsController } from "../controllers/NewsController";
+import { authenticate } from "../middleware/auth";
 
 const router = Router();
 
@@ -22,6 +23,7 @@ router.get(
 
 router.put(
   "/:newsId/intervention/:interventionId",
+  authenticate,
   param("newsId").isMongoId().withMessage("El id del conflicto no es válido"),
   param("interventionId")
     .isMongoId()

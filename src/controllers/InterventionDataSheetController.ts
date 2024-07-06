@@ -15,7 +15,7 @@ export class InterventionDataSheetController {
       ]);
       res.send("Ficha de intervención creada correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -26,7 +26,7 @@ export class InterventionDataSheetController {
       ).populate("intervention");
       res.json(interventionsDataSheets);
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -41,7 +41,7 @@ export class InterventionDataSheetController {
       }
       res.json(interventionDataSheet);
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -66,7 +66,7 @@ export class InterventionDataSheetController {
       await interventionDataSheet.save();
       res.json("Ficha de intervención actualizada correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -79,6 +79,9 @@ export class InterventionDataSheetController {
       if (!interventionDataSheet) {
         return res.status(404).json({ message: "Intervencion no encontrada" });
       }
+      if (req.user.rol !== "researcher") {
+        return res.status(403).json({ message: "No autorizado" });
+      }
       req.intervention.datasheet = null;
       await Promise.allSettled([
         interventionDataSheet.deleteOne(),
@@ -86,7 +89,7 @@ export class InterventionDataSheetController {
       ]);
       res.json("Intervencion eliminada correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 }

@@ -1,14 +1,19 @@
 import mongoose, { Schema, Document, Types } from "mongoose";
 
+const roles = {
+  RESEARCHER: "researcher",
+  ASSISTANT: "assistant",
+} as const;
+
+export type Role = (typeof roles)[keyof typeof roles];
+
 //TODO: Agregar todos los demas campos
 export interface IUser extends Document {
   userName: string;
   userLastName: string;
   user: string;
   userPassword: string;
-  // confirmed: boolean;
-  // token: string;
-  // rol: string; //TODO: Cambiar a enum
+  rol: Role;
 }
 
 export const UserSchema = new Schema(
@@ -26,7 +31,6 @@ export const UserSchema = new Schema(
     user: {
       type: String,
       required: true,
-      lowercase: true,
       trim: true,
       unique: true,
     },
@@ -35,14 +39,11 @@ export const UserSchema = new Schema(
       required: true,
       trim: true,
     },
-    // confirmed: {
-    //   type: Boolean,
-    //   required: true,
-    //   default: false,
-    // },
-    // token: {
-    //   type: String,
-    // },
+    rol: {
+      type: String,
+      enum: Object.values(roles),
+      default: roles.ASSISTANT,
+    },
   },
   { timestamps: true }
 );

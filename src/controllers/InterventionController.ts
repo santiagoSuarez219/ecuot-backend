@@ -11,7 +11,7 @@ export class InterventionController {
       await intervention.save();
       res.send("Intervencion creada correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -24,7 +24,7 @@ export class InterventionController {
       }
       res.json(intervention);
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -33,7 +33,7 @@ export class InterventionController {
       const interventions = await Intervention.find({});
       res.json(interventions);
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -53,7 +53,7 @@ export class InterventionController {
       await intervention.save();
       res.json("Intervencion actualizada correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -63,6 +63,9 @@ export class InterventionController {
       const intervention = await Intervention.findById(id);
       if (!intervention) {
         return res.status(404).json({ message: "Intervencion no encontrada" });
+      }
+      if (req.user.rol !== "researcher") {
+        return res.status(403).json({ message: "No autorizado" });
       }
       await Conflict.deleteMany({ intervention: intervention._id });
       await News.deleteMany({ intervention: intervention._id });
@@ -81,7 +84,7 @@ export class InterventionController {
       }
       res.json("Intervencion eliminada correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 }

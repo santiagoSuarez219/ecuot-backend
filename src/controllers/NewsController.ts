@@ -12,7 +12,7 @@ export class NewsController {
       await Promise.allSettled([news.save(), req.intervention.save()]);
       res.send("Acontecimiento noticioso creado correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -21,7 +21,7 @@ export class NewsController {
       const news = await News.find({}).populate("intervention");
       res.json(news);
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -36,7 +36,7 @@ export class NewsController {
       }
       res.json(news);
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
@@ -57,19 +57,22 @@ export class NewsController {
       await news.save();
       res.json("Acontecimiento noticioso actualizado correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 
   static deleteNews = async (req: Request, res: Response) => {
     try {
+      if (req.user.rol !== "researcher") {
+        return res.status(403).json({ message: "No autorizado" });
+      }
       req.intervention.news = req.intervention.news.filter(
         (news) => news.toString() !== req.news._id.toString()
       );
       await Promise.allSettled([req.news.deleteOne(), req.intervention.save()]);
       res.send("Acontecimiento noticioso eliminado correctamente");
     } catch (error) {
-      console.log(error);
+      res.status(500).json({ error: "Hubo un error" });
     }
   };
 }

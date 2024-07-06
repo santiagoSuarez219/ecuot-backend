@@ -3,6 +3,7 @@ import { handleInputErrors } from "../middleware/validation";
 import { body, param } from "express-validator";
 import { Router } from "express";
 import { validateInterventionDataSheetExists } from "../middleware/interventionDataSheet";
+import { authenticate } from "../middleware/auth";
 
 const router = Router();
 
@@ -19,6 +20,7 @@ router.get(
 
 router.put(
   "/:interventionDataSheetId",
+  authenticate,
   param("interventionDataSheetId")
     .isMongoId()
     .withMessage("El id de la intervención no es válido"),

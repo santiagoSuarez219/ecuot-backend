@@ -19,6 +19,7 @@ router.post(
     }
     return true;
   }),
+  body("rol").notEmpty().withMessage("El rol es requerido"),
   handleInputErrors,
   UserController.createUser
 );
@@ -40,6 +41,7 @@ router.put(
   body("userName").notEmpty().withMessage("El nombre es requerido"),
   body("userLastName").notEmpty().withMessage("El apellido es requerido"),
   body("user").notEmpty().withMessage("El usuario es requerido"),
+  body("rol").notEmpty().withMessage("El rol es requerido"),
   handleInputErrors,
   UserController.updateUser
 );
@@ -59,33 +61,5 @@ router.post(
   handleInputErrors,
   UserController.updatePassword
 );
-
-// router.get(
-//   "/:id",
-//   param("id").isMongoId().withMessage("El id de la intervención no es válido"),
-//   handleInputErrors,
-//   InterventionController.getInterventionById
-// );
-
-// router.put(
-//   "/:id",
-//   param("id").isMongoId().withMessage("El id de la intervención no es válido"),
-//   body("interventionName")
-//     .notEmpty()
-//     .withMessage("El nombre de la intervención es requerido"),
-//   body("description").notEmpty().withMessage("La descripción es requerida"),
-//   body("strategicProject")
-//     .notEmpty()
-//     .withMessage("El proyecto estratégico es requerido"),
-//   handleInputErrors,
-//   InterventionController.updateIntervention
-// );
-
-// router.delete(
-//   "/:id",
-//   param("id").isMongoId().withMessage("El id de la intervención no es válido"),
-//   handleInputErrors,
-//   InterventionController.deleteIntervention
-// );
 
 export default router;

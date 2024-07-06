@@ -4,6 +4,7 @@ import { ConflictController } from "../controllers/ConflictController";
 import { handleInputErrors } from "../middleware/validation";
 import { validateInterventionExists } from "../middleware/intervention";
 import { validateConflictExists } from "../middleware/conflict";
+import { authenticate } from "../middleware/auth";
 
 const router = Router();
 
@@ -14,6 +15,7 @@ router.get("/", ConflictController.getAllConflicts);
 
 router.get(
   "/:id",
+  authenticate,
   param("id").isMongoId().withMessage("El id del conflicto no es válido"),
   handleInputErrors,
   ConflictController.getConflictById
@@ -21,6 +23,7 @@ router.get(
 
 router.put(
   "/:conflictId/intervention/:interventionId",
+  authenticate,
   param("conflictId")
     .isMongoId()
     .withMessage("El id del conflicto no es válido"),

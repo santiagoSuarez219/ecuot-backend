@@ -10,6 +10,7 @@ import { handleInputErrors } from "../middleware/validation";
 import { NewsController } from "../controllers/NewsController";
 import { validateInterventionDataSheetExists } from "../middleware/interventionDataSheet";
 import { validateNewsExists } from "../middleware/news";
+import { authenticate } from "../middleware/auth";
 
 const router = Router();
 router.param("interventionId", validateInterventionExists);
@@ -19,6 +20,7 @@ router.param("newsId", validateNewsExists);
 
 router.post(
   "/",
+  authenticate,
   body("interventionName")
     .notEmpty()
     .withMessage("El nombre de la intervención es requerido"),
@@ -39,6 +41,7 @@ router.get("/", InterventionController.getAllInterventions);
 
 router.get(
   "/:id",
+  authenticate,
   param("id").isMongoId().withMessage("El id de la intervención no es válido"),
   handleInputErrors,
   InterventionController.getInterventionById
@@ -46,6 +49,7 @@ router.get(
 
 router.put(
   "/:id",
+  authenticate,
   param("id").isMongoId().withMessage("El id de la intervención no es válido"),
   body("interventionName")
     .notEmpty()
@@ -65,6 +69,7 @@ router.put(
 
 router.delete(
   "/:id",
+  authenticate,
   param("id").isMongoId().withMessage("El id de la intervención no es válido"),
   handleInputErrors,
   InterventionController.deleteIntervention
@@ -73,6 +78,7 @@ router.delete(
 // Routes for intervention data sheets
 router.post(
   "/:interventionId/datasheet",
+  authenticate,
   body("description")
     .notEmpty()
     .withMessage("La descripción de la ficha de intervención es requerida"),
@@ -104,6 +110,7 @@ router.post(
 
 router.delete(
   "/:interventionId/datasheet/:interventionDataSheetId",
+  authenticate,
   param("interventionId")
     .isMongoId()
     .withMessage("El id de la intervención no es válido"),
@@ -117,6 +124,7 @@ router.delete(
 // Routes for conflicts
 router.post(
   "/:interventionId/conflicts",
+  authenticate,
   body("conflictName")
     .notEmpty()
     .withMessage("El nombre del conflicto es requerido"),
@@ -136,6 +144,7 @@ router.post(
 
 router.delete(
   "/:interventionId/conflict/:conflictId",
+  authenticate,
   param("interventionId")
     .isMongoId()
     .withMessage("El id de la intervención no es válido"),
@@ -149,6 +158,7 @@ router.delete(
 // Routes for news
 router.post(
   "/:interventionId/news",
+  authenticate,
   body("newsName").notEmpty().withMessage("El nombre es requerido"),
   body("description").notEmpty().withMessage("La descripción es requerida"),
   body("newsDate").notEmpty().withMessage("La fecha es requerida"),
@@ -159,6 +169,7 @@ router.post(
 
 router.delete(
   "/:interventionId/news/:newsId",
+  authenticate,
   param("interventionId")
     .isMongoId()
     .withMessage("El id de la intervención no es válido"),
