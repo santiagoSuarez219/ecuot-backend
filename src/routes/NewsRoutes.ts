@@ -1,10 +1,10 @@
-import { Router } from "express";
 import { body, param } from "express-validator";
-import { ConflictController } from "../controllers/ConflictController";
-import { handleInputErrors } from "../middleware/validation";
+import { Router } from "express";
+
 import { validateInterventionExists } from "../middleware/intervention";
-import { validateNewsExists } from "../middleware/news";
 import { NewsController } from "../controllers/NewsController";
+import { handleInputErrors } from "../middleware/validation";
+import { validateNewsExists } from "../middleware/news";
 import { authenticate } from "../middleware/auth";
 
 const router = Router();

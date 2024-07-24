@@ -49,7 +49,7 @@ export class ConflictController {
       conflict.description = req.body.description;
       conflict.timeStressOccurrence = req.body.timeStressOccurrence;
       conflict.actorsInvolved = req.body.actorsInvolved;
-      conflict.intervention = req.intervention._id;
+      conflict.intervention = req.body.intervention;
       conflict.image = req.body.image;
 
       await conflict.save();

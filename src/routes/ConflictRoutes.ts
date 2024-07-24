@@ -15,7 +15,6 @@ router.get("/", ConflictController.getAllConflicts);
 
 router.get(
   "/:id",
-  authenticate,
   param("id").isMongoId().withMessage("El id del conflicto no es válido"),
   handleInputErrors,
   ConflictController.getConflictById

@@ -6,6 +6,9 @@ import { generateJWT } from "../utils/jwt";
 export class UserController {
   static createUser = async (req: Request, res: Response) => {
     try {
+      if (req.user.rol !== "researcher") {
+        return res.status(403).json({ message: "No autorizado" });
+      }
       const { userPassword, user } = req.body;
       const userExists = await User.findOne({ user });
       if (userExists) {
@@ -45,8 +48,15 @@ export class UserController {
     }
   };
 
+  static getDataUser = async (req: Request, res: Response) => {
+    return res.json(req.user);
+  };
+
   static getAllUsers = async (req: Request, res: Response) => {
     try {
+      if (req.user.rol !== "researcher") {
+        return res.status(403).json({ message: "No autorizado" });
+      }
       const users = await User.find({}).select("-userPassword");
       res.json(users);
     } catch (error) {
@@ -58,6 +68,9 @@ export class UserController {
     const { idUser } = req.params;
     const { user } = req.body;
     try {
+      if (req.user.rol !== "researcher") {
+        return res.status(403).json({ message: "No autorizado" });
+      }
       const userExists = await User.findById(idUser);
       if (!userExists) {
         return res.status(404).json({ message: "Usuario no encontrado" });
@@ -82,6 +95,9 @@ export class UserController {
 
   static getUserById = async (req: Request, res: Response) => {
     const { idUser } = req.params;
+    if (req.user.rol !== "researcher") {
+      return res.status(403).json({ message: "No autorizado" });
+    }
     try {
       const user = await User.findById(idUser).select("-userPassword");
       if (!user) {
@@ -96,6 +112,9 @@ export class UserController {
   static updatePassword = async (req: Request, res: Response) => {
     const { idUser } = req.params;
     try {
+      if (req.user.rol !== "researcher") {
+        return res.status(403).json({ message: "No autorizado" });
+      }
       const userExists = await User.findById(idUser);
       if (!userExists) {
         return res.status(404).json({ message: "Usuario no encontrado" });
@@ -103,6 +122,23 @@ export class UserController {
       userExists.userPassword = await hashPassword(req.body.userPassword);
       await userExists.save();
       res.json("Contraseña actualizada correctamente");
+    } catch (error) {
+      res.status(500).json({ error: "Hubo un error" });
+    }
+  };
+
+  static deleteUser = async (req: Request, res: Response) => {
+    const { idUser } = req.params;
+    try {
+      if (req.user.rol !== "researcher") {
+        return res.status(403).json({ message: "No autorizado" });
+      }
+      const userExists = await User.findById(idUser);
+      if (!userExists) {
+        return res.status(404).json({ message: "Usuario no encontrado" });
+      }
+      await userExists.deleteOne();
+      res.json("Usuario eliminado correctamente");
     } catch (error) {
       res.status(500).json({ error: "Hubo un error" });
     }

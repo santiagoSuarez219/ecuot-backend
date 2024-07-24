@@ -7,6 +7,8 @@ import { connectDB } from "./config/db";
 import InterventionDataSheetRoutes from "./routes/InterventionDataSheetRoutes";
 import interventionRoutes from "./routes/interventionRoutes";
 import conflictRoutes from "./routes/ConflictRoutes";
+import informationRoutes from "./routes/InformationRoutes";
+
 import UserRoutes from "./routes/UserRoutes";
 import NewsRoutes from "./routes/NewsRoutes";
 
@@ -18,6 +20,7 @@ app.use(cors(corsConfig));
 
 app.use(express.json());
 
+app.use("/api/information", informationRoutes);
 app.use("/api/interventions", interventionRoutes);
 app.use("/api/conflicts", conflictRoutes);
 app.use("/api/users", UserRoutes);

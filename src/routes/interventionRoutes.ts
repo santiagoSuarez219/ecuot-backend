@@ -41,7 +41,6 @@ router.get("/", InterventionController.getAllInterventions);
 
 router.get(
   "/:id",
-  authenticate,
   param("id").isMongoId().withMessage("El id de la intervención no es válido"),
   handleInputErrors,
   InterventionController.getInterventionById
