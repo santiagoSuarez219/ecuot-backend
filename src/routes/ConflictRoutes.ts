@@ -39,7 +39,6 @@ router.put(
   body("actorsInvolved")
     .notEmpty()
     .withMessage("Los actores involucrados son requeridos"),
-  body("image").notEmpty().withMessage("La imagen es requerida"),
   handleInputErrors,
   ConflictController.updateConflict
 );

@@ -12,7 +12,6 @@ export interface IIntervention extends Document {
   datasheet: Types.ObjectId;
   conflicts: PopulatedDoc<IConflict & Document>[];
   news: PopulatedDoc<INews & Document>[];
-  // createdBy: Id de usuario
 }
 
 //TODO: Descomentar los campos que se necesiten e incluir relaciones con otras entidades
@@ -43,7 +42,7 @@ const InterventionSchema = new Schema(
     },
     image: {
       type: String,
-      required: true,
+      default: "",
     },
     datasheet: {
       type: Types.ObjectId,
@@ -52,7 +51,6 @@ const InterventionSchema = new Schema(
     },
     conflicts: [{ type: Schema.Types.ObjectId, ref: "Conflict" }],
     news: [{ type: Schema.Types.ObjectId, ref: "News" }],
-    // createdBy: {type: Schema.Types.ObjectId, ref: 'User'}
   },
   { timestamps: true }
 );

@@ -1,5 +1,6 @@
 import type { Request, Response } from "express";
 import News from "../models/News";
+import Intervention from "../models/Intervention";
 
 export class NewsController {
   static createNews = async (req: Request, res: Response) => {
@@ -49,12 +50,31 @@ export class NewsController {
           .status(404)
           .json({ message: "Acontecimiento noticioso no encontrado" });
       }
+      const intervention = await Intervention.findById(news.intervention);
+
       news.newsName = req.body.newsName;
       news.description = req.body.description;
       news.newsDate = req.body.newsDate;
       news.intervention = req.body.intervention;
       news.image = req.body.image;
-      await news.save();
+
+      const existsNews = req.intervention.news.find(
+        (oneNews) => oneNews.toString() === newsId.toString()
+      );
+
+      if (!existsNews) {
+        req.intervention.news.push(news._id);
+      }
+
+      intervention.news = intervention.news.filter(
+        (oneNews) => oneNews.toString() !== newsId.toString()
+      );
+
+      await Promise.allSettled([
+        news.save(),
+        intervention.save(),
+        req.intervention.save(),
+      ]);
       res.json("Acontecimiento noticioso actualizado correctamente");
     } catch (error) {
       res.status(500).json({ error: "Hubo un error" });

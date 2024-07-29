@@ -38,7 +38,7 @@ export const ConflictSchema = new Schema(
     },
     image: {
       type: String,
-      required: true,
+      default: "",
     },
   },
   { timestamps: true }

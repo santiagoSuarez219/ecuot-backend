@@ -32,7 +32,6 @@ router.post(
   body("internalSystem")
     .notEmpty()
     .withMessage("El sistema interno es requerido"),
-  body("image").notEmpty().withMessage("La imagen es requerida"),
   handleInputErrors,
   InterventionController.createIntervention
 );
@@ -61,7 +60,6 @@ router.put(
   body("internalSystem")
     .notEmpty()
     .withMessage("El sistema interno es requerido"),
-  body("image").notEmpty().withMessage("La imagen es requerida"),
   handleInputErrors,
   InterventionController.updateIntervention
 );
@@ -81,25 +79,12 @@ router.post(
   body("description")
     .notEmpty()
     .withMessage("La descripción de la ficha de intervención es requerida"),
-  body("image_description")
-    .notEmpty()
-    .withMessage(
-      "La imagen de descripcion de la ficha de intervención es requerida"
-    ),
   body("features")
     .notEmpty()
     .withMessage("Las características de la intervención son requeridas"),
-  body("image_features")
-    .notEmpty()
-    .withMessage(
-      "La imagen de características de la intervención es requerida"
-    ),
   body("conflictivity")
     .notEmpty()
     .withMessage("La conflictividad de la intervención es requerida"),
-  body("image_conflictivity")
-    .notEmpty()
-    .withMessage("La imagen de conflictividad de la intervención es requerida"),
   body("spatialization")
     .notEmpty()
     .withMessage("La espacialización de la intervención es requerida"),
@@ -136,7 +121,6 @@ router.post(
   body("actorsInvolved")
     .notEmpty()
     .withMessage("Los actores involucrados son requeridos"),
-  body("image").notEmpty().withMessage("La imagen es requerida"),
   handleInputErrors,
   ConflictController.createConflict
 );
@@ -161,7 +145,6 @@ router.post(
   body("newsName").notEmpty().withMessage("El nombre es requerido"),
   body("description").notEmpty().withMessage("La descripción es requerida"),
   body("newsDate").notEmpty().withMessage("La fecha es requerida"),
-  body("image").notEmpty().withMessage("La imagen es requerida"),
   handleInputErrors,
   NewsController.createNews
 );

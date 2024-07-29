@@ -31,7 +31,6 @@ router.put(
   body("newsName").notEmpty().withMessage("El nombre es requerido"),
   body("description").notEmpty().withMessage("La descripción es requerida"),
   body("newsDate").notEmpty().withMessage("La fecha es requerida"),
-  body("image").notEmpty().withMessage("La imagen es requerida"),
   handleInputErrors,
   NewsController.updateNews
 );

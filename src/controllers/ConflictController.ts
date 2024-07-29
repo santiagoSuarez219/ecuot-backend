@@ -1,5 +1,6 @@
 import type { Request, Response } from "express";
 import Conflict from "../models/Conflict";
+import Intervention from "../models/Intervention";
 
 export class ConflictController {
   static createConflict = async (req: Request, res: Response) => {
@@ -45,14 +46,33 @@ export class ConflictController {
       if (!conflict) {
         return res.status(404).json({ message: "Conflicto no encontrado" });
       }
+      const intervention = await Intervention.findById(conflict.intervention);
+
       conflict.conflictName = req.body.conflictName;
       conflict.description = req.body.description;
       conflict.timeStressOccurrence = req.body.timeStressOccurrence;
       conflict.actorsInvolved = req.body.actorsInvolved;
-      conflict.intervention = req.body.intervention;
       conflict.image = req.body.image;
+      conflict.intervention = req.intervention._id;
 
-      await conflict.save();
+      const existsConflict = req.intervention.conflicts.find(
+        (conflict) => conflict.toString() === conflictId.toString()
+      );
+
+      if (!existsConflict) {
+        req.intervention.conflicts.push(conflict._id);
+      }
+
+      intervention.conflicts = intervention.conflicts.filter(
+        (conflict) => conflict.toString() !== conflictId.toString()
+      );
+
+      await Promise.allSettled([
+        conflict.save(),
+        intervention.save(),
+        req.intervention.save(),
+      ]);
+
       res.json("Conflicto actualizado correctamente");
     } catch (error) {
       res.status(500).json({ error: "Hubo un error" });
@@ -68,8 +88,8 @@ export class ConflictController {
         (conflict) => conflict.toString() !== req.conflict._id.toString()
       );
       await Promise.allSettled([
-        req.conflict.deleteOne(),
         req.intervention.save(),
+        req.conflict.deleteOne(),
       ]);
       res.send("Conflicto eliminado correctamente");
     } catch (error) {

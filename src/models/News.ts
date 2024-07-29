@@ -32,7 +32,7 @@ export const NewsSchema = new Schema(
     },
     image: {
       type: String,
-      required: true,
+      default: "",
     },
   },
   { timestamps: true }

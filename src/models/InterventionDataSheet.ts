@@ -20,7 +20,6 @@ const InterventionDataSheetSchema = new Schema(
     },
     image_description: {
       type: String,
-      required: true,
     },
     features: {
       type: String,
@@ -28,7 +27,6 @@ const InterventionDataSheetSchema = new Schema(
     },
     image_features: {
       type: String,
-      required: true,
     },
     conflictivity: {
       type: String,
@@ -36,7 +34,6 @@ const InterventionDataSheetSchema = new Schema(
     },
     image_conflictivity: {
       type: String,
-      required: true,
     },
     spatialization: {
       type: String,
