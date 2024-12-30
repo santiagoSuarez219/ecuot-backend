@@ -38,6 +38,7 @@ router.post(
 
 router.get("/", InterventionController.getAllInterventions);
 
+router.get("/latest", InterventionController.getLatestInterventions);
 router.get(
   "/:id",
   param("id").isMongoId().withMessage("El id de la intervención no es válido"),

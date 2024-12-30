@@ -37,6 +37,18 @@ export class InterventionController {
     }
   };
 
+  static getLatestInterventions = async (req: Request, res: Response) => {
+    try {
+      // Get the lastest 3 interventions
+      const interventions = await Intervention.find({})
+        .sort({ createdAt: -1 })
+        .limit(3);
+      res.json(interventions);
+    } catch (error) {
+      res.status(500).json({ error: "Hubo un error" });
+    }
+  };
+
   static updateIntervention = async (req: Request, res: Response) => {
     const { id } = req.params;
     try {
