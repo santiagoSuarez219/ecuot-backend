@@ -30,7 +30,9 @@ export class InterventionController {
 
   static getAllInterventions = async (req: Request, res: Response) => {
     try {
-      const interventions = await Intervention.find({});
+      const interventions = await Intervention.find({}).populate(
+        "internalSystem"
+      );
       res.json(interventions);
     } catch (error) {
       res.status(500).json({ error: "Hubo un error" });
@@ -42,7 +44,8 @@ export class InterventionController {
       // Get the lastest 3 interventions
       const interventions = await Intervention.find({})
         .sort({ createdAt: -1 })
-        .limit(3);
+        .limit(3)
+        .populate("internalSystem");
       res.json(interventions);
     } catch (error) {
       res.status(500).json({ error: "Hubo un error" });

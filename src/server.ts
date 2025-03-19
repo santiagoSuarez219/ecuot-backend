@@ -9,6 +9,7 @@ import interventionRoutes from "./routes/interventionRoutes";
 import conflictRoutes from "./routes/ConflictRoutes";
 import informationRoutes from "./routes/InformationRoutes";
 
+import SystemRoutes from "./routes/SystemRoutes";
 import UserRoutes from "./routes/UserRoutes";
 import NewsRoutes from "./routes/NewsRoutes";
 
@@ -26,5 +27,6 @@ app.use("/api/conflicts", conflictRoutes);
 app.use("/api/users", UserRoutes);
 app.use("/api/intervention_datasheet", InterventionDataSheetRoutes);
 app.use("/api/news", NewsRoutes);
+app.use("/api/system", SystemRoutes);
 
 export default app;

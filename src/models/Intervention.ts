@@ -1,5 +1,6 @@
 import mongoose, { Schema, Document, PopulatedDoc, Types } from "mongoose";
 import { IConflict } from "./Conflict";
+import { ISystem } from "./System";
 import { INews } from "./News";
 
 export interface IIntervention extends Document {
@@ -7,7 +8,7 @@ export interface IIntervention extends Document {
   description: string;
   hierarchy: string;
   strategicProject: string;
-  internalSystem: string;
+  internalSystem: PopulatedDoc<ISystem & Document>[];
   image: string;
   datasheet: Types.ObjectId;
   conflicts: PopulatedDoc<IConflict & Document>[];
@@ -37,7 +38,8 @@ const InterventionSchema = new Schema(
       required: true,
     },
     internalSystem: {
-      type: String,
+      type: Schema.Types.ObjectId,
+      ref: "System",
       required: true,
     },
     image: {
