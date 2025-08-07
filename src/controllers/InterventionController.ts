@@ -29,12 +29,39 @@ export class InterventionController {
   };
 
   static getAllInterventions = async (req: Request, res: Response) => {
+    const { search, hierarchy, internalSystem } = req.query;
+
+    const query: any = {};
+
+    // Filtro por búsqueda en nombre o descripción
+    if (search && typeof search === "string") {
+      query.$or = [
+        { interventionName: { $regex: search, $options: "i" } },
+        { description: { $regex: search, $options: "i" } },
+      ];
+    }
+
+    // Filtro por jerarquía exacta
+    if (hierarchy && typeof hierarchy === "string" && hierarchy.trim() !== "") {
+      query.hierarchy = hierarchy;
+    }
+
+    // Filtro por Sistema Interno
+    if (
+      internalSystem &&
+      typeof internalSystem === "string" &&
+      internalSystem.trim() !== ""
+    ) {
+      query.internalSystem = internalSystem;
+    }
+
     try {
-      const interventions = await Intervention.find({}).populate(
+      const interventions = await Intervention.find(query).populate(
         "internalSystem"
       );
       res.json(interventions);
     } catch (error) {
+      console.error(error);
       res.status(500).json({ error: "Hubo un error" });
     }
   };
