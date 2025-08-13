@@ -1,6 +1,10 @@
 import mongoose from 'mongoose';
 import colors from 'colors';
 import { exit } from 'node:process';
+import path from 'path';
+import fs from 'fs';
+
+import TimeStressOcurrence from '../models/TimeStressOcurrence'; 
 
 export const connectDB = async () => {
     try {
@@ -13,3 +17,19 @@ export const connectDB = async () => {
         exit(1);
     }
 }
+
+// export const addHierarchies = async () => {
+//     try {
+    
+//         const dataPath = path.join(process.cwd(), 'src','seed', 'timeStreessOccurrence.json');
+//         const rawData = fs.readFileSync(dataPath, 'utf-8');
+//         const hierarchies = JSON.parse(rawData);
+//         await TimeStressOcurrence.deleteMany({});
+//         await TimeStressOcurrence.insertMany(hierarchies);
+//         console.log(colors.green.bold('✅ Intervenciones insertadas'));
+//     } catch (error) {
+//         console.error(error);
+//         console.log(colors.red.bold('Error adding interventions'));
+//         exit(1);
+//     }
+// }

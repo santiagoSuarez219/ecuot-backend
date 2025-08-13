@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "67d9e3749f394f4c2c8bcf6b"
+  },
+  "systemName": "Sistema de Espacio Público de esparcimiento y encuentro",
+  "createdAt": {
+    "$date": "2025-03-18T21:19:48.187Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-18T21:19:48.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d9e3a79f394f4c2c8bcf6e"
+  },
+  "systemName": "Sistema de Movilidad (vías, caminos, ciclorutas, transporte)",
+  "createdAt": {
+    "$date": "2025-03-18T21:20:39.960Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-18T21:20:39.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d9e3b49f394f4c2c8bcf71"
+  },
+  "systemName": "Sistema de Equipamientos",
+  "createdAt": {
+    "$date": "2025-03-18T21:20:52.695Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-18T21:20:52.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d9e3cd9f394f4c2c8bcf74"
+  },
+  "systemName": "Sistema de Servicios Públicos (domiciliarios y no domiciliarios)",
+  "createdAt": {
+    "$date": "2025-03-18T21:21:17.397Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-18T21:21:17.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d9e3da9f394f4c2c8bcf77"
+  },
+  "systemName": "Sistema Habitacional",
+  "createdAt": {
+    "$date": "2025-03-18T21:21:30.803Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-18T21:21:30.803Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d9e3e79f394f4c2c8bcf7a"
+  },
+  "systemName": "Sistema de Centralidades",
+  "createdAt": {
+    "$date": "2025-03-18T21:21:43.199Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-18T21:21:43.199Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d9e3f29f394f4c2c8bcf7d"
+  },
+  "systemName": "Sistema de Patrimonio Cultural Inmueble",
+  "createdAt": {
+    "$date": "2025-03-18T21:21:54.160Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-18T21:21:54.160Z"
+  },
+  "__v": 0
+}]

@@ -1,6 +1,7 @@
 import type { Request, Response } from "express";
 import News from "../models/News";
 import Intervention from "../models/Intervention";
+import mongoose from "mongoose";
 
 export class NewsController {
   static createNews = async (req: Request, res: Response) => {
@@ -18,8 +19,28 @@ export class NewsController {
   };
 
   static getAllNews = async (req: Request, res: Response) => {
+    const { search, intervention } = req.query;
+    
+    const query: any = {};
+
+    // Filtro por búsqueda en nombre o descripción (texto libre)
+    if (search && typeof search === "string") {
+      query.$or = [
+        { newsName: { $regex: search, $options: "i" } },
+        { description: { $regex: search, $options: "i" } },
+      ];
+    }
+
+    // Filtro por jerarquía (como ObjectId si es referencia)
+    if (
+      intervention &&
+      typeof intervention === "string" &&
+      mongoose.Types.ObjectId.isValid(intervention)
+    ) {
+      query.intervention = new mongoose.Types.ObjectId(intervention);
+    }
     try {
-      const news = await News.find({}).populate("intervention");
+      const news = await News.find(query).populate("intervention");
       res.json(news);
     } catch (error) {
       res.status(500).json({ error: "Hubo un error" });

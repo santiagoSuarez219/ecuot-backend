@@ -9,12 +9,15 @@ import interventionRoutes from "./routes/interventionRoutes";
 import conflictRoutes from "./routes/ConflictRoutes";
 import informationRoutes from "./routes/InformationRoutes";
 
+import TimeStressOcurrenceRoutes from "./routes/TimeStressOcurrenceRoutes";
+import HierarchyRoutes from "./routes/HierarchyRoutes";
 import SystemRoutes from "./routes/SystemRoutes";
 import UserRoutes from "./routes/UserRoutes";
 import NewsRoutes from "./routes/NewsRoutes";
 
 dotenv.config();
 connectDB();
+// addHierarchies();
 
 const app = express();
 app.use(cors(corsConfig));
@@ -28,5 +31,7 @@ app.use("/api/users", UserRoutes);
 app.use("/api/intervention_datasheet", InterventionDataSheetRoutes);
 app.use("/api/news", NewsRoutes);
 app.use("/api/system", SystemRoutes);
+app.use("/api/hierarchy", HierarchyRoutes);
+app.use("/api/time_stress_ocurrence", TimeStressOcurrenceRoutes);
 
 export default app;

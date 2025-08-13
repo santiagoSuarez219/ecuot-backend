@@ -1,6 +1,7 @@
 import type { Request, Response } from "express";
 import Conflict from "../models/Conflict";
 import Intervention from "../models/Intervention";
+import mongoose from "mongoose";
 
 export class ConflictController {
   static createConflict = async (req: Request, res: Response) => {
@@ -18,8 +19,31 @@ export class ConflictController {
   };
 
   static getAllConflicts = async (req: Request, res: Response) => {
+    const { search, intervention, timeStressOccurrence } = req.query;
+
+    const query: any = {};
+
+    if (search && typeof search === "string") {
+      query.$or = [
+        { newsName: { $regex: search, $options: "i" } },
+        { description: { $regex: search, $options: "i" } },
+      ];
+    }
+
+    if (intervention && typeof intervention === "string" &&
+          mongoose.Types.ObjectId.isValid(intervention)
+        ) {
+          query.intervention = new mongoose.Types.ObjectId(intervention);
+    }
+
+    if (timeStressOccurrence && typeof timeStressOccurrence === "string" &&
+          mongoose.Types.ObjectId.isValid(timeStressOccurrence)
+        ) {
+          query.timeStressOccurrence = new mongoose.Types.ObjectId(timeStressOccurrence);
+    }
+
     try {
-      const conflicts = await Conflict.find({}).populate("intervention");
+      const conflicts = await Conflict.find(query).populate("intervention");
       res.json(conflicts);
     } catch (error) {
       res.status(500).json({ error: "Hubo un error" });

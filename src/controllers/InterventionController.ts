@@ -3,6 +3,7 @@ import Intervention from "../models/Intervention";
 import InterventionDataSheet from "../models/InterventionDataSheet";
 import Conflict from "../models/Conflict";
 import News from "../models/News";
+import mongoose from "mongoose";
 
 export class InterventionController {
   static createIntervention = async (req: Request, res: Response) => {
@@ -17,6 +18,7 @@ export class InterventionController {
 
   static getInterventionById = async (req: Request, res: Response) => {
     const { id } = req.params;
+  // Método para migrar el campo internalSystem de string a ObjectID
     try {
       const intervention = await Intervention.findById(id);
       if (!intervention) {
@@ -28,43 +30,47 @@ export class InterventionController {
     }
   };
 
-  static getAllInterventions = async (req: Request, res: Response) => {
-    const { search, hierarchy, internalSystem } = req.query;
+static getAllInterventions = async (req: Request, res: Response) => {
+  const { search, hierarchy, internalSystem } = req.query;
 
-    const query: any = {};
+  const query: any = {};
 
-    // Filtro por búsqueda en nombre o descripción
-    if (search && typeof search === "string") {
-      query.$or = [
-        { interventionName: { $regex: search, $options: "i" } },
-        { description: { $regex: search, $options: "i" } },
-      ];
-    }
+  // Filtro por búsqueda en nombre o descripción (texto libre)
+  if (search && typeof search === "string") {
+    query.$or = [
+      { interventionName: { $regex: search, $options: "i" } },
+      { description: { $regex: search, $options: "i" } },
+    ];
+  }
 
-    // Filtro por jerarquía exacta
-    if (hierarchy && typeof hierarchy === "string" && hierarchy.trim() !== "") {
-      query.hierarchy = hierarchy;
-    }
+  // Filtro por jerarquía (como ObjectId si es referencia)
+  if (
+    hierarchy &&
+    typeof hierarchy === "string" &&
+    mongoose.Types.ObjectId.isValid(hierarchy)
+  ) {
+    query.hierarchy = new mongoose.Types.ObjectId(hierarchy);
+  }
 
-    // Filtro por Sistema Interno
-    if (
-      internalSystem &&
-      typeof internalSystem === "string" &&
-      internalSystem.trim() !== ""
-    ) {
-      query.internalSystem = internalSystem;
-    }
+  // Filtro por Sistema Interno (como ObjectId si es referencia)
+  if (
+    internalSystem &&
+    typeof internalSystem === "string" &&
+    mongoose.Types.ObjectId.isValid(internalSystem)
+  ) {
+    query.internalSystem = new mongoose.Types.ObjectId(internalSystem);
+  }
 
-    try {
-      const interventions = await Intervention.find(query).populate(
-        "internalSystem"
-      );
-      res.json(interventions);
-    } catch (error) {
-      console.error(error);
-      res.status(500).json({ error: "Hubo un error" });
-    }
-  };
+  try {
+    const interventions = await Intervention.find(query)
+      .populate("internalSystem")
+      .populate("hierarchy"); // solo si hierarchy es una referencia
+    res.json(interventions);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Hubo un error" });
+  }
+};
 
   static getLatestInterventions = async (req: Request, res: Response) => {
     try {
@@ -129,4 +135,6 @@ export class InterventionController {
       res.status(500).json({ error: "Hubo un error" });
     }
   };
+
+
 }

@@ -1,0 +1,1058 @@
+[
+  {
+    "_id": {
+      "$oid": "66a69c2062871dabe414efc7"
+    },
+    "conflictName": "Estado de las obras, habitanates expresan que las obras no se estan haciendo con buenos materiales y que lo bueno que hay se esta cambiando por la infraestructura",
+    "description": "El alcalde Luis Alfredo Gutiérrez y los habitantes de Belén dicen que en las obras no estan quedando como debieran, pues se están levantando, adoquines en las aceras en buenas condiciones y remplazados por otros que no cumplen con las expectativas, se le hace un llamado a mejorar los materiales de a la empresa contratista y a la EDU",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0b"
+    },
+    "actorsInvolved": "Luis Alfredo Gutierrez",
+    "intervention": {
+      "$oid": "66a42ebf18db8919f6922730"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-28T19:48:55.834Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6aa5662871dabe414efd3"
+    },
+    "conflictName": "Licencia ambiental,se presenta aposición de parte de la procuradura de antioquia de sobre la entrega de la lincia ambiental de parte del Area metropolitana a la carrera 76",
+    "description": "La procuraduría judicial agraria de Antioquia solicita que no sea el área metropolitana quien entregue la licencia ambiental de la carrera 76, pues el alcalde de Medellín es quien preside la junta directiva del área, y podría existir conflicto de intereses, además por lo cuestionado de la obra es necesario que se haga lo más transparente posible. En ese sentido, la licencia ambiental fue entregada po el ministerio del medio ambiente, no obstante, al hacer la entrega dejo algunas recomendaciones que debían ser tramitadas por el INVAL, pero la procuraduría expreso que era necesario sancionar la entidad porque no estaba dándole tramite a las recomendaciones especialmente las relacionadas con el corte y siembra de árboles en el sector",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Procurduria Judicial Agraria de Antioquia",
+    "intervention": {
+      "$oid": "66a42ebf18db8919f6922730"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-17T18:40:43.272Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6aa5662871dabe414efd5"
+    },
+    "conflictName": "Valorización,Los habitantes del barrios Belén exigen el no cobro de valorización para la finaiciación de la ampliación de la carrera 76",
+    "description": "Los habitantes del barrio Belén, especialmente aquellos aledaños a la calle Belén, no están de acuerdo con el cobro de valorización para la financiación de la carrera 76, en ese marco la primera acción que hacen es cuestionar el costo de la obra, afirmando que en el estudio de prefactibilidad esta puede costar 90 mil millones de pesos y en el de factibilidad hasta 130 mil millones, dineros que tendrían que ser pagados por medio de este instrumento de financiación. Además, el comité cívico de Belén denuncio en primera instancia que los voceros de la comunidad ante la administración municipal no son conocidos en los barrios En ese marco, se presentaron diferentes protestas de parte de los habitantes, resaltando la presencia de personas de la tercera edad, incluso la asociación nacional de maestro jubilados de Medellín, hicieron protestas hasta en el centro administrativo alpujarra. Asimismo, en las diferentes manifestaciones que se hicieron, se presenta marcha de cacerolas, marcha de bastones, y finalmente un paro cívico, todo en contra del cobro de valorización Asimismo, los sectores que se unieron a estas protestas están, La asociación nacional de maestros jubilados de Medellín, que en una ocasión desarrollo una movilización en la alpujarra, además se crearon alrededor de 13 comités cívicos en los barrios de Belén, y después se agruparon en el comité central, cuando se inicio con el paro cívico, los colegios privados de la zona también entraron en paro y las entidades bancarias con sus trabajadores presentes en la zona apoyaron. \n\nPor otra parte, como las reuniones entre la alcaldía y los comités no tuvieron frutos, se interpuso una acción popular contra la obra, donde se argumentaba que en el año 1990, habitantes de ese sector habían rechazado la obra 502, y que la ampliación de la 76, recogía un gran sector de lo que ya habían rechazado, dicho recurso jurídico fue fallado a favor de la comunidad, por el tribunal administrativo de Antioquia ya que en las reuniones de pacto de cumplimiento tampoco se llegó a algún acuerdo. Es necesario anotar que el cobro de valorización si se empezó a cobrar, y que a partir de esto se presento una discusión pues la alcaldía presentaba unas cifras de alto pago de los habitantes, lo que según ellos era señal de la aceptabilidad del instrumento de financiación, pero desde los comités cívicos se expresaba que esas cifras eran consecuencia del subsidio que entrego la alcaldía a los estratos 1,2 y 3. Finalmente, la valorización se cayó, fue necesario devolver la plata,  y las obras se hicieron parcialmente, es decir se cambiaron los planes iniciales y se hizo la ampliación con recursos del municipio",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Comité civico coordinador central (que agrupa a 13 subcomites) Comité Civico de Belén, Comité civico de san bernardo, Comité de Belén rincon",
+    "intervention": {
+      "$oid": "66a42ebf18db8919f6922730"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-27T20:12:44.811Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6aaf262871dabe414efd7"
+    },
+    "conflictName": "Pirámides de La Oriental",
+    "description": "La intervención del separador de la Oriental está enmarvada en el programa de resignificación del centro y tiene un componente de movilidad; según el gerente del centro (Alcaldía) la indisciplina para cruzar las vías es la principal motivación para la obra ya que resta capacidad al flujo de vehiculos. Adicionalmente la obra tiene componentes de reorganización de ventas informales y redes de servicios publicos. Se presenta conflicto en torno a lo estetico de la intervención ya que parte de la comunidad no lo encuentra agradable y en este sentido tambien critican la necesidad de la intervención, lo cual llega, incluso, a debate en el concejo. La contraloría de medellín tambien se pronuncia en contra de la intervención y genera un control de advertencia a la alcaldia por considerar que la obra afecta el paisaje, y en vez de cohesionar, sirve de barrera.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Mejoramiento de espacio público de corredores estructurantes de ciudad o zonales.",
+    "intervention": {
+      "$oid": "66a42f7518db8919f6922731"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-07T04:16:39.852Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6aaf262871dabe414efd6"
+    },
+    "conflictName": "Venta comerciantes Comerciantes aledaños a las obras de la 76 por que se estan demorando mucho en terminar la ampliación",
+    "description": "Las obras fueron realizadas sin la financiación de valorización, con un costo de 21000 millones, según el medio de comunicación. sin embargo, las tensiones se presentaron por las demoras en las entregas de las obras, comerciantes del sector manifiestan que tienen perdidas porque en los sectores donde hay ampliación se presenta alto bullicio y perdida de clientela. Además, en marzo de 2004 las obras se pararon y para julio de ese año estaban las obras sin avanzar lo que dificulto aún más condiciones de los habitantes y su expresión de que era necesario terminar las obras lo mas ligero posible ya que sus ventas estaban disminuidas",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Asociación de comerciantes de Belén,",
+    "intervention": {
+      "$oid": "66a42ebf18db8919f6922730"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-27T20:12:55.230Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6aaf262871dabe414efda"
+    },
+    "conflictName": "Cárcel San Cristobal",
+    "description": "Mediante carta enviada al ministro del interior y de justicia el grupo de garantes ciudadanos de la casa de paz del ELN solicita que se desiste de construir la nueva cárcel en el lote de San Cristóbal donde se encuentra su sede; argumentan que afectaría el desarrollo de las negociaciones, además que afectaría el patrimonio arquitectónico y ecológico del departamento (Casa del antiguo Gobernador Juan del Corral). La Alcaldía aduce que la decisión de construir o no el penal allí depende del ministerio del interior. Por su parte la comunidad de San Cristóbal también se opone a la edificación por considerar que rompe la estructura rural, promueve la expansión del casco urbano y porque no fue consultada para la presentación de dicha obra. Por estos motivos se realizan, protestas que incluyen marchas, pancartas en la iglesia y recolección de firmas para interponer acción popular. Alcaldía propone mesa de trabajo para concertar con la comunidad. Desde el concejo se propone debate sobre le impacto de la construcción. Mediante la figura de la mesa de trabajo y comisión accidental del concejo se definen acuerdos con la comunidad para la construcción del centro; los acuerdos implican la construcción de equipamientos sociales y capilla.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Comunidad San Cristobal",
+    "intervention": {
+      "$oid": "66fb0252d8cba292d085af05"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-27T20:13:28.469Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6aaf262871dabe414efdb"
+    },
+    "conflictName": "Ubicación Nueva Cárcel",
+    "description": "Para dar cumplimiento a fallo de tutela por hacinamiento en la cárcel de Bellavista se debe construir una nueva cárce, se define que el municipio define el lote y el ministerio de justicia la construye. La Alcaldia define tres posibles lotes en Santa Rosa de Osos, La Pintada, San Pedro de los Milagros, Yarumal y Angostura comunidades de estos municipios se oponen a la estructura.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Comunidad Municipios Santa Rosa de Osos, La Pintada, San Pedro de los Milagros, Yarumal y Angostura",
+    "intervention": {
+      "$oid": "66fb0252d8cba292d085af05"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-27T20:13:50.634Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6ab3462871dabe414efdc"
+    },
+    "conflictName": "Desalojo de venteros, cierre y demolición del Bazar de los puentes",
+    "description": "Desalojo de venteros, cierre y demolición del Bazar de los puentes demandaron a la administración por las afectaciones en la calidad de vida que generaban los locales del bazar, el problema escala a la esfera pública y se da inicio a una disputa discursiva. Los vendedores consideran que los deben indemnizar, sectores políticos que se debe demoler los locales. En julio de 2001 en lugar es sellado y se inician labores de adecuación por el AMVAy se desalojan 130 venteros, dos meses después los comerciantes al no ver resuelto el problema presentan tutela por brazos caídos. Tras cuatro meses de cierre, AMBA ratifica las concentraciones de CO2 y ordena medidas correctivas para la apertura, la municipalidad ofrece reubicar a los venteros en el segundo piso del bazar Bolívar, los comerciantes no aceptan. Los comerciantes se dedican a deambular por la ciudad. los comerciantes presentan acción de grupo ante el tribunal superior de Antioquia para evitar la demolición. Se presenta estudio de la U de A donde se argumenta que los niveles de contaminación son tolerables. Se ordena investigación disciplinaria contra el curador por el permiso de adjudicación a la construcción del bazar de los puentes. En febrero de 2003 se reabren los bazares se presentan divergencias entre venteros y municipio por las formas de adjudicación porque se les están entregando como arrendatarios y no como propietarios. El 16 de junio fueron desalojados los comerciantes del bazar.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0b"
+    },
+    "actorsInvolved": "COODEPUENTES venteros asociados",
+    "intervention": {
+      "$oid": "66a4305b18db8919f6922734"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-27T20:14:23.776Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6ab3462871dabe414efde"
+    },
+    "conflictName": "Oposición de los vecinos del barrio Prado centro a la construcción del Bazar de los puentes",
+    "description": "Los habitantes del barrio Prado centro se oponen a la construcción de la obra porque consideran que situar en sus límites las ventas informales deteriora las características de barrio patrimonial",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Representantes barrio Prado",
+    "intervention": {
+      "$oid": "66a4305b18db8919f6922734"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-27T20:15:57.640Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6ab3462871dabe414efdf"
+    },
+    "conflictName": "Ampliación de La 33",
+    "description": "Ampliación de la CL 33 entre la Avda del Rio y Bulerías, para los habitantes de la zona la obra conllevó a que no se tenga espacio para caminar puesto que los antejardines se convirtieron en zonas de parqueo y los comerciantes consideran que no tienen el suficiente espacio para que las personas hagan sus compras tranquilas. Alcaldia abre espacios para concertar soluciones a la falta de espacio en la 33, comerciantes solicitan que se tengan zonas de parqueo, comunidad solicita que se tenga en cuenta que esta es tambien una zona residencial. En el 2007 además de las denuncias de los comerciantes, la comunidad tambien se manifestó por la tala de 43 arboles solicitada por la secretaria de obras publicas en el proceso de remodelación de los andenes, mediante audiencia publica el AMVA escuchó a las partes e informó que tomaría decisión.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Comunidad, Comerciantes",
+    "intervention": {
+      "$oid": "66a4305b18db8919f6922735"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-27T20:16:08.204Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6ab3462871dabe414efe6"
+    },
+    "conflictName": "Daño Acueducto Morgan",
+    "description": "La comunidad de la vereda Morgan denuncia perjuicios en el acueducto a causa las obras de la doble calzada en vía a Las Palmas, además pide a las autoridades que no la dejen sola en la solución definitiva de esta problemática, pues ello tal vez implicaría acondicionar nuevas redes. El gerente de Macroproyectos del departamento manifestó que se está pendiente de este caso y que ha sido difícil solucionar el problema por tanto el acueducto es artesanal y no cuenta ni siquiera con planos. El director de la obra también se manifestó diciendo que se le ha estado colaborando a la comunidad con el restablecimiento del acueducto y dijo que en esta clase de obras suelen presentarse este tipo de situaciones, que comprenden la angustia de la comunidad y están dispuestos a resolver sus inquietudes.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Comunidad",
+    "intervention": {
+      "$oid": "66a4305b18db8919f6922738"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-27T20:16:33.165Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6ab3462871dabe414efe2"
+    },
+    "conflictName": "Pobladores afectados en sus viviendas por la construcción del túnel demandan a la constructura",
+    "description": "En el 30 de junio de 1999 el tribunal administrativo falla a favor de 7 familias que presentaron una acción de tutela por afectaciones en su viviendas debido a las excavaciones para la construcción del túnel, el tribunal ordena reubicar las familias afectadas y pagar un monto de dinero por sus viviendas y reformas, suspender el tráfico pesado en la vereda la Volcana. Debido a irregularidades en el manejo ambiental de la obra se realiza audiencia pública en marzo de 2000, donde los pobladores de San Cristobal y Palmitas dan cuenta de las afectaciones por la obra. Se realizan reuniones con la gerencia donde se compromete a resolver y la interventoría contratada por la empresa dice que los daños de las viviendas no son causados por la obra; la empresa se niega a las compensaciones.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "JAC",
+    "intervention": {
+      "$oid": "66a4305b18db8919f6922736"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-22T17:37:25.823Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66a6ab3462871dabe414efe5"
+    },
+    "conflictName": "Cierre las Palmas tramo Los Balsos Las Palmas",
+    "description": "Tramo Los Balsos - Las Palmas. Tensiones asociadas a la ejecución de la obra, en particular los cierres en la via debido a deslizamientos  y retraso en la entrega. Los actores en el conflicto son La SAI como ente académico que critica la falla en los taludes y la falta de retornos, El contratista para quien la cuasa de los fallos y el retraso es un invierno severo y la gobernación de Antioquia quien autoriza los cierres en la via",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Veeduría SAI",
+    "intervention": {
+      "$oid": "66a4305b18db8919f6922738"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-07-28T18:27:50.501Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-27T20:16:19.322Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc4e63aaffd5b5ba64a48e"
+    },
+    "conflictName": "Construcción de la cárcel El Pedregal",
+    "description": "Tras la necesidad de crear un centro penitenciario para disminuir el hacinamiento carcelario y decidir edificarla en el corregimiento de San Cristóbal de la ciudad de Medellín, un grupo de garantes ciudadanos envió el 6 de julio de 2006 una carta al Ministro del Interior y de Justicia solicitando que se desistiera de construir la nueva cárcel en el lote de San Cristóbal, pues allí se encontraba la sede de la Casa de Paz del ELN.  Argumentaron que afectaría el desarrollo de las negociaciones, además del patrimonio arquitectónico y ecológico del departamento (Casa del antiguo Gobernador Juan del Corral), pero la alcaldía adujo que la decisión de construir o no el penal allí dependía del Ministerio del Interior. Por su parte, la comunidad de San Cristóbal también se opuso a la edificación por considerar que rompía la estructura rural, promovía la expansión del casco urbano y porque no fue consultada para la presentación de dicha obra. Por estos motivos el 2 de septiembre del 2006 se realizaron protestas que incluyeron marchas, pancartas en la iglesia y recolección de firmas para interponer acción popular. Por su parte, la alcaldía propuso una mesa de trabajo para concertar con la comunidad y desde el Concejo se propuso el debate sobre el impacto de la construcción. Además, mediante la figura de la mesa de trabajo y Comisión Accidental del Concejo, se definieron acuerdos con la comunidad para la construcción del centro; los acuerdos implicaban la construcción de equipamientos sociales y una capilla.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Expansión de infraestructura penitenciaria",
+    "intervention": {
+      "$oid": "66fb0252d8cba292d085af05"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727811151/ecuot/teyoqzdnyqndd0f8ywcf.jpg",
+    "createdAt": {
+      "$date": "2024-10-01T19:32:51.783Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T19:32:51.783Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc4fcaaaffd5b5ba64a49e"
+    },
+    "conflictName": "Problemáticas estructurales de la biblioteca",
+    "description": "Tras la entrega del Parque Biblioteca España en el año 2007, en el año 2014 se determinó que el proyecto había presentado graves problemas estructurales relacionados con desprendimiento de piezas de fachadas, anclajes y humedad, por lo cual su reparación oscilaba entre los 8.000 y 10.000 millones de pesos. Frente a esto, la Empresa de Desarrollo Urbano y la alcaldía de Medellín, decidieron entablar demandas en contra del constructor, diseñador e interventor de la obra. No obstante, el diseñador Giancarlo Mazzantí aseguró que el daño no tenía que ver con el diseño y la constructora Arquitectura y Concreto advirtió que hizo recomendaciones sobre las fallas, pero no fueron tenidas en cuenta. Finalmente, el subcontralor de Medellín expresó que la Contraloría General determinaría cuales eran las causas de los daños y haría confirmación de detrimento patrimonial para asignar responsables.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0b"
+    },
+    "actorsInvolved": "Alcaldía de Medellín",
+    "intervention": {
+      "$oid": "66fb0468d8cba292d085af29"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727811501/ecuot/cdwjfevhkftmpchzf6xo.png",
+    "createdAt": {
+      "$date": "2024-10-01T19:38:50.671Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T19:38:50.671Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc507aaaffd5b5ba64a4a7"
+    },
+    "conflictName": "Avalúos de vivienda",
+    "description": "El conflicto del Parque Bicentenario se centra en la compra de predios para su construcción. Los habitantes de la zona de Boston expresaron que la Empresa de Desarrollo Urbano no les estaba pagando el precio justo por sus viviendas y salieron a las calles a exigirlo. La venta de los predios se dificultó y el día 09 de abril del 2010, la Administración Municipal utilizó la fuerza pública para proceder con la demolición de siete viviendas en la calle 51 entre las carreras 37 y 38, lo cual terminó en protestas por parte de la comunidad y el concejal Carlos Ballesteros aseguró que hubo falta de comunicación con la ciudadanía y exceso de fuerza pública. 10 meses después, en febrero de 2011, los inquilinos de las viviendas que iban a ser demolidas mostraron su descontento, pues se tenían que desplazar y perderían el beneficio de pagar un arriendo a precio bajo, el cual no encontrarían en otra zona de la ciudad.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Propietarios e inquilinos de las viviendas",
+    "intervention": {
+      "$oid": "66a4305b18db8919f692273d"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727811699/ecuot/ikunbyhq93pdp1jxbfh4.png",
+    "createdAt": {
+      "$date": "2024-10-01T19:41:46.769Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T19:41:46.769Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc5150aaffd5b5ba64a4b0"
+    },
+    "conflictName": "Incumplimiento a la obra Tren de cercanías",
+    "description": "Se realizó una plenaria en el Concejo de Medellín para revisar la factibilidad del proyecto del Tren de Cercanías. En la plenaria intervendrían el Metro, la Secretaría de Planeación Municipal, el Área Metropolitana del Valle de Aburrá, y el director regional de ferrocarriles. Asimismo, por parte del gobierno nacional se destinaron recursos para la estructuración del proyecto, sin embargo, este no se llevó a cabo, lo cual ocasionó que el Ministerio de Hacienda exigiera el reintegro de 7.200 millones de pesos desembolsados por la nación para la ejecución de la obra del tren de cercanías. \n\nDebido a la que la obra no se ejecutó y se disolvió la sociedad que se había creado para tal fin, los dineros debían ser reembolsados al presupuesto general de la nación, cosa que no había sucedido. En coherencia con ello, Ferrovías, empresa creada para la articulación del proyecto del tren de cercanías, hizo la solicitud al Instituto para el Desarrollo de Antioquia  para solicitar el reintegro de los dineros aportados por la nación al proyecto; al mismo tiempo presentó un comunicado de prensa en el que criticaba la actitud de desinterés de los socios del proyecto frente al futuro de este e informó que se contaba con el 80% de los recursos pero el Metro, después de un estudio contratado, consideró que no continuaba en la sociedad, pues no era rentable. \n\nCon el fin de no permitir que se perdiera el proyecto, se presentó un rediseño de este en el cual el costo bajaba de 57.000 millones a 24.000 millones de pesos. Finalmente, desde que el Metro decidió que no estaría en el proyecto, los actores restantes, Gobernación de Antioquia, Área Metropolitana del Valle de Aburrá y Municipio de Medellín, buscaron formas de reactivarlo planteando en el rediseño que el tren no fuera solo para el transporte de pasajeros sino también para el transporte de carga.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Gobierno Nacional ",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922758"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727811912/ecuot/ovyzwlbih0o76llmrwcl.jpg",
+    "createdAt": {
+      "$date": "2024-10-01T19:45:20.779Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-17T20:40:03.734Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc51ecaaffd5b5ba64a4b9"
+    },
+    "conflictName": "Propuesta del Plan Parcial",
+    "description": "La controversia central es que la renovación urbana propuso un cambio de uso del suelo que afectaba la principal actividad económica de las familias de la zona, la metalmecánica. Por ello, las familias solicitaban permanecer en el sector y no ser desplazadas, además, que se les reconociera y se negociara con ellos las decisiones que se tomarían en términos de los usos del territorio. Ante la dificultad de concertar con las familias y los retrasos en el plan, la institucionalidad modificó lo establecido, provocando desinformación y confusión sobre el proceso, y ocasionando que las comunidades se incomodaran por el incumplimiento a las concertaciones iniciales y el injusto pago de predios. Esta preocupación generó que, el 1 de marzo de 2013, la comunidad iniciara una manifestación y el 1 de mayo de 2015 buscara interponer una acción popular contra la Empresa de Desarrollo Urbano ante el temor de ser desalojados.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Habitantes de Naranjal ",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922750"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727812065/ecuot/tc4estofs6drxah7fe3z.jpg",
+    "createdAt": {
+      "$date": "2024-10-01T19:47:56.248Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T19:47:56.248Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc526daaffd5b5ba64a4c2"
+    },
+    "conflictName": "Retrasos en el diseño del Plan",
+    "description": "Se presenta un conflicto en relación con los retrasos en diseños, permisos y licencias que presentaba el proyecto, aludiendo a un retraso futuro en la ejecución.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Contraloría General de Medellín",
+    "intervention": {
+      "$oid": "66a4305b18db8919f692273f"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727812195/ecuot/bjenxu9xxtzmk0e0vtyw.jpg",
+    "createdAt": {
+      "$date": "2024-10-01T19:50:05.057Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T19:50:05.057Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc52d7aaffd5b5ba64a4cb"
+    },
+    "conflictName": "Afectaciones estructurales de vivienda",
+    "description": "La comunidad de la vereda de Pedregal Bajo presentó incomodidad ante las afectaciones que las intervenciones del proyecto, específicamente la vía de la zona El Cucaracho, ocasionaron a sus viviendas e impusieron una acción de tutela a la alcaldía, la Empresa de Desarrollo Urbano y la Constructora Magma S.A",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Habitantes de la Vereda El Pedregal ",
+    "intervention": {
+      "$oid": "66a4305b18db8919f692273f"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727812306/ecuot/rlhs23dvpcxhu7fpy2vr.jpg",
+    "createdAt": {
+      "$date": "2024-10-01T19:51:51.491Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T19:51:51.491Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc5315aaffd5b5ba64a4d4"
+    },
+    "conflictName": "Déficit de equipamientos básicos",
+    "description": "La comunidad de Pajarito y Nuevo Occidente, se mostró en tensión debido a la falta de equipamientos necesarios para el desarrollo social y económico de la comunidad, pues había retrasos en la construcción de la Unidad Hospitalaria, colegios, parques, canchas y supermercados.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Habitantes Ciudadela de Nuevo Occidente",
+    "intervention": {
+      "$oid": "66a4305b18db8919f692273f"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727812366/ecuot/jw4dwcumo8ht3s970saj.jpg",
+    "createdAt": {
+      "$date": "2024-10-01T19:52:53.193Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T19:52:53.193Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc538caaffd5b5ba64a4dd"
+    },
+    "conflictName": "Reorganización de las rutas de buses",
+    "description": "Por la reorganización de buses, la Junta de Acción Comunal de Prado Centro interpuso el 4 de julio de 2003 una acción popular en contra de la alcaldía de Medellín por no reconocer los derechos colectivos, de patrimonio, medio ambiente y calidad de vida debido al aumento del flujo vehicular. Un año después, los habitantes del sector reportaron daños estructurales en sus viviendas por la vibración del transporte y se interpuso otra acción popular ante el Tribunal Administrativo de Antioquia para que se hicieran modificaciones al Plan Cuadrantes. Además, los transportadores se mostraron preocupados por la reorganización y la perdida de pasajeros en paraderos tradicionales, por ello, el 11 de septiembre del 2004 la Secretaría de Transporte Modificó el recorrido de las 56 rutas para que volvieran al centro.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Junta de Acción Comunal Barrio Prado y Transportadores",
+    "intervention": {
+      "$oid": "66a6c890d355f0c1ad43ec1f"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727812479/ecuot/fpd7mycpex0sddpqplxj.png",
+    "createdAt": {
+      "$date": "2024-10-01T19:54:52.973Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T19:54:52.973Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc5417aaffd5b5ba64a4e6"
+    },
+    "conflictName": "Inconformidad de los habitantes del barrio Conquistadores",
+    "description": "Habitantes de Conquistadores en desacuerdo con la obra de Parques del Río debido a los efectos ambientales de la construcción y a la tala de árboles para la primera etapa del megaproyecto. Por ello, el día 9 de abril del 2015 protestaron bloqueando los dos carriles habilitados de la autopista sur con el objetivo de obtener mayores garantías y generar reacciones para un rediseño de la obra.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Habitantes del barrio Conquistadores",
+    "intervention": {
+      "$oid": "66a4305b18db8919f692273e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727812625/ecuot/eswqw0uqmuv9ttuztxbv.jpg",
+    "createdAt": {
+      "$date": "2024-10-01T19:57:11.343Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T19:57:11.343Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc54c8aaffd5b5ba64a4ef"
+    },
+    "conflictName": "Cuestionamiento político-académico al proyecto",
+    "description": "Los conflictos en relación con este megaproyecto comprendieron: la autorización de crear una sociedad de capital mayoritariamente pública (Empresas Públicas de Medellín e Interconexión Eléctrica S.A) para la construcción de la obra, cierres en la Autopista Sur y la Avenida Regional, caos vehicular, la poca articulación regional del proyecto por la coyuntura de movilidad como una necesidad de Prosur, el costo del proyecto, la falta de conocimiento de los estudios técnicos, el encarecimiento del suelo y la adición presupuestal  de 96.580 millones de pesos a los 160.000 millones que se habían estipulado.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Académicos-Sociedad Antioqueña de Ingenieros y Arquitectos y concejales ",
+    "intervention": {
+      "$oid": "66a4305b18db8919f692273e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727812786/ecuot/zlzagoipeorgkakpbafs.jpg",
+    "createdAt": {
+      "$date": "2024-10-01T20:00:08.376Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T20:00:08.376Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc5737aaffd5b5ba64a4fd"
+    },
+    "conflictName": "Conflicto ambiental",
+    "description": "Con el inicio de la construcción del Metroplús como transporte masivo de mediana capacidad, la institucionalidad decidió realizar una tala de árboles en la calle 30 de la ciudad, lugar por donde transitaría el Metroplús. Ante esto, el Ministerio de Transporte mostró su rechazo porque consideraba que se estaba realizando una \"aniquilación del corredor verde\".  Por ello, el alcalde la ciudad, Federico Gutiérrez, acepto que se equivocaron y faltó pedagogía pero que no fue una tala indiscriminada, además, que por cada árbol que se talaba se iban a sembrar dos. De igual forma, la subdirección del Área Metropolitana del Valle de Aburrá expresó que el desarrollo de la ciudad había estado demarcado por hacerse a espaldas del rio y de la zona natural que la compone. A esta tensión se sumaron los ciudadanos de la comunidad de Belén, quienes aseguraron que se estaban sembrando árboles delicados que se secaban con facilidad y necesitaban de cuidados especiales. Por todo ello, el AMVA creo un Plan Maestro de Zonas Urbanas para el cuidado de las especies.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Ministerio de Transporte y Comunidad de Belén",
+    "intervention": {
+      "$oid": "66a4305b18db8919f692273c"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727813423/ecuot/shyrdjeugt2zq9xm3jde.jpg",
+    "createdAt": {
+      "$date": "2024-10-01T20:10:31.938Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T20:10:31.938Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc57c2aaffd5b5ba64a506"
+    },
+    "conflictName": "Conflicto comercial-habitacional",
+    "description": "La construcción del Metroplús implicó cierres viales durante todo el proceso de ejecución. Desde el año 2006, los comerciantes manifestaron su inconformidad por la reducción de sus ventas, tanto los de la calle 30 como los del sector de Manrique y la calle 10, ya que sus ingresos se habían reducido más de un 90%. Ante esto, en diciembre de 2006, la empresa constructora inicio la actividad \"el comercio en Manrique está vivo\" con el objetivo de que los comerciantes reactivaran las ventas al salir a las calles. Asimismo, en junio del año 2007, debido a las inconformidades de los comerciantes y residentes, el Juzgado Sexto Administrativo falló a favor de una acción popular presentada por la comunidad para que se les realizara un Plan de Manejo Socioambiental con el objetivo de proteger sus derechos, disminuir bloqueos de las vías y generar compromisos en torno a las obras y la movilidad ciudadana. No obstante, durante los años 2007 y 2008 los comerciantes se siguieron pronunciando porque las ventas no despegaban, había disminución en más del 70% de ingresos y las obras no avanzaban. Asimismo, en 2013, después de un año de operación del Metroplús, los comerciantes de la calle 30 expresaban que el sistema no les reactivó los ingresos y las utilidades seguían siendo menores a las de antes; el directivo de Fenalco Antioquia, en ese entonces, Sergio Soto, acompañó en sus argumentos a los comerciantes, pero los voceros del Metroplús aseguraron que se les dio acompañamiento antes, durante y después del proyecto, por lo cual habían cumplido su misión.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Comerciantes",
+    "intervention": {
+      "$oid": "66a4305b18db8919f692273c"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727813564/ecuot/amyzdrnjjk9ejip9bh2m.jpg",
+    "createdAt": {
+      "$date": "2024-10-01T20:12:50.386Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T20:12:50.386Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "66fc584faaffd5b5ba64a50f"
+    },
+    "conflictName": "Inoperatividad de la Estación San Pedro",
+    "description": "La estación del Metroplús San Pedro trajo consigo tensiones. en enero del año 2012, el Metro no recibió la estación debido a las condiciones técnicas que presentaba al no contemplar a las personas con movilidad reducida. Además, la inclinación de la estación podía causar problemas de ergonomía a las personas que permanecieran dentro de la estación, lo cual se unió a los accidentes que podía causar el movimiento brusco del bus al momento de arrancar su viaje en tal pendiente. No obstante, Metroplús expresó que se podía operar por el concepto emitido por la Fundación Colombia Accesible. Más tarde, en Julio, la Contraloría General de Medellín cifró 1.115 millones de pesos en detrimento patrimonial por la construcción de la estación. Finalmente, en el año 2015, la Contraloría retomo las investigaciones sobre las responsabilidades mientras el Metroplús afirmaba que el Metro recibió la estación, pero no la operó. Por ello, la Procuraduría Provincial del Valle de Aburrá ordenó actuación disciplinaria en contra del gerente general y el director jurídico del Metro por omisión al funcionamiento, funcionamiento que fue poco recomendado, en 2014, por la Superintendencia de Puertos y Transporte. La conflictividad en relación con la estación ocasionó pensar en nivelar la rampa de acceso, demoler y volver a construir, trasladar o eliminar la estación.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Metro de Medellín",
+    "intervention": {
+      "$oid": "66a4305b18db8919f692273c"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727813682/ecuot/i8ovq2olwreoo3yermek.jpg",
+    "createdAt": {
+      "$date": "2024-10-01T20:15:11.332Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-01T20:15:11.332Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6703faa819ef5ed35917f8a2"
+    },
+    "conflictName": "Cierre -Curva de Rodas",
+    "description": "En este episodio se identifican varias tensiones, todas derivadas de la falta de claridad desde el ordenamiento territorial respecto al manejo de las basuras, en particular a la decisión de expedir licencias urbanísticas para construir viviendas en la parte baja del relleno; esto aunado a las condiciones técnicas en las que se realice la disposición final de los residuos asociados a la técnica de relleno sanitario hace que se presente una serie de reclamaciones por parte de los habitantes de esta zona, los cuales se organizan en veedurias y de esta forma ganan incidencia en los espacios donde se discute el tema (Veeduria ciudadana curva de rodas, Comité) hay momentos en los que se llegan a vias de hecho como no permitir el ingreso de vehiculos al relleno sanitario o protestas. Dichas reclamaciones son apoyadas por una serie de actores en su mayoria del gobierno local de Bello, contraloría, Concejales, alcalde e incluso de orden departamental: Asamblea, Procuradoría agraria. EN la otra orilla se presenta la posición de EVM la cual presta el servicio de recolección de basuras. En un principio EVM mantiene la posición de que va a implementar una serie de acciones para disminuir impactos, luego afirma que va a cambiar el sitio de disposición, pero que debe encontrar antes un terreno, por lo cual solicita en varias ocasiones que se prorrogue la vida útil del relleno argumentando que de no hacerlo se aboca al área metropolitana a una crisis ambiental. Por ultimo EVM con tal de ganar tiempo cambia el uso del terreno de curva de rodas de disposición final a tratamiento de residuos. La posición de EVM es apoyada por Concejo de Medellín, alcaldía y AMVA. Se identifican una serie de actores mediadores dentro de los cuales el rol mas importante lo asume Corantioquia como autoridad ambiental encargada de definir la aprobación de la licencia ambiental, quien finalmente la encargada de definir las prorrogas y el cierre definitivo del relleno sanitario; entre otros actores se encuentran la contraloría general de Medellin quien informa sobre posible detrimento patrimonial y el concejo de estado quien apoya la decisión de cierre definitivo adoptada por Corantioquia",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Relocalización del sitio de disposición final de basuras",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922752"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-10-07T15:13:44.369Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-07T15:13:44.369Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6703fcf919ef5ed35917f8db"
+    },
+    "conflictName": "Relocalización relleno - La Pradera",
+    "description": "Debido a la orden de cierre del relleno curva de rodas dada por Corantioquia, la Alcaldía de  Medellín en conjunto con los municipios del área metropolitana inician la búsqueda de un sitio para hacer disposición final de los residuos y dados los tiempos tan cortos para la adecuación, sitios temporales para disposición final. En esta búsqueda identifican posibilidades en el municipio de Sopetran de acuerdo a propuesta de interaseo, la comunidad y la alcaldía niegan la posibilidad a través de consulta popular. Se propone hacer disposición temporal en escombreras en zona urbana de Medellín contra lo cual se pronuncian las comunidades de la comuna 13, la vereda pajarito. En la búsqueda de lotes temporales se proponen lote en Bello, sector de Navarra donde la comunidad se organiza e informa que no permitirá el ingreso de vehículos que transporten basura, ademas el  Concejo de Bello se pronuncia en contra de permitir que se use ese lote con la destinación mencionada. El municipio de Girardota se opone al uso del lote de metromezclas e informa que si lo usa será solo para disposición municipal no metropolitana. La tensión en este caso se centra en el municipio de Barbosa por dos motivos, en primer lugar porque su cabecera municipal se encuentra cerca del lote de la pradera en jurisdiccion de donmatias el cual fue escogido para hacer disposicion final, y en segunda instancia porque el AMVA determina que se puede hacer disposición temporal en lote cercano al parque de las aguas, ante este caso la comunidad aledaña a dicho lote protesta y bloquea la vía posición apoyada desde el concejo municipal y desde la alcaldía.  Finalmente se determina Pradera como sitio de disposición final, los alcaldes del nordeste solicitan compensaciones y seguimiento al proceso de disposición en dicho relleno. Controlaría general de medellinense apoya la solicitud de revisión de proceso de disposición y genera informe al respecto",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Relocalización del sitio de disposición final de basuras",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922753"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-10-07T15:23:37.378Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-07T15:23:37.378Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "673e9dd72e6332aaa69ad25b"
+    },
+    "conflictName": "Comerciantes y habitantes de la calle 10 no estan deacuerdo la realización del proyecto Alameda de la 10",
+    "description": "En mayo de 2002 la Alcaldía de Medellín anunció a la comunidad de El Poblado, el proyecto Alameda de la 10, consistente en recuperar el espacio público mediante la intervención de los andenes de la calle, y mejorar la movilidad a partir de la rectificación de la vía a dos carriles y un intercambio vial en el centro comercial Vizcaya. Durante julio de 2002 y julio de 2003 los habitantes y comerciantes del área afectada se opusieron a la realización de obra, argumentando la falta de concertación y de un plan que la respaldara, motivo por el cual la obra fue suspendida.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Comerciantes formalizados",
+    "intervention": {
+      "$oid": "673e9b102e6332aaa69ad222"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-11-21T02:41:27.343Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-21T02:41:27.343Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "673e9e352e6332aaa69ad267"
+    },
+    "conflictName": "Comerciantes inconformes  con los efectos en sus negociones produccidos por la ejecución de las obras",
+    "description": "En enero de 2007 iniciaron las obras de adecuación de la calle 10 inscritas en el plan parcial para el Poblado, unos meses después los comerciantes de la calle se vieron perjudicados por los efectos de la construcción, por tanto, solicitaron a la administración municipal una indemnización por los daños causados.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Comerciantes formalizados",
+    "intervention": {
+      "$oid": "673e9b102e6332aaa69ad222"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-11-21T02:43:01.415Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-21T02:43:01.415Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6761c6582648929a84481a44"
+    },
+    "conflictName": "Reubicación de familias",
+    "description": "Se están construyendo 35 puentes en un proyecto que se espera esté operativo en diciembre de 2022, mejorando el acceso entre regiones y fomentando el desarrollo económico. Aproximadamente 1,200 familias de áreas cercanas, como La Iguaná y El Pesebre, deberán ser reubicadas, lo que ha generado preocupación por la falta de información sobre el proceso y las compensaciones. La Gobernación y la Nación financiarán parte del proyecto, mientras que el Área Metropolitana aportará $18,000 millones. Aunque hay consenso sobre la necesidad de la obra, los residentes expresan inquietudes sobre su impacto en sus vidas y la falta de claridad en la reubicación. Se han realizado reuniones de socialización, pero persisten las protestas por el daño ecológico que podría causar el proyecto.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Habitantes, JAC",
+    "intervention": {
+      "$oid": "66a4305b18db8919f6922737"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-12-17T18:43:36.681Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-17T18:43:36.681Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6761c6fc2648929a84481a71"
+    },
+    "conflictName": "Oposición de los vecinos del barrio Prado Centro a la construcción del Bazar de los Puentes",
+    "description": "Los habitantes del barrio Prado centro se oponen a la construcción de la obra porque consideran que situar en sus límites las ventas informales deteriora las características de barrio patrimonial.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Representantes del barrio Prado",
+    "intervention": {
+      "$oid": "66a4305b18db8919f6922734"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-12-17T18:46:20.874Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-17T18:46:20.874Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6761c7292648929a84481a7f"
+    },
+    "conflictName": "Los involucrados en la transformación manifiestan que no se les consulta .",
+    "description": "Algunos habitantes del barrio Moravia se presentan inconformes por la forma como la administración interviene y en desacuerdo con las decisiones del plan de mejoramiento, se presenta quejas en relación con la desinformación sobre el proceso y algunos se resisten a desalojar el lugar,  no obstante, en las noticias no aparece  acciones concretas de resistencia.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Habitantes de Moravia",
+    "intervention": {
+      "$oid": "66a4315c18db8919f692274e"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-12-17T18:47:05.304Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-17T18:47:05.304Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6761c7572648929a84481a8e"
+    },
+    "conflictName": "Los habitantes demandan porque  no se concertó con ellos el Plan Parcial ni sus intervenciones.",
+    "description": "Este plan presenta dos obras generadoras de tensión, el proyecto de vivienda  Torres de san Sebastián  y la construcción de la carrera 43  Girardot  anudado al parque San Lorenzo. La principal queja es el desconocimiento del plan y los avalúos que se hicieron a las viviendas que se compraron. en el caso de la carrera 43 las obras se suspendieron dos años entre 2004 -2006 por las demandas ciudadanas y falta de recursos.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Habitantes Niquitao",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922751"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-12-17T18:47:51.414Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-17T18:47:51.414Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6761c7842648929a84481a9c"
+    },
+    "conflictName": "Detrimento patrimonial y fallos en el diseño",
+    "description": "Los habitantes del centrooccidente de la ciudad están sorprendidos por el inicio repentino de trabajos en las vías, informando que corresponden al proyecto Rutas Verdes, parte del Plan de Ordenamiento Territorial de 1999. Este proyecto busca establecer un sistema de transporte integrado basado en el Metro, comenzando con 4.7 kilómetros de ciclorutas de un total de 100 km proyectados. La comunidad ha formado un comité para oponerse a la primera etapa, argumentando que la intervención no cumple con el Plan de Ordenamiento Territorial y carece de consulta previa. Aunque la administración asegura que los reclamos han sido superados, los residentes temen que el proyecto cause daños ambientales, como la tala de árboles, y que afecte el acceso a sus negocios. Los comerciantes de Belén y La Paz también están inconformes, ya que las obras afectarán las zonas de parqueo. A pesar de que la oposición ha disminuido, persisten preocupaciones sobre la falta de concertación, la disminución de clientes y la sensibilización de conductores y peatones. Además, la Contraloría General de Medellín ha abierto un proceso por presunto detrimento patrimonial en la construcción del primer tramo de las Rutas Verdes.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Habitantes de Laureles y Conquistadores",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922756"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-12-17T18:48:36.545Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-17T18:48:36.545Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6761c7ec2648929a84481aba"
+    },
+    "conflictName": "Reubicación de comerciantes de Guayaquil",
+    "description": "El inicio de las obras de la Biblioteca EPM llevó al desalojo de cerca de 700 recicladores de la zona de Guayaquil, quienes se trasladaron a la esquina de San Juan con Avenida de El Ferrocarril en Barrio Triste. Los comerciantes de este último sector consideran que el municipio ha trasladado el problema a su área sin atención adecuada. Para abordar la situación, el municipio planea reubicar a los recicladores en un lote arrendado en El Chagualo, pero los habitantes y comerciantes de esa zona se oponen a la medida, y los recicladores temen quedar aislados de su cadena de trabajo. Ante esto, el Concejo de Medellín ha decidido aplazar el traslado mientras se informa a la comunidad sobre el proceso de reubicación de los comerciantes.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Habitantes del barrio El Chagualo",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922755"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-12-17T18:50:20.736Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-17T18:50:20.736Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6761c80d2648929a84481ac8"
+    },
+    "conflictName": "Cambios en el uso del suelo",
+    "description": "El alcalde de Medellín anunció el inicio del Plan Parcial de Renovación en la Plaza de Ganados, que reduciría el espacio de la central ganadera al 17% de su tamaño actual. Los ganaderos han solicitado una revisión de esta medida, ya que alrededor de 24,000 personas dependen de este sector. Los trabajadores de la Feria de Ganado están preocupados por la falta de información y participación en el proceso de reubicación, que comenzará en 10 días. En una sesión descentralizada, se concluyó que el Plan Parcial debe ser suspendido hasta que se realice un estudio completo del impacto social. La administración municipal fue criticada por su falta de voluntad para encontrar soluciones. Finalmente, tras una reunión con varios funcionarios y representantes de la central ganadera, se decidió aplazar indefinidamente el desmonte de la central debido a fallas en los diseños del plan.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Comerciantes",
+    "intervention": {
+      "$oid": "66a4315c18db8919f692274f"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-12-17T18:50:53.099Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-17T18:50:53.099Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6761c82f2648929a84481ad6"
+    },
+    "conflictName": "Comerciantes se quejan por desinformación sobre el proyecto Ciudad Botero",
+    "description": "El proyecto cultural Ciudad Botero podría llevar a la desaparición del Pasaje Camilo C. Restrepo, generando incertidumbre entre los comerciantes sobre el futuro de sus locales. Aunque el Concejo de Medellín no se opone al proyecto de 38,000 millones de pesos, exige que se realice de manera concertada con la comunidad debido a las desigualdades que ha generado. En agosto de 2000, se desalojó a comerciantes del Centro Comercial Luna Park y el Edificio Restrepo Hermanos para dar paso a las obras, pero hasta ahora no hay respuestas sobre indemnizaciones o reubicaciones. La culminación de la plazoleta de esculturas está prevista para el 1 de marzo de 2001, con una inversión de 2,025 millones de pesos, y el impacto del proyecto sigue siendo un tema de conversación en la ciudad.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Comerciantes",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922754"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2024-12-17T18:51:27.353Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-17T18:51:27.353Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67857940fd3d5a0d61e239fb"
+    },
+    "conflictName": "Afectación e inconformidad de comerciantes y ciudadanos",
+    "description": "El proyecto de ampliación de la Vía Las Palmas con inversión de 18.000 millones de pesos generó inconformidad y preocupación en los comerciantes de la zona del Centro Comercial San Diego debido a la perdida de zonas de parqueo para los clientes de sus negocios. Lo anterior, desencadeno insatisfacción por falta de socialización de la obra de manera oportuna y de licencia y requisitos ambientales para la construcción de ampliación. Tres meses después se suspendió la licitación de la obra por parte de la Empresa de Desarrollo Urbano para revisar los elementos técnicos de esta.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Comerciantes",
+    "intervention": {
+      "$oid": "66a4305b18db8919f6922738"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2025-01-13T20:36:16.378Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-13T20:36:16.378Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6785798dfd3d5a0d61e23a04"
+    },
+    "conflictName": "Afectación al acueducto veredal Morgan",
+    "description": "La comunidad de la vereda Morgan denunció perjuicios en el acueducto (abastecimiento de agua) a causa las obras de la ampliación de la vía a las Palmas, por ello solicitaron a las autoridades que le brindaran una solución definitiva a tal problemática, pues ello tal vez implicaría acondicionar nuevas redes. Por ello, el gerente de Macroproyectos de la Gobernación de Antioquia manifestó que se estaba pendiente del caso pero que ha sido difícil solucionar el problema porque el acueducto es artesanal y no cuenta con planos. El director de la obra también se manifestó expresando su colaboración a la comunidad con el restablecimiento del acueducto, la compresión de la angustia y la resolución de sus inquietudes.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Comunidad",
+    "intervention": {
+      "$oid": "66a4305b18db8919f6922738"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2025-01-13T20:37:33.226Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-13T20:37:33.226Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "678579befd3d5a0d61e23a0d"
+    },
+    "conflictName": "Autorización del retorno en Ciudadela San Diego",
+    "description": "Residentes de la urbanización Ciudadela de San Diego protestaron por la construcción de un retorno en la doble calzada Las Palmas en predios de la urbanización. La Empresa de Desarrollo Urbano respondió que la necesidad del retorno corresponde a un estudio hecho por la Secretaría de Obras Públicas, además de que los predios son del municipio y, por tanto, de uso público.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad09"
+    },
+    "actorsInvolved": "Comunidad",
+    "intervention": {
+      "$oid": "66a4305b18db8919f6922738"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2025-01-13T20:38:22.016Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-13T20:38:22.016Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67881eeffd3d5a0d61e23a5c"
+    },
+    "conflictName": "Inconformidad por precio de compra de predios",
+    "description": "En el año 2011 se firmó el contrato entre la Agencia Francesa de Desarrollo para Colombia y el municipio de Medellín para la construcción del Tranvía de Ayacucho, no obstante, los habitantes y comerciantes del sector expresaron su inconformidad por la falta de socialización, ya que no les informaron en qué consistía el proyecto ni que afectaciones conllevaría. Asimismo, para el año 2012, con la necesidad de compra de predios para la construcción de la obra, los propietarios de las viviendas se mostraron inconformes ante los precios ofrecidos por el Metro de Medellín, lo cual conllevo a que se citara a la directora de Planeación del Metro al Concejo Municipal de Medellín para dar respuesta a las quejas de los ciudadanos, los cuales aseguraban que solo pedían lo justo.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0c"
+    },
+    "actorsInvolved": "Propietarios",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922757"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2025-01-15T20:47:43.541Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-15T20:47:43.541Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67881f34fd3d5a0d61e23a65"
+    },
+    "conflictName": "Afectaciones a la actividad comercial y falta de pagos",
+    "description": "En marzo del 2014, los comerciantes de la zona de la construcción del Tranvía de Ayacucho presentaron un pliego de peticiones de 5 puntos a la Alcaldía de Medellín con el fin de frenar los despidos laborales de los empleados y el cierre de locales comerciales. Asimismo, por el cierre de la calle Ayacucho, los comerciantes expusieron una caída en ventas del 80% llegando a vender solo 7000 pesos al día, por ello, marcharon el 30 de mayo del 2014, considerando las afectaciones a más de 60 negocios en quiebra. Además, solicitaron que se vigilara el desarrollo y avance de la obra para evitar más inconformidad con el polvo y el ruido de la construcción; a ello se le sumó el paro de 32 obreros de la construcción del tranvía por falta de pago. Asimismo, en 2015, la asociación de Comerciantes de la Comuna 9 señaló nuevamente una caída del 70% en ventas, despido de empleados y cierres definitivos de locales comerciales.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Comerciantes",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922757"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2025-01-15T20:48:52.649Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-15T20:48:52.649Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67881f77fd3d5a0d61e23a6e"
+    },
+    "conflictName": "Afectaciones al sistema habitacional en el barrio Alejandro Echavarria",
+    "description": "Para la construcción del Tranvía de Ayacucho, los ingenieros crearon explosiones con dinamita para romper el asfalto de la zona necesitada, lo cual generó grietas en las viviendas del barrio Alejandro Echavarría, daños que el Metro de Medellín prometió solucionar mientras pagaba arriendos temporales a los afectados. No obstante, en lugar de reparar los daños el Metro buscó comprar las casas para su demolición por la gravedad de las grietas, pero la comunidad consideró que sacarlos de barrio era un acto de destierro.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Propietarios",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922757"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2025-01-15T20:49:59.134Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-15T20:49:59.134Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "67881fc8fd3d5a0d61e23a77"
+    },
+    "conflictName": "Ruta de Coopcerquin",
+    "description": "Lideres comunitarios y directivos de la empresa Coopcerquín iniciaron un plebiscito el 30 de noviembre de 2015 con el fin de que la ruta no fuera reemplazada por los alimentadores del metro, debido a que la primera mantiene una frecuencia de 5 minutos en el servicio, mientras la segunda de 10 minutos. El plebiscito obtuvo 6.743 votos a favor de mantener la ruta de los colectivos, resultados que fueron entregados a Personaría, la Alcaldía de Medellín, la Defensoría del Pueblo, la Secretaría de Movilidad y la Corte Constitucional.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Comunidad",
+    "intervention": {
+      "$oid": "66a4315c18db8919f6922757"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2025-01-15T20:51:20.364Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-17T20:32:03.988Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6797ea19fd3d5a0d61e24520"
+    },
+    "conflictName": "Irregularidades en la calidad de las obras",
+    "description": "El concejal Bernardo Alejandro Guerra Hoyos denuncia irregularidades y el uso de materiales de mala calidad en la obra de remodelación del Pasaje Junín, que enfrenta un retraso de 70 días. A pesar de que el secretario de Obras Públicas, Sebastián Álvarez, reconoce inconvenientes normales y asegura que se están tomando correctivos, la Contraloría ha evidenciado incumplimientos y falta de planeación. La Alcaldía de Medellín ha decidido liquidar el contrato debido a problemas en la entrega de trabajos menores, aunque gran parte de la obra cumplió con las especificaciones.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Concejal",
+    "intervention": {
+      "$oid": "66a42a8f73dbc5965e37349d"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2025-01-27T20:18:33.852Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-27T20:18:33.852Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6797ea31fd3d5a0d61e2452b"
+    },
+    "conflictName": "Retrasos en la entrega de las obras",
+    "description": "Los comerciantes del área se quejan de la demora en la entrega de las obras, que tendrán un plazo ampliado de al menos 45 días, lo que ha provocado una caída en sus ventas. Algunos consideran demandar al municipio por incumplimiento. A pesar de esto, la comunidad elogia el nuevo diseño, que revitaliza el sector y permite la recuperación de ventas tras meses de inconvenientes. Las obras, que incluyeron mejoras en infraestructuras y mobiliario urbano, tuvieron una inversión de 2,200 millones de pesos. Sin embargo, Corpocentro alerta sobre la calidad del nuevo piso, que consideran inferior, y la obra aún no ha sido oficialmente recibida por la Secretaría de Obras Públicas. El secretario Sebastián Álvarez admitió las deficiencias y aseguró que los pagos al contratista están pendientes hasta que se solucionen los problemas.",
+    "timeStressOccurrence": {
+      "$oid": "6894c9951cdc31e71d91ad0a"
+    },
+    "actorsInvolved": "Comerciantes",
+    "intervention": {
+      "$oid": "66a42a8f73dbc5965e37349d"
+    },
+    "image": "",
+    "createdAt": {
+      "$date": "2025-01-27T20:18:57.048Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-27T20:18:57.048Z"
+    },
+    "__v": 0
+  }
+]

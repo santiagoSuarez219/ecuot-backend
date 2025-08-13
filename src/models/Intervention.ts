@@ -1,4 +1,5 @@
 import mongoose, { Schema, Document, PopulatedDoc, Types } from "mongoose";
+import { IHierarchy } from "./Hierarchy";
 import { IConflict } from "./Conflict";
 import { ISystem } from "./System";
 import { INews } from "./News";
@@ -6,7 +7,7 @@ import { INews } from "./News";
 export interface IIntervention extends Document {
   interventionName: string;
   description: string;
-  hierarchy: string;
+  hierarchy: PopulatedDoc<IHierarchy & Document>[];
   strategicProject: string;
   internalSystem: PopulatedDoc<ISystem & Document>[];
   image: string;
@@ -30,7 +31,8 @@ const InterventionSchema = new Schema(
       required: true,
     },
     hierarchy: {
-      type: String,
+      type: Types.ObjectId,
+      ref: "Hierarchy",
       required: true,
     },
     strategicProject: {
@@ -38,7 +40,7 @@ const InterventionSchema = new Schema(
       required: true,
     },
     internalSystem: {
-      type: Schema.Types.ObjectId,
+      type: Types.ObjectId,
       ref: "System",
       required: true,
     },

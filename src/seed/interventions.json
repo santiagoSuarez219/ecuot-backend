@@ -1,0 +1,2762 @@
+[
+  {
+    "_id": {
+      "$oid": "66a42a8f73dbc5965e37349d"
+    },
+    "interventionName": "Adecuación Carrera Junín",
+    "description": "Adecuación de mejores espacios peatonales y acondicionamiento de las áreas ambientales",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580b"
+    },
+    "strategicProject": "Plan especial del Centro Tradicional y Representativo",
+    "internalSystem": {
+      "$oid": "67d9e3749f394f4c2c8bcf6b"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1740319780/ecuot/hsecpefjbquozhb2mxfp.jpg",
+    "datasheet": {
+      "$oid": "67041f0129871926a6960a60"
+    },
+    "conflicts": [
+      {
+        "$oid": "6797ea19fd3d5a0d61e24520"
+      },
+      {
+        "$oid": "6797ea31fd3d5a0d61e2452b"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "6760a3a92648929a8448187e"
+      },
+      {
+        "$oid": "6760a3be2648929a8448188c"
+      },
+      {
+        "$oid": "6760a3d22648929a8448189a"
+      },
+      {
+        "$oid": "6760a3e42648929a844818a8"
+      },
+      {
+        "$oid": "6760a3f72648929a844818b6"
+      },
+      {
+        "$oid": "6760a40d2648929a844818c4"
+      },
+      {
+        "$oid": "6760a4202648929a844818d2"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-18T19:05:58.879Z"
+    },
+    "__v": 39
+  },
+  {
+    "_id": {
+      "$oid": "66a42ebf18db8919f6922730"
+    },
+    "interventionName": "Ampliación Carrera 76",
+    "description": "La obra consiste en la ampliación de la carrera 76, para que quedara de doble vía a una doble calzada de dos carriles a cada lado. Además la construcción de puentes  sobre la quebrada la picacha, altavista,  puente en altura sobre la calle 14 y el intercambio vial de la 80 con la carrera 76 y obras adicionales en la loma de los Bernal y el rincón. Incluye asimismo, remodelación de andenes y zonas verdes",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580b"
+    },
+    "strategicProject": "No aplica",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1722184011/ecuot/i1bgryk2xbrewmsx1cwr.avif",
+    "datasheet": {
+      "$oid": "6704215c29871926a6960a83"
+    },
+    "conflicts": [
+      {
+        "$oid": "66a69c2062871dabe414efc7"
+      },
+      {
+        "$oid": "66a6aa5662871dabe414efd3"
+      },
+      {
+        "$oid": "66a6aa5662871dabe414efd5"
+      },
+      {
+        "$oid": "66a6aaf262871dabe414efd6"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "67608deb2648929a84481026"
+      },
+      {
+        "$oid": "67608e3c2648929a84481037"
+      },
+      {
+        "$oid": "67608e6d2648929a84481045"
+      },
+      {
+        "$oid": "67608eaa2648929a84481053"
+      },
+      {
+        "$oid": "67608ee42648929a84481060"
+      },
+      {
+        "$oid": "67608f422648929a84481074"
+      },
+      {
+        "$oid": "67608f882648929a84481083"
+      },
+      {
+        "$oid": "67608fac2648929a84481092"
+      },
+      {
+        "$oid": "67608fcd2648929a844810a0"
+      },
+      {
+        "$oid": "67608fec2648929a844810ae"
+      },
+      {
+        "$oid": "676090042648929a844810bb"
+      },
+      {
+        "$oid": "676090432648929a844810cd"
+      },
+      {
+        "$oid": "6760908c2648929a844810dc"
+      },
+      {
+        "$oid": "676090db2648929a844810ea"
+      },
+      {
+        "$oid": "676090f62648929a844810f8"
+      },
+      {
+        "$oid": "676091252648929a84481107"
+      },
+      {
+        "$oid": "6760913b2648929a84481115"
+      },
+      {
+        "$oid": "676091562648929a84481123"
+      },
+      {
+        "$oid": "6760916e2648929a84481131"
+      },
+      {
+        "$oid": "676091ab2648929a8448113f"
+      },
+      {
+        "$oid": "676091c62648929a8448114d"
+      },
+      {
+        "$oid": "676091de2648929a8448115b"
+      },
+      {
+        "$oid": "676091f52648929a84481169"
+      },
+      {
+        "$oid": "6760920a2648929a84481177"
+      },
+      {
+        "$oid": "676092232648929a84481186"
+      },
+      {
+        "$oid": "676092382648929a84481194"
+      },
+      {
+        "$oid": "6760924f2648929a844811a2"
+      },
+      {
+        "$oid": "676092652648929a844811b0"
+      },
+      {
+        "$oid": "676092932648929a844811be"
+      },
+      {
+        "$oid": "676092ba2648929a844811cd"
+      },
+      {
+        "$oid": "676093922648929a844811de"
+      },
+      {
+        "$oid": "676093ac2648929a844811ec"
+      },
+      {
+        "$oid": "676093c12648929a844811fa"
+      },
+      {
+        "$oid": "676093da2648929a84481209"
+      },
+      {
+        "$oid": "676093f02648929a84481217"
+      },
+      {
+        "$oid": "676094072648929a84481225"
+      },
+      {
+        "$oid": "676094282648929a84481233"
+      },
+      {
+        "$oid": "6760943e2648929a84481241"
+      },
+      {
+        "$oid": "676094582648929a8448124f"
+      },
+      {
+        "$oid": "6760946c2648929a8448125d"
+      },
+      {
+        "$oid": "676094832648929a8448126b"
+      },
+      {
+        "$oid": "6760949b2648929a84481279"
+      },
+      {
+        "$oid": "676094ae2648929a84481287"
+      },
+      {
+        "$oid": "676094c32648929a84481295"
+      },
+      {
+        "$oid": "676094d82648929a844812a3"
+      },
+      {
+        "$oid": "676094ef2648929a844812b1"
+      },
+      {
+        "$oid": "676095032648929a844812bf"
+      },
+      {
+        "$oid": "676095182648929a844812cd"
+      },
+      {
+        "$oid": "6760952d2648929a844812db"
+      },
+      {
+        "$oid": "676095542648929a844812ea"
+      },
+      {
+        "$oid": "6760956b2648929a844812f8"
+      },
+      {
+        "$oid": "676097ef2648929a8448130d"
+      },
+      {
+        "$oid": "676098042648929a8448131b"
+      },
+      {
+        "$oid": "6760981d2648929a84481329"
+      },
+      {
+        "$oid": "676098312648929a84481337"
+      },
+      {
+        "$oid": "676098472648929a84481345"
+      },
+      {
+        "$oid": "6760985d2648929a84481353"
+      },
+      {
+        "$oid": "676098732648929a84481361"
+      },
+      {
+        "$oid": "676098892648929a8448136f"
+      },
+      {
+        "$oid": "6760989e2648929a8448137d"
+      },
+      {
+        "$oid": "676098b92648929a8448138b"
+      },
+      {
+        "$oid": "676098cf2648929a84481399"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-08T19:58:20.442Z"
+    },
+    "__v": 72
+  },
+  {
+    "_id": {
+      "$oid": "66a42f7518db8919f6922731"
+    },
+    "interventionName": "Renovación Avenida Oriental",
+    "description": "Pirámides en la avenida oriental para evitar el paso de peatones por lugares diferentes a los cruces peatonales",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580b"
+    },
+    "strategicProject": "Mejoramiento de espacio público de corredores estructurantes de ciudad o zonales",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1732159325/ecuot/cxed4qdf1lrivabsr17r.jpg",
+    "datasheet": {
+      "$oid": "670425f829871926a6960b58"
+    },
+    "conflicts": [
+      {
+        "$oid": "66a6aaf262871dabe414efd7"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "6760a1332648929a84481738"
+      },
+      {
+        "$oid": "6760a1492648929a84481746"
+      },
+      {
+        "$oid": "6760a1602648929a84481754"
+      },
+      {
+        "$oid": "6760a1762648929a84481762"
+      },
+      {
+        "$oid": "6760a18b2648929a84481770"
+      },
+      {
+        "$oid": "6760a19e2648929a8448177e"
+      },
+      {
+        "$oid": "6760a1b22648929a8448178c"
+      },
+      {
+        "$oid": "6760a1c72648929a8448179a"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-17T23:16:54.274Z"
+    },
+    "__v": 11
+  },
+  {
+    "_id": {
+      "$oid": "66a4305b18db8919f6922736"
+    },
+    "interventionName": "Conexión Vial Aburrá Rio Cauca - Túnel Occidente",
+    "description": "Vía de conexión vial entre el valle de aburra Aburrá y el río Cauca que integra a los municipios del aburrá con los del occidente cercano, inicialmente se plantearon 3 obras; el túnel, una vía de acceso desde Medellín al túnel y una vía de salida hasta el municipio de San Jerónimo.",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580d"
+    },
+    "strategicProject": "Túnel de Occidente",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1732159559/ecuot/innuprgjuyez9goebtqf.jpg",
+    "datasheet": {
+      "$oid": "670422c129871926a6960ad8"
+    },
+    "conflicts": [
+      {
+        "$oid": "6761c68c2648929a84481a53"
+      },
+      {
+        "$oid": "67912c1dfd3d5a0d61e23ff3"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "679127c3fd3d5a0d61e23d30"
+      },
+      {
+        "$oid": "679127d4fd3d5a0d61e23d3d"
+      },
+      {
+        "$oid": "679127e6fd3d5a0d61e23d4a"
+      },
+      {
+        "$oid": "679127f9fd3d5a0d61e23d57"
+      },
+      {
+        "$oid": "6791280cfd3d5a0d61e23d64"
+      },
+      {
+        "$oid": "6791281ffd3d5a0d61e23d71"
+      },
+      {
+        "$oid": "67912830fd3d5a0d61e23d7e"
+      },
+      {
+        "$oid": "67912843fd3d5a0d61e23d8b"
+      },
+      {
+        "$oid": "67912855fd3d5a0d61e23d98"
+      },
+      {
+        "$oid": "67912863fd3d5a0d61e23da5"
+      },
+      {
+        "$oid": "67912874fd3d5a0d61e23db2"
+      },
+      {
+        "$oid": "67912885fd3d5a0d61e23dbf"
+      },
+      {
+        "$oid": "67912895fd3d5a0d61e23dcc"
+      },
+      {
+        "$oid": "679128a7fd3d5a0d61e23dd9"
+      },
+      {
+        "$oid": "67912933fd3d5a0d61e23e0e"
+      },
+      {
+        "$oid": "67912942fd3d5a0d61e23e1b"
+      },
+      {
+        "$oid": "67912952fd3d5a0d61e23e28"
+      },
+      {
+        "$oid": "67912962fd3d5a0d61e23e35"
+      },
+      {
+        "$oid": "67912985fd3d5a0d61e23e42"
+      },
+      {
+        "$oid": "67912996fd3d5a0d61e23e4f"
+      },
+      {
+        "$oid": "679129acfd3d5a0d61e23e5c"
+      },
+      {
+        "$oid": "679129bbfd3d5a0d61e23e69"
+      },
+      {
+        "$oid": "679129cafd3d5a0d61e23e76"
+      },
+      {
+        "$oid": "679129edfd3d5a0d61e23e90"
+      },
+      {
+        "$oid": "67912a23fd3d5a0d61e23eb3"
+      },
+      {
+        "$oid": "67912a33fd3d5a0d61e23ec0"
+      },
+      {
+        "$oid": "67912a45fd3d5a0d61e23ecd"
+      },
+      {
+        "$oid": "67912a52fd3d5a0d61e23eda"
+      },
+      {
+        "$oid": "67912a5ffd3d5a0d61e23ee7"
+      },
+      {
+        "$oid": "67912a6dfd3d5a0d61e23ef4"
+      },
+      {
+        "$oid": "67912a7dfd3d5a0d61e23f01"
+      },
+      {
+        "$oid": "67912a8efd3d5a0d61e23f0f"
+      },
+      {
+        "$oid": "67912a9cfd3d5a0d61e23f1c"
+      },
+      {
+        "$oid": "67912aaefd3d5a0d61e23f2a"
+      },
+      {
+        "$oid": "67912abefd3d5a0d61e23f37"
+      },
+      {
+        "$oid": "67912acffd3d5a0d61e23f44"
+      },
+      {
+        "$oid": "67912addfd3d5a0d61e23f51"
+      },
+      {
+        "$oid": "67912aecfd3d5a0d61e23f5e"
+      },
+      {
+        "$oid": "67912afbfd3d5a0d61e23f6b"
+      },
+      {
+        "$oid": "67912b08fd3d5a0d61e23f76"
+      },
+      {
+        "$oid": "67912b14fd3d5a0d61e23f83"
+      },
+      {
+        "$oid": "67912b2bfd3d5a0d61e23f90"
+      },
+      {
+        "$oid": "67912b39fd3d5a0d61e23f9d"
+      },
+      {
+        "$oid": "67912b48fd3d5a0d61e23faa"
+      },
+      {
+        "$oid": "67912b57fd3d5a0d61e23fb7"
+      },
+      {
+        "$oid": "67912b66fd3d5a0d61e23fc5"
+      },
+      {
+        "$oid": "67912b77fd3d5a0d61e23fd2"
+      },
+      {
+        "$oid": "67912b89fd3d5a0d61e23fdf"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-08T19:05:10.914Z"
+    },
+    "__v": 56
+  },
+  {
+    "_id": {
+      "$oid": "66a4305b18db8919f692273e"
+    },
+    "interventionName": "Parques del Río",
+    "description": "Dentro de las estrategias territoriales del Plan de Ordenamiento Territorial, la intervención física \"Parques del Río\" se concibe como un proyecto para generar mayor espacio público a escala municipal en relación con la recuperación y potencialización de valores ambientales y urbanísticos de la ciudad. Declarado hecho metropolitano buscó \"transformar el Río Medellín en el eje ambiental y de espacio público de la región y la ciudad\"",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580d"
+    },
+    "strategicProject": "Integración urbana al río",
+    "internalSystem": {
+      "$oid": "67d9e3749f394f4c2c8bcf6b"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738717793/ecuot/drmvlqggiqdh0pnzvbmz.jpg",
+    "datasheet": {
+      "$oid": "66faf94ed8cba292d085ae5d"
+    },
+    "conflicts": [
+      {
+        "$oid": "66fc5417aaffd5b5ba64a4e6"
+      },
+      {
+        "$oid": "66fc54c8aaffd5b5ba64a4ef"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "66fc1ecd51038b0de9572dde"
+      },
+      {
+        "$oid": "66fc1f1151038b0de9572de7"
+      },
+      {
+        "$oid": "66fc1fe451038b0de9572e02"
+      },
+      {
+        "$oid": "66fc203551038b0de9572e0b"
+      },
+      {
+        "$oid": "66fc209951038b0de9572e14"
+      },
+      {
+        "$oid": "66fc210351038b0de9572e26"
+      },
+      {
+        "$oid": "66fc213751038b0de9572e2f"
+      },
+      {
+        "$oid": "66fc217d51038b0de9572e38"
+      },
+      {
+        "$oid": "66fc21da51038b0de9572e41"
+      },
+      {
+        "$oid": "66fc23c051038b0de9572e4a"
+      },
+      {
+        "$oid": "66fc240d51038b0de9572e53"
+      },
+      {
+        "$oid": "66fc249151038b0de9572e65"
+      },
+      {
+        "$oid": "66fc25b751038b0de9572e80"
+      },
+      {
+        "$oid": "66fc25f151038b0de9572e89"
+      },
+      {
+        "$oid": "66fc269151038b0de9572e92"
+      },
+      {
+        "$oid": "66fc26c051038b0de9572e9b"
+      },
+      {
+        "$oid": "66fc26f351038b0de9572ea4"
+      },
+      {
+        "$oid": "66fc272851038b0de9572ead"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-17T20:46:38.215Z"
+    },
+    "__v": 36
+  },
+  {
+    "_id": {
+      "$oid": "66a4305b18db8919f6922737"
+    },
+    "interventionName": "Conexión Vial Aburrá Rio Cauca- vía 4.1 km",
+    "description": "Consiste en una via de 4.1 km que inicia en el cruce de la carrera 80 con la quebrada La Iguaná, continúa por la margen izquierda, cruza la quebrada La Iguaná a la altura del sector de Las Margaritas – Vallejuelos y sigue por la margen derecha hasta el empalme con la vía de la Conexión Vial Aburrá – Río Cauca, en cercanías de la vereda La Loma, del corregimiento de San Cristóbal (excluyendo el Intercambiador Vial de la Carrera 80. la cual hace parte de las obras del proyecto del túnel de occidente",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580d"
+    },
+    "strategicProject": "Túnel de Occidente",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": " https://res.cloudinary.com/ecuot/image/upload/v1732159752/ecuot/eefwcd5ww0ktk1fpuegs.jpg",
+    "datasheet": {
+      "$oid": "671d23fb93fd97ef3f6de5ce"
+    },
+    "conflicts": [
+      {
+        "$oid": "6761c6582648929a84481a44"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "67609d402648929a8448156f"
+      },
+      {
+        "$oid": "67609d562648929a8448157d"
+      },
+      {
+        "$oid": "67609d6e2648929a8448158b"
+      },
+      {
+        "$oid": "67609d822648929a84481599"
+      },
+      {
+        "$oid": "67609d992648929a844815a7"
+      },
+      {
+        "$oid": "67609dae2648929a844815b5"
+      },
+      {
+        "$oid": "67609dc72648929a844815c3"
+      },
+      {
+        "$oid": "67609ddf2648929a844815d1"
+      },
+      {
+        "$oid": "67609dff2648929a844815df"
+      },
+      {
+        "$oid": "67609e1b2648929a844815ee"
+      },
+      {
+        "$oid": "67609e302648929a844815fc"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-08T19:05:18.906Z"
+    },
+    "__v": 12
+  },
+  {
+    "_id": {
+      "$oid": "66a4305b18db8919f692273c"
+    },
+    "interventionName": "Metroplús (UdeM-Aranjuez)",
+    "description": "La obra Metroplús (Universidad de Medellín-Aranjuez) consistió en la adecuación de la calle 30 (sector Belén) y carrera 45 (sector Manrique), con actividades de ampliación de las vías, adaptación de alcantarillado, cambio de redes, cambio de servicios públicos, pavimentación, y construcción de estaciones para cargue y descargue de pasajeros, con el objetivo de convertirlas en troncal y ser usada como vía de transporte masivo por autobuses de tránsito rápido.",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580d"
+    },
+    "strategicProject": "Sistema de transporte masivo de mediana capacidad",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1732160135/ecuot/exfrqhwwo1jwmiuge7vs.jpg",
+    "datasheet": {
+      "$oid": "66eb65c7336c338941d53448"
+    },
+    "conflicts": [
+      {
+        "$oid": "66fc5737aaffd5b5ba64a4fd"
+      },
+      {
+        "$oid": "66fc57c2aaffd5b5ba64a506"
+      },
+      {
+        "$oid": "66fc584faaffd5b5ba64a50f"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "66fd8fb2b1fb51132895e437"
+      },
+      {
+        "$oid": "66fd9013b1fb51132895e440"
+      },
+      {
+        "$oid": "66fd906bb1fb51132895e449"
+      },
+      {
+        "$oid": "66fd9113b1fb51132895e452"
+      },
+      {
+        "$oid": "66fd9140b1fb51132895e45b"
+      },
+      {
+        "$oid": "66fd9174b1fb51132895e464"
+      },
+      {
+        "$oid": "66fd919cb1fb51132895e46d"
+      },
+      {
+        "$oid": "66fd9216b1fb51132895e47a"
+      },
+      {
+        "$oid": "66fd924cb1fb51132895e483"
+      },
+      {
+        "$oid": "66fd9292b1fb51132895e48c"
+      },
+      {
+        "$oid": "66fd92d9b1fb51132895e495"
+      },
+      {
+        "$oid": "66fd9309b1fb51132895e49e"
+      },
+      {
+        "$oid": "66fd9345b1fb51132895e4a7"
+      },
+      {
+        "$oid": "66fd93a2b1fb51132895e4b0"
+      },
+      {
+        "$oid": "66fd93ceb1fb51132895e4b9"
+      },
+      {
+        "$oid": "66fd9406b1fb51132895e4c2"
+      },
+      {
+        "$oid": "66fd9434b1fb51132895e4cb"
+      },
+      {
+        "$oid": "66fd945cb1fb51132895e4d4"
+      },
+      {
+        "$oid": "66fd949bb1fb51132895e4dd"
+      },
+      {
+        "$oid": "66fd94d6b1fb51132895e4e6"
+      },
+      {
+        "$oid": "66fd9502b1fb51132895e4ef"
+      },
+      {
+        "$oid": "66fd9535b1fb51132895e4f8"
+      },
+      {
+        "$oid": "66fd9575b1fb51132895e501"
+      },
+      {
+        "$oid": "66fd959db1fb51132895e50a"
+      },
+      {
+        "$oid": "66fd95e2b1fb51132895e513"
+      },
+      {
+        "$oid": "66fd960cb1fb51132895e51c"
+      },
+      {
+        "$oid": "66fd9647b1fb51132895e525"
+      },
+      {
+        "$oid": "66fd9673b1fb51132895e52e"
+      },
+      {
+        "$oid": "66fd96e7b1fb51132895e537"
+      },
+      {
+        "$oid": "66fd9719b1fb51132895e540"
+      },
+      {
+        "$oid": "66fd97a2b1fb51132895e549"
+      },
+      {
+        "$oid": "66fd9891b1fb51132895e552"
+      },
+      {
+        "$oid": "66fd9946b1fb51132895e55c"
+      },
+      {
+        "$oid": "66fd9970b1fb51132895e565"
+      },
+      {
+        "$oid": "66fd999db1fb51132895e56e"
+      },
+      {
+        "$oid": "66fd99f3b1fb51132895e577"
+      },
+      {
+        "$oid": "66fd9a1eb1fb51132895e580"
+      },
+      {
+        "$oid": "66fd9a4ab1fb51132895e589"
+      },
+      {
+        "$oid": "66fd9a73b1fb51132895e592"
+      },
+      {
+        "$oid": "66fd9aadb1fb51132895e59b"
+      },
+      {
+        "$oid": "66fd9bf2b1fb51132895e5a4"
+      },
+      {
+        "$oid": "66fd9c29b1fb51132895e5ad"
+      },
+      {
+        "$oid": "66fd9c51b1fb51132895e5b6"
+      },
+      {
+        "$oid": "66fd9c9bb1fb51132895e5bf"
+      },
+      {
+        "$oid": "66fd9cdbb1fb51132895e5c8"
+      },
+      {
+        "$oid": "66fd9d6eb1fb51132895e5d1"
+      },
+      {
+        "$oid": "66fd9dc5b1fb51132895e5da"
+      },
+      {
+        "$oid": "66fd9dfab1fb51132895e5e3"
+      },
+      {
+        "$oid": "66fd9e1fb1fb51132895e5ec"
+      },
+      {
+        "$oid": "66fd9e5fb1fb51132895e5f5"
+      },
+      {
+        "$oid": "66fd9ea6b1fb51132895e5fe"
+      },
+      {
+        "$oid": "66fd9f16b1fb51132895e607"
+      },
+      {
+        "$oid": "66fd9f5bb1fb51132895e610"
+      },
+      {
+        "$oid": "66fd9f9db1fb51132895e619"
+      },
+      {
+        "$oid": "66fd9fdfb1fb51132895e622"
+      },
+      {
+        "$oid": "66fda011b1fb51132895e62b"
+      },
+      {
+        "$oid": "66fda04db1fb51132895e634"
+      },
+      {
+        "$oid": "66fda080b1fb51132895e63d"
+      },
+      {
+        "$oid": "66fda0d7b1fb51132895e64a"
+      },
+      {
+        "$oid": "66fda106b1fb51132895e653"
+      },
+      {
+        "$oid": "66fda128b1fb51132895e65c"
+      },
+      {
+        "$oid": "66fda180b1fb51132895e665"
+      },
+      {
+        "$oid": "66fda1afb1fb51132895e66e"
+      },
+      {
+        "$oid": "66fda1dbb1fb51132895e677"
+      },
+      {
+        "$oid": "66fda21db1fb51132895e680"
+      },
+      {
+        "$oid": "66fda254b1fb51132895e689"
+      },
+      {
+        "$oid": "66fda2a6b1fb51132895e692"
+      },
+      {
+        "$oid": "66fda2e0b1fb51132895e69b"
+      },
+      {
+        "$oid": "66fda313b1fb51132895e6a6"
+      },
+      {
+        "$oid": "66fda313b1fb51132895e6a9"
+      },
+      {
+        "$oid": "66fda36cb1fb51132895e6b2"
+      },
+      {
+        "$oid": "66fda3a1b1fb51132895e6bd"
+      },
+      {
+        "$oid": "66fda3a1b1fb51132895e6c0"
+      },
+      {
+        "$oid": "66fda3e8b1fb51132895e6c9"
+      },
+      {
+        "$oid": "66fda42db1fb51132895e6d2"
+      },
+      {
+        "$oid": "66fda463b1fb51132895e6db"
+      },
+      {
+        "$oid": "66fda484b1fb51132895e6e4"
+      },
+      {
+        "$oid": "66fda4c9b1fb51132895e6ed"
+      },
+      {
+        "$oid": "66fda501b1fb51132895e6f7"
+      },
+      {
+        "$oid": "66fda501b1fb51132895e6fb"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-17T20:46:11.967Z"
+    },
+    "__v": 85
+  },
+  {
+    "_id": {
+      "$oid": "66a4305b18db8919f692273d"
+    },
+    "interventionName": "Parque Bicentenario",
+    "description": "Este proyecto urbano integral planteó un área de nueva intervención en espacio público de 21.620 m2, a través de los cuales se buscó la recuperación del espacio físico y ambiental de la Quebrada Santa Elena y la organización la zona Centro Oriental de la ciudad.",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580b"
+    },
+    "strategicProject": "Mejoramiento de espacio público de corredores estructurantes de ciudad o zonales.",
+    "internalSystem": {
+      "$oid": "67d9e3b49f394f4c2c8bcf71"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1732160272/ecuot/vcbdhbegukb2qqmjznxu.jpg",
+    "datasheet": {
+      "$oid": "66faf56bd8cba292d085ae20"
+    },
+    "conflicts": [
+      {
+        "$oid": "66fc507aaaffd5b5ba64a4a7"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "66fbf9bf5c8ed22137f3ec6a"
+      },
+      {
+        "$oid": "66fbfa4d5c8ed22137f3ec73"
+      },
+      {
+        "$oid": "66fbfab75c8ed22137f3ec7c"
+      },
+      {
+        "$oid": "66fbfb175c8ed22137f3ec85"
+      },
+      {
+        "$oid": "66fbfbe55c8ed22137f3ec97"
+      },
+      {
+        "$oid": "66fbfb575c8ed22137f3ec8e"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-14T15:13:04.882Z"
+    },
+    "__v": 9
+  },
+  {
+    "_id": {
+      "$oid": "66a4305b18db8919f6922735"
+    },
+    "interventionName": "Adecuación  Calle 33",
+    "description": "Se comtempló la construcción de dos puentes nuevos en cada costado y la repotenciación de los dos existentes. Es así como el viaducto pasó de dos a cuatro carriles de circulación en cada sentido",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580e"
+    },
+    "strategicProject": "No aplica ",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738718550/ecuot/kdkbnzmov8fjvbifhaom.jpg",
+    "datasheet": {
+      "$oid": "671d3ff9319059da6e83080e"
+    },
+    "conflicts": [
+      {
+        "$oid": "6761c7ae2648929a84481aaa"
+      },
+      {
+        "$oid": "66a6ab3462871dabe414efdf"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "6760a20c2648929a844817a8"
+      },
+      {
+        "$oid": "6760a2202648929a844817b6"
+      },
+      {
+        "$oid": "6760a23a2648929a844817c5"
+      },
+      {
+        "$oid": "6760a2552648929a844817d4"
+      },
+      {
+        "$oid": "6760a2712648929a844817e3"
+      },
+      {
+        "$oid": "6760a2842648929a844817f1"
+      },
+      {
+        "$oid": "6760a2a82648929a84481800"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-17T20:44:54.712Z"
+    },
+    "__v": 9
+  },
+  {
+    "_id": {
+      "$oid": "66a4305b18db8919f692273f"
+    },
+    "interventionName": "Plan parcial de desarrollo en suelo de expansión Pajarito",
+    "description": "En relación con los planes parciales en áreas de expansión para unidades de actuación urbanística que propone el Plan de Ordenamiento Territorial, el Plan Parcial de Desarrollo en suelo de expansión Pajarito, tuvo como objetivo vincular el suelo rural con el suelo urbano en función del desarrollo urbanístico de vivienda, aumento de espacio público y eficiente prestación de servicios públicos básicos para las comunidades.",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580c"
+    },
+    "strategicProject": "Planes parciales en áreas de expansión.",
+    "internalSystem": {
+      "$oid": "67d9e3da9f394f4c2c8bcf77"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738723997/ecuot/fuzs442wzcuplbyuhu8e.jpg",
+    "datasheet": {
+      "$oid": "66fafad0d8cba292d085ae7a"
+    },
+    "conflicts": [
+      {
+        "$oid": "66fc526daaffd5b5ba64a4c2"
+      },
+      {
+        "$oid": "66fc52d7aaffd5b5ba64a4cb"
+      },
+      {
+        "$oid": "66fc5315aaffd5b5ba64a4d4"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "66fc189e51038b0de9572d8a"
+      },
+      {
+        "$oid": "66fc196451038b0de9572d9c"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-14T16:23:34.272Z"
+    },
+    "__v": 19
+  },
+  {
+    "_id": {
+      "$oid": "66a4305b18db8919f6922734"
+    },
+    "interventionName": "Centros Populares de Comercio o Bazares",
+    "description": "Estas obras se incluyen en la recuperación del centro y buscan organizar la venta informal",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580b"
+    },
+    "strategicProject": "Plan especial del Centro Tradicional y Representativo",
+    "internalSystem": {
+      "$oid": "67d9e3749f394f4c2c8bcf6b"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738723253/ecuot/abzvup1tjmjrqnlhwret.jpg",
+    "datasheet": {
+      "$oid": "66f4cdb055c853a6b4a19c91"
+    },
+    "conflicts": [
+      {
+        "$oid": "6761c6d22648929a84481a63"
+      },
+      {
+        "$oid": "6761c6fc2648929a84481a71"
+      },
+      {
+        "$oid": "66a6ab3462871dabe414efdc"
+      },
+      {
+        "$oid": "66a6ab3462871dabe414efde"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "676099b42648929a844813b0"
+      },
+      {
+        "$oid": "676099f62648929a844813d4"
+      },
+      {
+        "$oid": "67609a672648929a844813e1"
+      },
+      {
+        "$oid": "67609a7e2648929a844813ef"
+      },
+      {
+        "$oid": "67609a962648929a844813fe"
+      },
+      {
+        "$oid": "67609aad2648929a8448140c"
+      },
+      {
+        "$oid": "67609ad52648929a8448141c"
+      },
+      {
+        "$oid": "67609aec2648929a8448142a"
+      },
+      {
+        "$oid": "67609b032648929a84481438"
+      },
+      {
+        "$oid": "67609b222648929a84481446"
+      },
+      {
+        "$oid": "67609b4a2648929a84481454"
+      },
+      {
+        "$oid": "67609b602648929a84481462"
+      },
+      {
+        "$oid": "67609b732648929a84481470"
+      },
+      {
+        "$oid": "67609b8a2648929a8448147e"
+      },
+      {
+        "$oid": "67609ba42648929a8448148c"
+      },
+      {
+        "$oid": "67609bbb2648929a8448149a"
+      },
+      {
+        "$oid": "67609bd12648929a844814a8"
+      },
+      {
+        "$oid": "67609be82648929a844814b6"
+      },
+      {
+        "$oid": "67609c022648929a844814c4"
+      },
+      {
+        "$oid": "67609c172648929a844814d2"
+      },
+      {
+        "$oid": "67609c2a2648929a844814e0"
+      },
+      {
+        "$oid": "67609c3f2648929a844814ee"
+      },
+      {
+        "$oid": "67609c542648929a844814fc"
+      },
+      {
+        "$oid": "67609c6a2648929a8448150a"
+      },
+      {
+        "$oid": "67609c7f2648929a84481518"
+      },
+      {
+        "$oid": "67609c922648929a84481526"
+      },
+      {
+        "$oid": "67609ca62648929a84481534"
+      },
+      {
+        "$oid": "67609cbe2648929a84481542"
+      },
+      {
+        "$oid": "67609cd32648929a84481550"
+      },
+      {
+        "$oid": "67609ced2648929a8448155e"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-14T21:18:44.331Z"
+    },
+    "__v": 36
+  },
+  {
+    "_id": {
+      "$oid": "66a4305b18db8919f6922738"
+    },
+    "interventionName": "Doble calzada de la vía Las Palmas",
+    "description": "Contemplada en el Plan de Ordenamiento Territorial dentro de los corredores de importancia ambiental del área rural, la carretera Las Palmas es una obra para la conexión de la ciudad de Medellín con la subregión del Oriente antioqueño a través de una doble calzada que buscó brindar conectividad y acortar los tiempos de desplazamiento entre la ciudad, el Valle de Aburrá y el Valle de San Nicolás. \n\nFotografía: El Colombiano. (2021). Comunidades se organizan para hacerle frente a la doble calzada Oriente. [Fotografía]. https://www.elcolombiano.com/antioquia/doble-calzada-oriente-levanta-ampolla-entre-las-comunidades-afectadas-por-el-proyecto-AO16091724",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580d"
+    },
+    "strategicProject": "Túnel de Oriente",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1740319920/ecuot/qhdwacgtqmtctdmsb2l1.jpg",
+    "datasheet": {
+      "$oid": "66f1cf965b1e25d926c5f566"
+    },
+    "conflicts": [
+      {
+        "$oid": "67857940fd3d5a0d61e239fb"
+      },
+      {
+        "$oid": "6785798dfd3d5a0d61e23a04"
+      },
+      {
+        "$oid": "678579befd3d5a0d61e23a0d"
+      },
+      {
+        "$oid": "66a6ab3462871dabe414efe5"
+      },
+      {
+        "$oid": "66a6ab3462871dabe414efe6"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "66fd7b37d0877339448efbfc"
+      },
+      {
+        "$oid": "66fd7b7ed0877339448efc05"
+      },
+      {
+        "$oid": "66fd7bbdd0877339448efc0e"
+      },
+      {
+        "$oid": "66fd7bf0d0877339448efc17"
+      },
+      {
+        "$oid": "66fd7c72d0877339448efc29"
+      },
+      {
+        "$oid": "66fd7cd8d0877339448efc3b"
+      },
+      {
+        "$oid": "66fd7d4ad0877339448efc44"
+      },
+      {
+        "$oid": "66fd7f4ad0877339448efc50"
+      },
+      {
+        "$oid": "66fd7f9ad0877339448efc59"
+      },
+      {
+        "$oid": "66fd7fd3d0877339448efc62"
+      },
+      {
+        "$oid": "66fd801ed0877339448efc6b"
+      },
+      {
+        "$oid": "66fd8050d0877339448efc74"
+      },
+      {
+        "$oid": "66fd8081d0877339448efc7d"
+      },
+      {
+        "$oid": "66fd80c4d0877339448efc86"
+      },
+      {
+        "$oid": "66fd80edd0877339448efc8f"
+      },
+      {
+        "$oid": "66fd8136d0877339448efc98"
+      },
+      {
+        "$oid": "66fd8177d0877339448efca1"
+      },
+      {
+        "$oid": "66fd81b5d0877339448efcaa"
+      },
+      {
+        "$oid": "66fd8287d0877339448efcb3"
+      },
+      {
+        "$oid": "66fd82dcd0877339448efcbc"
+      },
+      {
+        "$oid": "66fd83d0d0877339448efcc5"
+      },
+      {
+        "$oid": "66fd8453d0877339448efcce"
+      },
+      {
+        "$oid": "66fd85f9d0877339448efcf1"
+      },
+      {
+        "$oid": "66fd868cd0877339448efd04"
+      },
+      {
+        "$oid": "66fd86c5d0877339448efd0d"
+      },
+      {
+        "$oid": "66fd8708d0877339448efd16"
+      },
+      {
+        "$oid": "66fd87bfd0877339448efd28"
+      },
+      {
+        "$oid": "66fd87fad0877339448efd31"
+      },
+      {
+        "$oid": "66fd8830d0877339448efd3a"
+      },
+      {
+        "$oid": "66fd88bbd0877339448efd43"
+      },
+      {
+        "$oid": "66fd8a52d0877339448efd4c"
+      },
+      {
+        "$oid": "66fd8a98d0877339448efd55"
+      },
+      {
+        "$oid": "66fd8ac4d0877339448efd5e"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-18T19:38:12.346Z"
+    },
+    "__v": 44
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f692274e"
+    },
+    "interventionName": "Plan parcial de mejoramiento integral Barrio Moravia",
+    "description": "Mejoramiento e integración espacial del barrio Moravia",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580c"
+    },
+    "strategicProject": "Mejoramiento integral de Moravia",
+    "internalSystem": {
+      "$oid": "67d9e3da9f394f4c2c8bcf77"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738719282/ecuot/kzwb2x6tv2q2pqe6eygl.jpg",
+    "datasheet": {
+      "$oid": "66eb6a08336c338941d534e0"
+    },
+    "conflicts": [
+      {
+        "$oid": "6761c7292648929a84481a7f"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "67912589fd3d5a0d61e23c18"
+      },
+      {
+        "$oid": "679125cdfd3d5a0d61e23c24"
+      },
+      {
+        "$oid": "679125e6fd3d5a0d61e23c32"
+      },
+      {
+        "$oid": "679125fffd3d5a0d61e23c3f"
+      },
+      {
+        "$oid": "67912612fd3d5a0d61e23c4d"
+      },
+      {
+        "$oid": "67912624fd3d5a0d61e23c5a"
+      },
+      {
+        "$oid": "67912636fd3d5a0d61e23c67"
+      },
+      {
+        "$oid": "6791264bfd3d5a0d61e23c74"
+      },
+      {
+        "$oid": "6791265dfd3d5a0d61e23c81"
+      },
+      {
+        "$oid": "6791266ffd3d5a0d61e23c8e"
+      },
+      {
+        "$oid": "67912682fd3d5a0d61e23c9b"
+      },
+      {
+        "$oid": "679126a4fd3d5a0d61e23cb5"
+      },
+      {
+        "$oid": "679126b8fd3d5a0d61e23cc2"
+      },
+      {
+        "$oid": "679126ccfd3d5a0d61e23ccf"
+      },
+      {
+        "$oid": "67912705fd3d5a0d61e23cde"
+      },
+      {
+        "$oid": "6791271cfd3d5a0d61e23ceb"
+      },
+      {
+        "$oid": "6791272efd3d5a0d61e23cf8"
+      },
+      {
+        "$oid": "67912743fd3d5a0d61e23d05"
+      },
+      {
+        "$oid": "6791275efd3d5a0d61e23d12"
+      },
+      {
+        "$oid": "67912774fd3d5a0d61e23d1f"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-08T19:07:51.044Z"
+    },
+    "__v": 21
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f692274f"
+    },
+    "interventionName": "Plan parcial de redesarrollo Plaza de Ferias",
+    "description": "El plan se propone transformar la plaza de ferias a fin de convertirla en una centralidad para la zona norte, mediante el desarrollo de vivivenda y  un parque de jerarquia metropolitana",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580c"
+    },
+    "strategicProject": "Espacios públicos en el norte.  ",
+    "internalSystem": {
+      "$oid": "67d9e3e79f394f4c2c8bcf7a"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738719518/ecuot/b9w2qc5def80tgwknftw.jpg",
+    "datasheet": {
+      "$oid": "671d288593fd97ef3f6de64b"
+    },
+    "conflicts": [
+      {
+        "$oid": "6761c80d2648929a84481ac8"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "6760a4bf2648929a844818e0"
+      },
+      {
+        "$oid": "6760a4d62648929a844818ec"
+      },
+      {
+        "$oid": "6760a4ea2648929a844818fa"
+      },
+      {
+        "$oid": "6760a4fe2648929a84481908"
+      },
+      {
+        "$oid": "6760a5112648929a84481916"
+      },
+      {
+        "$oid": "67912693fd3d5a0d61e23ca8"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-05T01:38:48.396Z"
+    },
+    "__v": 7
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f6922755"
+    },
+    "interventionName": "Resignificación urbana Plaza de Cisneros",
+    "description": "Este proyecto incluye dos obras objeto de tensión. La construcción de la biblioteca publica temática de EPM y la plaza de las Luces ",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580b"
+    },
+    "strategicProject": "Espacio cívico de Cisneros.",
+    "internalSystem": {
+      "$oid": "67d9e3b49f394f4c2c8bcf71"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738719708/ecuot/jnaobefkrucijcbncioo.jpg",
+    "datasheet": {
+      "$oid": "6704245129871926a6960b26"
+    },
+    "conflicts": [
+      {
+        "$oid": "6761c7ec2648929a84481aba"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "6760a2d12648929a8448180e"
+      },
+      {
+        "$oid": "6760a2e92648929a8448181c"
+      },
+      {
+        "$oid": "6760a2fc2648929a84481828"
+      },
+      {
+        "$oid": "6760a30f2648929a84481836"
+      },
+      {
+        "$oid": "6760a3232648929a84481844"
+      },
+      {
+        "$oid": "6760a3382648929a84481852"
+      },
+      {
+        "$oid": "6760a3522648929a84481862"
+      },
+      {
+        "$oid": "6760a3692648929a84481870"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-05T01:42:06.096Z"
+    },
+    "__v": 9
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f6922758"
+    },
+    "interventionName": "Tren de cercanías",
+    "description": "Como una propuesta ferroviaria en la ciudad de Medellín, el tren suburbano o tren de cercanías consistió en un proyecto de carácter regional alrededor del corredor del río Medellín que buscó reactivar la comunicación férrea en toda la zona de la capital antioqueña. \n\nFotografía: El Colombiano. (2016). El tren de cercanías lo impulsará sociedad mixta. [Fotografía]. https://www.elcolombiano.com/antioquia/el-tren-de-cercanias-lo-impulsara-sociedad-mixta-AL3836507",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580d"
+    },
+    "strategicProject": "Tren Suburbano o Tren de Cercanías",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1739462048/ecuot/znv3crxz7ijwychavpbn.jpg",
+    "datasheet": {
+      "$oid": "66fafcd2d8cba292d085aeaa"
+    },
+    "conflicts": [
+      {
+        "$oid": "66fc5150aaffd5b5ba64a4b0"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "66fc015b5c8ed22137f3ecf3"
+      },
+      {
+        "$oid": "66fc01b65c8ed22137f3ecfc"
+      },
+      {
+        "$oid": "66fc01e45c8ed22137f3ed05"
+      },
+      {
+        "$oid": "66fc02335c8ed22137f3ed0e"
+      },
+      {
+        "$oid": "66fc0a775c8ed22137f3ed4c"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-17T20:40:03.734Z"
+    },
+    "__v": 10
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f6922757"
+    },
+    "interventionName": "Tranvía de Ayacucho",
+    "description": "El tranvía de Ayacucho se propone como un sistema de transporte público en el área Centro Oriental de Medellín que atraviesa los barrios Buenos Aires, Villa Hermosa y la Candelaria con el objetivo de brindar solución a un problema de transporte, mejorar la accesibilidad a las zonas y disminuir los tiempos de desplazamiento de la población en las comunas 8, 9 y 10 de la ciudad.",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580b"
+    },
+    "strategicProject": "Sistema de transporte masivo de mediana capacidad",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738720050/ecuot/tcgdat87dvtfh60ugcyf.jpg",
+    "datasheet": {
+      "$oid": "66faff50d8cba292d085aeef"
+    },
+    "conflicts": [
+      {
+        "$oid": "67881eeffd3d5a0d61e23a5c"
+      },
+      {
+        "$oid": "67881f34fd3d5a0d61e23a65"
+      },
+      {
+        "$oid": "67881f77fd3d5a0d61e23a6e"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "66fc0b4b5c8ed22137f3ed55"
+      },
+      {
+        "$oid": "66fc0b9b5c8ed22137f3ed5e"
+      },
+      {
+        "$oid": "66fc0be25c8ed22137f3ed67"
+      },
+      {
+        "$oid": "66fc0c115c8ed22137f3ed70"
+      },
+      {
+        "$oid": "66fc0c535c8ed22137f3ed79"
+      },
+      {
+        "$oid": "66fc0c8c5c8ed22137f3ed82"
+      },
+      {
+        "$oid": "66fc0cc35c8ed22137f3ed8b"
+      },
+      {
+        "$oid": "66fc0d075c8ed22137f3ed94"
+      },
+      {
+        "$oid": "66fc0d445c8ed22137f3ed9d"
+      },
+      {
+        "$oid": "66fc0d875c8ed22137f3eda6"
+      },
+      {
+        "$oid": "66fc0dd15c8ed22137f3edaf"
+      },
+      {
+        "$oid": "66fc0e0a5c8ed22137f3edb8"
+      },
+      {
+        "$oid": "66fc0e3e5c8ed22137f3edc1"
+      },
+      {
+        "$oid": "66fc0eac5c8ed22137f3edca"
+      },
+      {
+        "$oid": "66fc0ed95c8ed22137f3edd3"
+      },
+      {
+        "$oid": "66fc0f0f5c8ed22137f3eddc"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-17T20:32:03.989Z"
+    },
+    "__v": 21
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f6922751"
+    },
+    "interventionName": "Plan parcial de renovación y consolidación parque San Lorenzo",
+    "description": "El plan de renovación urbana y consolidación busca integrar los barrios Colon, San Diego y Niquitao en torno a un centralidad el cementerio San Lorenzo. La propuesta se planteo hace 10 años pero sólo en 2003 se inicia la implementación.",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580e"
+    },
+    "strategicProject": "Mejoramiento de espacio público de corredores estructurantes de ciudad o zonales.",
+    "internalSystem": {
+      "$oid": "67d9e3da9f394f4c2c8bcf77"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738722956/ecuot/ixmetkmvmqjmt7jaswlx.jpg",
+    "datasheet": {
+      "$oid": "670424c429871926a6960b36"
+    },
+    "conflicts": [
+      {
+        "$oid": "6761c7572648929a84481a8e"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "67609e6b2648929a8448160a"
+      },
+      {
+        "$oid": "67609e7f2648929a84481618"
+      },
+      {
+        "$oid": "67609e952648929a84481626"
+      },
+      {
+        "$oid": "67609eb02648929a84481634"
+      },
+      {
+        "$oid": "67609ecb2648929a84481642"
+      },
+      {
+        "$oid": "67609ee22648929a84481650"
+      },
+      {
+        "$oid": "67609ef82648929a8448165e"
+      },
+      {
+        "$oid": "67609f1a2648929a8448166c"
+      },
+      {
+        "$oid": "67609f342648929a8448167a"
+      },
+      {
+        "$oid": "67609f482648929a84481688"
+      },
+      {
+        "$oid": "67609f602648929a84481697"
+      },
+      {
+        "$oid": "67609f742648929a844816a5"
+      },
+      {
+        "$oid": "67609f8c2648929a844816b4"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-04-20T03:39:29.753Z"
+    },
+    "__v": 14
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f6922752"
+    },
+    "interventionName": "Relleno sanitario (Curva de Rodas)",
+    "description": "Relocalización disposición final de basuras -Relleno sanitario Curva de Rodas.\nEl relleno sanitario Curva de Rodas, fue una obra creada y operada por Empresas Varias de Medellín, para solucionar un problema ambiental generado por el basurero de Moravia. Fue clausurado en diciembre del año 2001. ",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580d"
+    },
+    "strategicProject": "Relocalización del sitio de disposición final de basuras",
+    "internalSystem": {
+      "$oid": "67d9e3cd9f394f4c2c8bcf74"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738723078/ecuot/iooppievmwqrt6gvbf5x.jpg",
+    "datasheet": {
+      "$oid": "66fb798cd446ead430776f72"
+    },
+    "conflicts": [
+      {
+        "$oid": "6703faa819ef5ed35917f8a2"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "670c938e9c8ffbcf81b9256c"
+      },
+      {
+        "$oid": "675272f62e6332aaa69ada09"
+      },
+      {
+        "$oid": "6752756a2e6332aaa69ada18"
+      },
+      {
+        "$oid": "6752760e2e6332aaa69ada28"
+      },
+      {
+        "$oid": "6752779d2e6332aaa69ada37"
+      },
+      {
+        "$oid": "675ddc6d2648929a84480c84"
+      },
+      {
+        "$oid": "675ddf892648929a84480cbc"
+      },
+      {
+        "$oid": "675de09f2648929a84480cce"
+      },
+      {
+        "$oid": "675de1f02648929a84480ce0"
+      },
+      {
+        "$oid": "675de5cd2648929a84480d15"
+      },
+      {
+        "$oid": "675de67c2648929a84480d27"
+      },
+      {
+        "$oid": "675defcb2648929a84480d47"
+      },
+      {
+        "$oid": "675df11c2648929a84480d5e"
+      },
+      {
+        "$oid": "675df2012648929a84480d70"
+      },
+      {
+        "$oid": "675df41a2648929a84480d8b"
+      },
+      {
+        "$oid": "675df4bf2648929a84480d9a"
+      },
+      {
+        "$oid": "675df5fc2648929a84480db4"
+      },
+      {
+        "$oid": "675df8ec2648929a84480de2"
+      },
+      {
+        "$oid": "675dfa5b2648929a84480df5"
+      },
+      {
+        "$oid": "675dfae02648929a84480e03"
+      },
+      {
+        "$oid": "675dfc0a2648929a84480e18"
+      },
+      {
+        "$oid": "675dfd232648929a84480e32"
+      },
+      {
+        "$oid": "675f9d6d2648929a84480e93"
+      },
+      {
+        "$oid": "675f9dfd2648929a84480ea1"
+      },
+      {
+        "$oid": "675f9ede2648929a84480ebe"
+      },
+      {
+        "$oid": "675f9fed2648929a84480ed9"
+      },
+      {
+        "$oid": "675fa1122648929a84480ef8"
+      },
+      {
+        "$oid": "675fa1bc2648929a84480f06"
+      },
+      {
+        "$oid": "675fa2532648929a84480f13"
+      },
+      {
+        "$oid": "675fa2a92648929a84480f20"
+      },
+      {
+        "$oid": "675fa31f2648929a84480f2d"
+      },
+      {
+        "$oid": "675fa3ac2648929a84480f39"
+      },
+      {
+        "$oid": "675fa42d2648929a84480f46"
+      },
+      {
+        "$oid": "675fa48e2648929a84480f56"
+      },
+      {
+        "$oid": "675fa4f62648929a84480f62"
+      },
+      {
+        "$oid": "675fa5642648929a84480f6f"
+      },
+      {
+        "$oid": "675fa5c42648929a84480f7c"
+      },
+      {
+        "$oid": "675fa62d2648929a84480f88"
+      },
+      {
+        "$oid": "675fa6992648929a84480f95"
+      },
+      {
+        "$oid": "675fa7062648929a84480fa6"
+      },
+      {
+        "$oid": "675fa75b2648929a84480fb8"
+      },
+      {
+        "$oid": "675fa7b52648929a84480fc9"
+      },
+      {
+        "$oid": "675fa7f32648929a84480fd5"
+      },
+      {
+        "$oid": "675fa8322648929a84480fe2"
+      },
+      {
+        "$oid": "675fa8ff2648929a84480ff5"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-17T20:47:28.695Z"
+    },
+    "__v": 54
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f6922754"
+    },
+    "interventionName": "Resignificación urbana Museo de Antioquia",
+    "description": "El proyecto tiene como objetivo recuperar la significación del centro tradicional y representativo",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580b"
+    },
+    "strategicProject": "Museo de Antioquia",
+    "internalSystem": {
+      "$oid": "67d9e3749f394f4c2c8bcf6b"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738723529/ecuot/izxdajeerfy0egdpeyln.jpg",
+    "datasheet": {
+      "$oid": "671d318193fd97ef3f6de72c"
+    },
+    "conflicts": [
+      {
+        "$oid": "6761c82f2648929a84481ad6"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "6760a5462648929a84481928"
+      },
+      {
+        "$oid": "6760a55c2648929a84481936"
+      },
+      {
+        "$oid": "6760a5702648929a84481944"
+      },
+      {
+        "$oid": "6760a5832648929a84481952"
+      },
+      {
+        "$oid": "6760a5982648929a84481960"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-08T19:12:27.712Z"
+    },
+    "__v": 6
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f6922759"
+    },
+    "interventionName": "Túnel de oriente",
+    "description": "El túnel de Oriente es una intervención que busca la conexión vial entre el Valle de Aburra y el Valle de San Nicolás en el menor tiempo posible, tiene una extensión de 8,2 kilómetros y atraviesa gran parte del corregimiento Santa Elena.",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580d"
+    },
+    "strategicProject": "Túnel de Oriente",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1740320038/ecuot/lpl0jcenayqnvj2q26a5.jpg",
+    "datasheet": null,
+    "conflicts": [],
+    "news": [
+      {
+        "$oid": "66fff4801ff71eef1c3e5d00"
+      },
+      {
+        "$oid": "66fff4cd1ff71eef1c3e5d09"
+      },
+      {
+        "$oid": "66fff50e1ff71eef1c3e5d12"
+      },
+      {
+        "$oid": "66fff5481ff71eef1c3e5d1b"
+      },
+      {
+        "$oid": "66fff5821ff71eef1c3e5d24"
+      },
+      {
+        "$oid": "66fff5d11ff71eef1c3e5d2d"
+      },
+      {
+        "$oid": "66fff6151ff71eef1c3e5d36"
+      },
+      {
+        "$oid": "66fff6491ff71eef1c3e5d3f"
+      },
+      {
+        "$oid": "66fff6ab1ff71eef1c3e5d48"
+      },
+      {
+        "$oid": "66fff6f81ff71eef1c3e5d51"
+      },
+      {
+        "$oid": "66fff78c1ff71eef1c3e5d5a"
+      },
+      {
+        "$oid": "66fff7de1ff71eef1c3e5d63"
+      },
+      {
+        "$oid": "66fff8081ff71eef1c3e5d6c"
+      },
+      {
+        "$oid": "66fff84c1ff71eef1c3e5d75"
+      },
+      {
+        "$oid": "66fff8a61ff71eef1c3e5d7e"
+      },
+      {
+        "$oid": "66fff8e01ff71eef1c3e5d87"
+      },
+      {
+        "$oid": "66fff9621ff71eef1c3e5d90"
+      },
+      {
+        "$oid": "66fffa071ff71eef1c3e5d99"
+      },
+      {
+        "$oid": "66fffa491ff71eef1c3e5da2"
+      },
+      {
+        "$oid": "66fffa781ff71eef1c3e5dab"
+      },
+      {
+        "$oid": "66fffad41ff71eef1c3e5db4"
+      },
+      {
+        "$oid": "66fffb061ff71eef1c3e5dbd"
+      },
+      {
+        "$oid": "66fffb351ff71eef1c3e5dc6"
+      },
+      {
+        "$oid": "66fffb681ff71eef1c3e5dcf"
+      },
+      {
+        "$oid": "66fffb9d1ff71eef1c3e5dd8"
+      },
+      {
+        "$oid": "66fffbc61ff71eef1c3e5de1"
+      },
+      {
+        "$oid": "66fffc0a1ff71eef1c3e5dea"
+      },
+      {
+        "$oid": "66fffc411ff71eef1c3e5df3"
+      },
+      {
+        "$oid": "66fffc741ff71eef1c3e5dfc"
+      },
+      {
+        "$oid": "66fffcd21ff71eef1c3e5e05"
+      },
+      {
+        "$oid": "66fffd041ff71eef1c3e5e0e"
+      },
+      {
+        "$oid": "66fffd381ff71eef1c3e5e17"
+      },
+      {
+        "$oid": "66fffd8f1ff71eef1c3e5e20"
+      },
+      {
+        "$oid": "66fffdd91ff71eef1c3e5e29"
+      },
+      {
+        "$oid": "66fffe0b1ff71eef1c3e5e32"
+      },
+      {
+        "$oid": "66fffe3f1ff71eef1c3e5e3b"
+      },
+      {
+        "$oid": "66fffe931ff71eef1c3e5e44"
+      },
+      {
+        "$oid": "66ffff041ff71eef1c3e5e4d"
+      },
+      {
+        "$oid": "66ffff3d1ff71eef1c3e5e56"
+      },
+      {
+        "$oid": "66ffff731ff71eef1c3e5e5f"
+      },
+      {
+        "$oid": "66ffffa21ff71eef1c3e5e6a"
+      },
+      {
+        "$oid": "66ffffe11ff71eef1c3e5e77"
+      },
+      {
+        "$oid": "670000351ff71eef1c3e5e80"
+      },
+      {
+        "$oid": "670000621ff71eef1c3e5e89"
+      },
+      {
+        "$oid": "670000951ff71eef1c3e5e92"
+      },
+      {
+        "$oid": "670000b71ff71eef1c3e5e9b"
+      },
+      {
+        "$oid": "670000f61ff71eef1c3e5ea4"
+      },
+      {
+        "$oid": "6700012c1ff71eef1c3e5ead"
+      },
+      {
+        "$oid": "670001da1ff71eef1c3e5eb6"
+      },
+      {
+        "$oid": "670002021ff71eef1c3e5ebf"
+      },
+      {
+        "$oid": "6700025c1ff71eef1c3e5ec8"
+      },
+      {
+        "$oid": "670002b21ff71eef1c3e5ed1"
+      },
+      {
+        "$oid": "670003011ff71eef1c3e5eda"
+      },
+      {
+        "$oid": "6700032d1ff71eef1c3e5ee3"
+      },
+      {
+        "$oid": "670003911ff71eef1c3e5eec"
+      },
+      {
+        "$oid": "670003fb1ff71eef1c3e5ef5"
+      },
+      {
+        "$oid": "670004361ff71eef1c3e5efe"
+      },
+      {
+        "$oid": "670004611ff71eef1c3e5f07"
+      },
+      {
+        "$oid": "6700048f1ff71eef1c3e5f10"
+      },
+      {
+        "$oid": "670004ec1ff71eef1c3e5f19"
+      },
+      {
+        "$oid": "6700054f1ff71eef1c3e5f22"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-06T19:21:56.511Z"
+    },
+    "__v": 61
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f6922750"
+    },
+    "interventionName": "Plan parcial de renovación urbana Naranjal",
+    "description": "El Plan Parcial de Renovación Urbana de Naranjal se concibió como una gran ciudadela que comprendiera 1.500 viviendas y un complejo administrativo de clínicas y almacenes. Este propuso generar una transformación funcional, urbanística y ambiental de este sector del borde de río y del barrio aledaño el Arrabal en la zona centro occidental de la ciudad en función del tratamiento de renovación físico-espacial. ",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580c"
+    },
+    "strategicProject": "Renovación urbana del barrio Naranjal.",
+    "internalSystem": {
+      "$oid": "67d9e3da9f394f4c2c8bcf77"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738724089/ecuot/vczyaqoveirct4egihnc.jpg",
+    "datasheet": {
+      "$oid": "66fb00d0d8cba292d085aefe"
+    },
+    "conflicts": [
+      {
+        "$oid": "66fc51ecaaffd5b5ba64a4b9"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "66fc134051038b0de9572cf1"
+      },
+      {
+        "$oid": "66fc137851038b0de9572cfa"
+      },
+      {
+        "$oid": "66fc13f151038b0de9572d0c"
+      },
+      {
+        "$oid": "66fc143351038b0de9572d15"
+      },
+      {
+        "$oid": "66fc149651038b0de9572d27"
+      },
+      {
+        "$oid": "66fc14db51038b0de9572d30"
+      },
+      {
+        "$oid": "66fc15a151038b0de9572d4b"
+      },
+      {
+        "$oid": "66fc15de51038b0de9572d54"
+      },
+      {
+        "$oid": "66fc160f51038b0de9572d5d"
+      },
+      {
+        "$oid": "66fc16c251038b0de9572d6f"
+      },
+      {
+        "$oid": "66fc170e51038b0de9572d78"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-14T16:44:28.060Z"
+    },
+    "__v": 30
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f6922753"
+    },
+    "interventionName": "Relleno sanitario norte (Pradera)",
+    "description": "Relocalizacion  del sitio de disposición de Baduras\nDebido a la clausura del relleno sanitario Curva de Rodas se busca crear un nuevo relleno sanitario ubicado en la vereda Pradera, en jurisdicción del municipio de Don Matías, en un área de 22.8 hectáreas para la disposición de desechos y basuras. ",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580d"
+    },
+    "strategicProject": "Relocalización del sitio de disposición final de basuras",
+    "internalSystem": {
+      "$oid": "67d9e3cd9f394f4c2c8bcf74"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738723602/ecuot/c2ljkui9ywr2lzg4duze.jpg",
+    "datasheet": {
+      "$oid": "66fc6cc9b97ef09b4192b026"
+    },
+    "conflicts": [
+      {
+        "$oid": "6703fcf919ef5ed35917f8db"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "670c8a239c8ffbcf81b9249d"
+      },
+      {
+        "$oid": "670c8ba59c8ffbcf81b924b0"
+      },
+      {
+        "$oid": "670c8c949c8ffbcf81b924c7"
+      },
+      {
+        "$oid": "670c8de99c8ffbcf81b924d3"
+      },
+      {
+        "$oid": "670c8fa59c8ffbcf81b9250f"
+      },
+      {
+        "$oid": "670c90269c8ffbcf81b9251c"
+      },
+      {
+        "$oid": "670c90a89c8ffbcf81b92529"
+      },
+      {
+        "$oid": "670c91439c8ffbcf81b92535"
+      },
+      {
+        "$oid": "670c91f79c8ffbcf81b92543"
+      },
+      {
+        "$oid": "670c92509c8ffbcf81b9254e"
+      },
+      {
+        "$oid": "670c92e39c8ffbcf81b9255e"
+      },
+      {
+        "$oid": "670c94179c8ffbcf81b9257a"
+      },
+      {
+        "$oid": "670c94899c8ffbcf81b92588"
+      },
+      {
+        "$oid": "670c94f59c8ffbcf81b92594"
+      },
+      {
+        "$oid": "670c955b9c8ffbcf81b925a0"
+      },
+      {
+        "$oid": "670c95c59c8ffbcf81b925ac"
+      },
+      {
+        "$oid": "670c963c9c8ffbcf81b925b9"
+      },
+      {
+        "$oid": "670c96959c8ffbcf81b925c5"
+      },
+      {
+        "$oid": "670c96f49c8ffbcf81b925d1"
+      },
+      {
+        "$oid": "670c973f9c8ffbcf81b925dd"
+      },
+      {
+        "$oid": "670c97a89c8ffbcf81b925ed"
+      },
+      {
+        "$oid": "670c98009c8ffbcf81b925f8"
+      },
+      {
+        "$oid": "670c985b9c8ffbcf81b92607"
+      },
+      {
+        "$oid": "675278c12e6332aaa69ada5a"
+      },
+      {
+        "$oid": "675de36c2648929a84480cf1"
+      },
+      {
+        "$oid": "675de4a92648929a84480d02"
+      },
+      {
+        "$oid": "675f9f5e2648929a84480ecc"
+      },
+      {
+        "$oid": "675fa0982648929a84480eea"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-17T20:47:55.304Z"
+    },
+    "__v": 35
+  },
+  {
+    "_id": {
+      "$oid": "66a4315c18db8919f6922756"
+    },
+    "interventionName": "Rutas Verdes",
+    "description": "Vías no motorizadas integradas al sistema metro ",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580c"
+    },
+    "strategicProject": "No aplica ",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1738724244/ecuot/vrkbpm1zera1cvdlvihx.jpg",
+    "datasheet": {
+      "$oid": "6704254429871926a6960b46"
+    },
+    "conflicts": [
+      {
+        "$oid": "6761c7842648929a84481a9c"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "6760a05a2648929a844816c5"
+      },
+      {
+        "$oid": "6760a06e2648929a844816d3"
+      },
+      {
+        "$oid": "6760a0822648929a844816e1"
+      },
+      {
+        "$oid": "6760a0972648929a844816ef"
+      },
+      {
+        "$oid": "6760a0a92648929a844816fd"
+      },
+      {
+        "$oid": "6760a0bc2648929a84481709"
+      },
+      {
+        "$oid": "6760a0d22648929a84481715"
+      },
+      {
+        "$oid": "6760a0e92648929a84481721"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-26T23:00:31.686Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-08T19:06:37.363Z"
+    },
+    "__v": 9
+  },
+  {
+    "_id": {
+      "$oid": "66a6c890d355f0c1ad43ec1f"
+    },
+    "interventionName": "Plan cuadrantes",
+    "description": "El Plan Cuadrantes consistió en el reordenamiento de la circulación vial en la zona amarilla de la ciudad ubicada en el centro de esta. El Plan buscó reordenar los cuatro cuadrantes del Centro comprendidos en la calle 58 al Norte, calle 44  al Sur, por la carrera 57 al Occidente, y carrera 43 al Oriente; lo anterior con el fin de disminuir la contaminación y congestión vehicular en esta zona de la ciudad.",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580b"
+    },
+    "strategicProject": "Plan especial del Centro Tradicional y Representativo",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1740320140/ecuot/u0givivrmc4rmillpcir.jpg",
+    "datasheet": {
+      "$oid": "66a79fa2ce06d3334cc0ead7"
+    },
+    "conflicts": [
+      {
+        "$oid": "66fc538caaffd5b5ba64a4dd"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "66fbfd705c8ed22137f3eca2"
+      },
+      {
+        "$oid": "66fbfe0e5c8ed22137f3ecb4"
+      },
+      {
+        "$oid": "66fbff335c8ed22137f3eccf"
+      },
+      {
+        "$oid": "66fbffa35c8ed22137f3ecd8"
+      },
+      {
+        "$oid": "66fbffe95c8ed22137f3ece1"
+      },
+      {
+        "$oid": "66fc0f9a5c8ed22137f3ede5"
+      },
+      {
+        "$oid": "66fbfda85c8ed22137f3ecab"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-07-28T22:39:12.241Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-24T19:22:46.323Z"
+    },
+    "__v": 14
+  },
+  {
+    "_id": {
+      "$oid": "66fb0252d8cba292d085af05"
+    },
+    "interventionName": "Centro penitenciario El Pedregal",
+    "description": "En concordancia con el plan de construcción, dotación y mantenimiento a establecimientos de reclusión de orden nacional, la obra de centro penitenciario El Pedregal, ubicado en el corregimiento de San Cristóbal, consistió en la construcción de una cárcel adicional para hacer frente al hacinamiento en otras cárceles de la ciudad de Medellín. \n\n\nFotografía: H13N.(2021). Personería de Medellín advierte de fallas geológicas en cárcel de Pedregal. [Fotografía]. https://www.h13n.com/personeria-de-medellin-advierte-de-fallas-geologicas-en-carcel-de-pedregal/ ",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580b"
+    },
+    "strategicProject": "Expansión de infraestructura penitenciaria ",
+    "internalSystem": {
+      "$oid": "67d9e3b49f394f4c2c8bcf71"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727726156/ecuot/y8kfr0mumer4u0k9gljh.jpg",
+    "datasheet": {
+      "$oid": "66fb0318d8cba292d085af10"
+    },
+    "conflicts": [
+      {
+        "$oid": "66fc4e63aaffd5b5ba64a48e"
+      },
+      {
+        "$oid": "66fc4e64aaffd5b5ba64a493"
+      },
+      {
+        "$oid": "66a6aaf262871dabe414efda"
+      },
+      {
+        "$oid": "66a6aaf262871dabe414efdb"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "66fb0839d8cba292d085af89"
+      },
+      {
+        "$oid": "66fb09ded8cba292d085afb1"
+      },
+      {
+        "$oid": "66fb0a2fd8cba292d085afba"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-09-30T19:56:02.781Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-18T19:06:19.137Z"
+    },
+    "__v": 17
+  },
+  {
+    "_id": {
+      "$oid": "66fb0468d8cba292d085af29"
+    },
+    "interventionName": "Parque Biblioteca España",
+    "description": "Esta obra hizo parte del Plan De Desarrollo 2004-2007 “Medellín, Compromiso de toda la ciudadanía”, en el cual se estableció el fortalecimiento de las bibliotecas como centros integrales de desarrollo social y cultural, por lo cual se decidió la construcción de cinco bibliotecas, entre ellas el Parque Biblioteca España en el barrio Santo Domingo Savio en la comuna 1 de la ciudad como parte de inmuebles requeridos por la comunidad. ",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580b"
+    },
+    "strategicProject": "Espacios públicos en el norte",
+    "internalSystem": {
+      "$oid": "67d9e3b49f394f4c2c8bcf71"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1727726685/ecuot/rkarnl0aj7bpxv0iittk.png",
+    "datasheet": {
+      "$oid": "66fb0570d8cba292d085af37"
+    },
+    "conflicts": [
+      {
+        "$oid": "66fc4fcaaaffd5b5ba64a49e"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "66fbf7385c8ed22137f3ec34"
+      },
+      {
+        "$oid": "66fbf79e5c8ed22137f3ec3d"
+      },
+      {
+        "$oid": "66fbf86a5c8ed22137f3ec4f"
+      },
+      {
+        "$oid": "66fbf8af5c8ed22137f3ec58"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-09-30T20:04:56.647Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-14T15:02:41.215Z"
+    },
+    "__v": 13
+  },
+  {
+    "_id": {
+      "$oid": "67003f68f70678da23054cf5"
+    },
+    "interventionName": "Proyecto de Valorización de El Poblado",
+    "description": "El Proyecto de Valorización de El Poblado es un conjunto de obras orientadas a mejorar la red vial y conectividad de la zona 5 de Medellín, proyectadas en el Plan Especial de Ordenamiento del Poblado. Las cuales fueron susceptibles de ser financiadas parcialmente por valorización, mediante la Resolución 0725 del 29 Julio de 2009",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580c"
+    },
+    "strategicProject": "Mejoramiento de espacio público de corredores estructurantes de ciudad o zonales.",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1728069455/ecuot/y0jibxnu5gvukkpmxfwd.jpg",
+    "datasheet": {
+      "$oid": "670040faf70678da23054d03"
+    },
+    "conflicts": [],
+    "news": [
+      {
+        "$oid": "67147312e56d2653f77b330e"
+      },
+      {
+        "$oid": "671473a0e56d2653f77b331e"
+      },
+      {
+        "$oid": "6714741ae56d2653f77b332c"
+      },
+      {
+        "$oid": "6714751ae56d2653f77b3342"
+      },
+      {
+        "$oid": "67147577e56d2653f77b334e"
+      },
+      {
+        "$oid": "671475fbe56d2653f77b3360"
+      },
+      {
+        "$oid": "6714779ae56d2653f77b3377"
+      },
+      {
+        "$oid": "671477e4e56d2653f77b3385"
+      },
+      {
+        "$oid": "6714791de56d2653f77b339b"
+      },
+      {
+        "$oid": "67147a7ce56d2653f77b33ac"
+      },
+      {
+        "$oid": "67147ab8e56d2653f77b33b7"
+      },
+      {
+        "$oid": "67147b09e56d2653f77b33c2"
+      },
+      {
+        "$oid": "67147b67e56d2653f77b33cd"
+      },
+      {
+        "$oid": "671481b38eb1e955b86cdd9f"
+      },
+      {
+        "$oid": "6714820c8eb1e955b86cddac"
+      },
+      {
+        "$oid": "6714825f8eb1e955b86cddbd"
+      },
+      {
+        "$oid": "671482a98eb1e955b86cddc9"
+      },
+      {
+        "$oid": "6714835c8eb1e955b86cddd5"
+      },
+      {
+        "$oid": "671483c88eb1e955b86cdde1"
+      },
+      {
+        "$oid": "671484ce8eb1e955b86cddf3"
+      },
+      {
+        "$oid": "671485548eb1e955b86cddfd"
+      },
+      {
+        "$oid": "671487bd8eb1e955b86cde25"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-10-04T19:18:00.913Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-08T19:06:55.235Z"
+    },
+    "__v": 34
+  },
+  {
+    "_id": {
+      "$oid": "673e9b102e6332aaa69ad222"
+    },
+    "interventionName": "Alameda calle 10- Recuperación urbana calle 10",
+    "description": "Mejoramiento de la funcionalidad del espacio público y la movilidad en la calle 10",
+    "hierarchy": {
+      "$oid": "6894c5d74cad0142c0ca580c"
+    },
+    "strategicProject": "Mejoramiento de espacio público de corredores estructurantes de ciudad o zonales",
+    "internalSystem": {
+      "$oid": "67d9e3a79f394f4c2c8bcf6e"
+    },
+    "image": "https://res.cloudinary.com/ecuot/image/upload/v1740320227/ecuot/cvr8irbe3bbwcjwduaqt.jpg",
+    "datasheet": {
+      "$oid": "673e9ca02e6332aaa69ad24a"
+    },
+    "conflicts": [
+      {
+        "$oid": "673e9dd72e6332aaa69ad25b"
+      },
+      {
+        "$oid": "673e9e352e6332aaa69ad267"
+      }
+    ],
+    "news": [
+      {
+        "$oid": "67a2d77ffd3d5a0d61e24848"
+      },
+      {
+        "$oid": "67a2d854fd3d5a0d61e24855"
+      },
+      {
+        "$oid": "67a2d8fefd3d5a0d61e24863"
+      },
+      {
+        "$oid": "67a2d9a7fd3d5a0d61e2486f"
+      },
+      {
+        "$oid": "67a2da54fd3d5a0d61e2487d"
+      },
+      {
+        "$oid": "67a2dae8fd3d5a0d61e24889"
+      },
+      {
+        "$oid": "67a2db88fd3d5a0d61e24896"
+      },
+      {
+        "$oid": "67a2dc1cfd3d5a0d61e248a4"
+      },
+      {
+        "$oid": "67a2dcb9fd3d5a0d61e248b0"
+      },
+      {
+        "$oid": "67a2dd39fd3d5a0d61e248be"
+      },
+      {
+        "$oid": "67a2ddddfd3d5a0d61e248ca"
+      },
+      {
+        "$oid": "67a2dea0fd3d5a0d61e248d8"
+      },
+      {
+        "$oid": "67a2df40fd3d5a0d61e248e5"
+      },
+      {
+        "$oid": "67a2df8cfd3d5a0d61e248f0"
+      },
+      {
+        "$oid": "67a2e049fd3d5a0d61e248fd"
+      },
+      {
+        "$oid": "67a2e09ffd3d5a0d61e2490b"
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-11-21T02:29:36.694Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-06T19:22:41.008Z"
+    },
+    "__v": 18
+  }
+]

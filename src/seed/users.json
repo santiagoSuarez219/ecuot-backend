@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "6688818c09a36d7e40b4910c"
+  },
+  "userName": "Santiago",
+  "userLastName": "Suarez",
+  "user": "santiagosuarez",
+  "userPassword": "$2b$10$gj13k2ChWfsUVI1LKjo8XeXBABbTAfBZASpq9f6gsFq8pLzs/rE.S",
+  "rol": "researcher",
+  "createdAt": {
+    "$date": "2024-07-05T23:28:12.588Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-06T16:28:48.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66eb5063da4376f225e5d8b1"
+  },
+  "userName": "Claudia",
+  "userLastName": "Gonzalez",
+  "user": "claudiagonzalez",
+  "userPassword": "$2b$10$jeMFEsHvThv19TBxxKfce.s5Jc7gLh2rqkuvc4lsxKAg3t0TYPQbi",
+  "rol": "researcher",
+  "createdAt": {
+    "$date": "2024-09-18T22:12:51.414Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-18T22:12:51.414Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ec7fd7582891d15fc8426a"
+  },
+  "userName": "Vanessa",
+  "userLastName": "Gomez",
+  "user": "VanessaGomez",
+  "userPassword": "$2b$10$OQ8VYLfYgFauLIFp28cGK.h/E3FDEGKJWLqaBm3dPOaWyQUdQyGiW",
+  "rol": "assistant",
+  "createdAt": {
+    "$date": "2024-09-19T19:47:35.542Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-27T20:07:36.312Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ec8063582891d15fc84270"
+  },
+  "userName": "Valentina",
+  "userLastName": "Yepez",
+  "user": "ValentinaYepez",
+  "userPassword": "$2b$10$ePiT77lgdq1W9QV/CxCV5.vTFqiBloI3/wt0fFLW03/MjmL8KyAdy",
+  "rol": "assistant",
+  "createdAt": {
+    "$date": "2024-09-19T19:49:55.639Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-27T20:24:59.612Z"
+  },
+  "__v": 0
+}]

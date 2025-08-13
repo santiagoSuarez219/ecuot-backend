@@ -1,10 +1,10 @@
-import mongoose, { Schema, Document, Types } from "mongoose";
+import mongoose, { Schema, Document, Types, PopulatedDoc } from "mongoose";
+import { ITimeStressOcurrence } from "./TimeStressOcurrence";
 
-//TODO: Agregar todos los demas campos
 export interface IConflict extends Document {
   conflictName: string;
   description: string;
-  timeStressOccurrence: string;
+  timeStressOccurrence: PopulatedDoc<ITimeStressOcurrence & Document>[];
   actorsInvolved: string;
   intervention: Types.ObjectId;
   image: string;
@@ -24,7 +24,8 @@ export const ConflictSchema = new Schema(
       trim: true,
     },
     timeStressOccurrence: {
-      type: String,
+      type: Types.ObjectId,
+      ref: "TimeStressOcurrence",
       required: true,
     },
     actorsInvolved: {
