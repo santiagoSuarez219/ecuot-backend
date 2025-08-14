@@ -1,17 +1,65 @@
-[
-    {
-        "systemName": "Proyectado"
-    },
-    {
-        "systemName": "Ejecución"
-    },
-    {
-        "systemName": "Apropiación"
-    },
-    {
-        "systemName": "Proyectado/Ejecución"
-    },
-    {
-        "systemName": "N/A"
-    }
-]
+[{
+  "_id": {
+    "$oid": "6894c9951cdc31e71d91ad09"
+  },
+  "systemName": "Proyectado",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-07T15:43:17.094Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T15:43:17.094Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6894c9951cdc31e71d91ad0a"
+  },
+  "systemName": "Ejecución",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-07T15:43:17.095Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T15:43:17.095Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6894c9951cdc31e71d91ad0b"
+  },
+  "systemName": "Apropiación",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-07T15:43:17.095Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T15:43:17.095Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6894c9951cdc31e71d91ad0c"
+  },
+  "systemName": "Proyectado/Ejecución",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-07T15:43:17.095Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T15:43:17.095Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6894c9951cdc31e71d91ad0d"
+  },
+  "systemName": "N/A",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-07T15:43:17.095Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T15:43:17.095Z"
+  }
+}]

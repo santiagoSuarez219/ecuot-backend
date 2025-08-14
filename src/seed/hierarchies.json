@@ -1,14 +1,52 @@
-[
-    {
-        "hierarchyName": "Ciudad"
-    },
-    {
-        "hierarchyName": "Barrial y Suburbano"
-    },
-    {
-        "hierarchyName": "Metropolitano y Regional"
-    },
-    {
-        "hierarchyName": "Zonal y Corregimental"
-    }
-]
+[{
+  "_id": {
+    "$oid": "6894c5d74cad0142c0ca580b"
+  },
+  "hierarchyName": "Ciudad",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-07T15:27:19.007Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T15:27:19.007Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6894c5d74cad0142c0ca580c"
+  },
+  "hierarchyName": "Barrial y Suburbano",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-07T15:27:19.008Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T15:27:19.008Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6894c5d74cad0142c0ca580d"
+  },
+  "hierarchyName": "Metropolitano y Regional",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-07T15:27:19.008Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T15:27:19.008Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6894c5d74cad0142c0ca580e"
+  },
+  "hierarchyName": "Zonal y Corregimental",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-08-07T15:27:19.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-07T15:27:19.009Z"
+  }
+}]
