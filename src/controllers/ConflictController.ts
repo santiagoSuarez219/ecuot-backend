@@ -9,6 +9,7 @@ export class ConflictController {
       const conflict = new Conflict({
         ...req.body,
         intervention: req.intervention._id,
+        timeStressOccurrence: req.body.timeStressOccurrence,
       });
       req.intervention.conflicts.push(conflict._id);
       await Promise.allSettled([conflict.save(), req.intervention.save()]);
@@ -30,20 +31,29 @@ export class ConflictController {
       ];
     }
 
-    if (intervention && typeof intervention === "string" &&
-          mongoose.Types.ObjectId.isValid(intervention)
-        ) {
-          query.intervention = new mongoose.Types.ObjectId(intervention);
+    if (
+      intervention &&
+      typeof intervention === "string" &&
+      mongoose.Types.ObjectId.isValid(intervention)
+    ) {
+      query.intervention = new mongoose.Types.ObjectId(intervention);
     }
 
-    if (timeStressOccurrence && typeof timeStressOccurrence === "string" &&
-          mongoose.Types.ObjectId.isValid(timeStressOccurrence)
-        ) {
-          query.timeStressOccurrence = new mongoose.Types.ObjectId(timeStressOccurrence);
+    if (
+      timeStressOccurrence &&
+      typeof timeStressOccurrence === "string" &&
+      mongoose.Types.ObjectId.isValid(timeStressOccurrence)
+    ) {
+      query.timeStressOccurrence = new mongoose.Types.ObjectId(
+        timeStressOccurrence
+      );
     }
+    console.log(query);
 
     try {
-      const conflicts = await Conflict.find(query).populate("intervention");
+      const conflicts = await Conflict.find(query)
+        .populate("intervention")
+        .populate("timeStressOccurrence");
       res.json(conflicts);
     } catch (error) {
       res.status(500).json({ error: "Hubo un error" });
@@ -53,7 +63,9 @@ export class ConflictController {
   static getConflictById = async (req: Request, res: Response) => {
     const { id } = req.params;
     try {
-      const conflict = await Conflict.findById(id).populate("intervention");
+      const conflict = await Conflict.findById(id)
+        .populate("intervention")
+        .populate("timeStressOccurrence");
       if (!conflict) {
         return res.status(404).json({ message: "Conflicto no encontrado" });
       }
